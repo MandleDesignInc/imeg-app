@@ -1,0 +1,100 @@
+<div *ngIf="globals.navigationItems">
+
+    <header>
+
+        <!-- full width container-->
+        <div id="appBarUpper">
+
+            <!-- max width container -->
+            <div class="app-bar-max-width">
+
+                <nav>
+                    <a id="fbBtn" md-icon-button href="https://www.facebook.com/IMEGcorp/">
+                        <md-icon svgIcon="facebook"></md-icon>
+                    </a>
+                    <a id="twitterBtn" md-icon-button href="https://twitter.com/IMEGcorp">
+                        <md-icon svgIcon="twitter"></md-icon>
+                    </a>
+                    <a id="linkedinBtn" md-icon-button href="https://www.linkedin.com/company/imeg-corp">
+                        <md-icon svgIcon="linked-in"></md-icon>
+                    </a>
+
+                    <a id="newsBtn" md-button routerLink="/news">News</a>
+
+                    <form>
+                        <md-form-field>
+                            <input type="search" mdInput value="" #searchInput>
+                            <button id="searchBtn" (click)="search(searchInput.value)" md-icon-button mdSuffix><md-icon>search</md-icon></button>
+                        </md-form-field>
+                    </form>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- full width container-->
+        <div id="appBarLower">
+
+            <div class="app-bar-max-width">
+
+                <nav>
+                    <a *ngFor="let item of globals.rootMenu" [routerLink]="['/', item.alias]" routerLinkActive="active">{{item.title}}</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+
+        <div id="logoContainerFullWidth">
+            <div id="logoContainerMaxWidth">
+
+
+                <div id="logoContainer">
+                    <div id="logoFrameTop"></div>
+                    <div id="logoFrameBottom"></div>
+                    <a id="logo" routerLink="/home" routerLinkActive="active"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <button id="drawerToggle" type="button" md-icon-button (click)="sidenav.open()"><md-icon>menu</md-icon></button>
+
+    </header>
+
+
+    <md-sidenav-container>
+
+        <md-sidenav mode="over" position="end" #sidenav>
+            <nav>
+                <a *ngFor="let item of globals.navigationItems" [routerLink]="[['/', item.alias]]" routerLinkActive="active">{{item.title}}</a>
+            </nav>
+        </md-sidenav>
+
+        <router-outlet></router-outlet>
+
+        <footer>
+
+            <div class="footer-max-width">
+
+                <span id="footerLeft">
+
+                    <span>Copyright © 2017 IMEG Corp.</span>
+
+                    <span><a href="https://visitor.r20.constantcontact.com/manage/optin?v=0015awSNdpzwR4jxlhnN7X4VTy9h3Vhln-2E0vkgp5QxKXiK6OxnLNm_6HPdJQLkzFruBdSbQHwLQalds0F_JBB1HC4_pDMXiex_sfsVUTYRUMGcoXL0gqucVQBf_N_BUV0p-cdPTSY_qTlpDq4YcD2Kv1f6pWkPmFufP0T4RGjPAcdL8leTAATAyXK60xjzI5G">Subscribe to our newsletter!</a></span>
+
+                </span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 148 37"><title>  imeg logo_white</title><image width="148" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAAAlCAMAAACTdDA2AAACo1BMVEX////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v79/f36+vr6+vr29vb09PTw8PDv7+/v7+8AAAAQDMHsAAAA4XRSTlP//v38+/r49/b19PPy8O7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsG+vLu6ube2tbOysbCvrq2rqainpaSjoqGfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWDgoF+fXx7eXh2dHNycXBvbm1qaWhnZmVkY2JhYF5dW1pZV1VUU1JRT05MS0pIR0ZFREJBPz46OTg2NTQzMjEuLSwrKikoJyYlJCIhHx4dHBsaGRgXFhUUExIREA0MCwoJCAcGBAMCAf//Pz4/GURDEABKsWkkAAAFC0lEQVRYw7XY/V8URRgA8AcqNMm74wAJggJ6uRRRRKJMtLTQzN6sNIMozYJMk97NlzKz6M2wFy0rLRUrpTQ17MAEDiEK8eAO8Kzs5flT2peZm5nd2bmlz6fnh73ZnedmvrezOzu3gNYYidkOYd/xE1oEw1pxuBcTRV+/tjl24JA0vvnRmh5r//b8+YPBAXYErClHSw/au3kRPF7veNipFaPFOxOYooEd2jYAKdKAmUJycP3tAc+F585dcEnujKq32+WozkzwtNn6qQcjPtLLHgipUbdAk7YtAIe4jkvdUWSpnPJW2I4KTdBqfD9Z+3maQxVCcQwVUQew3x2quVBSXWNDdWQYFekdShQsUJheA7eoNdLqV62ojkxSc2m3EgUrHU27IRGqjGTOk1cfsKAi2fGqy35WouANB9PxMSIqOc2fJgbMMTPnyk3+ARHV0r+BVeb9okTBHqnpzBUgoi4fwkExBqJG5kOsq6Spi2trqyvNL8xCAdUJedjAUvNPK1EXt8pQFWBB5Tuc0W3xfjxr6aCEtt4EsEpAaXMBlOMWpromrELBlYP2rh4Al6h+evHCUuF4++xtPKpLnwvgRtzIVNeyOVaCgpttXa0Ft6hnaObr0mqC6pxgJpXj80w1OapCGTMKHx+CW1Q4gyS+LDeDYAL4DFcxVcmICgUbhJaawTWqkeQtRAWqK4s2tyf0JD+plStR8AnXUHe6e9RdJC+oQIXipl2Yp41KHWv+BiUq+TBrqARkqEJpp3lm2r3ojOqM3wq7MV/bLsdHWfszVSjI7qPtLAQpyvfK5o181OtLjFaS9jH9csuu/Syamv4B7OJMZkt1+DDrIBBWoOiZ5C9EUD5mKrWqfWYx6SRF3SOk/PYXfH813dkbyyGlp3BFTul0Pcqmw2oVigzBm2LPCtR8jN+m2fQ2wkVW1N20XIQvxY+/zw3w0V4ZaryXpD6rHdpLyqkZrlDvmcUCdED9DdqajMRt+AQpLcOatImTjCg27ls7asZ2+rVGbBtHipueG82Zyhp2RuH1bCiWGZ+PYBVLyT4lReXgZnp69s0ipdn4WELUPHZNwQmHa0pHnS2ju4ux2jBxj/DiqPzuy0K8j6Qkk8/cM/THMFRKSWkJH75a7u77gKJqwK9Fui+JoXB4KiVU4f2iqSjiMCXo574M+NAnLRtKPnmSeeoOuj8U1hc1GBrHoTAyiba8AhuNsyWcJydUt59HbUfXKDqjHxMP96XyKAwHaNPvxtcfwD2R5Sj8ijO9gO5R9Nk3Xzz8q4jC/qvMtGpcwpkiqEbhO/Fcc75yiYqvEtYrUXjaWMgu5a8nZnJE4UqSS/4NuESx9VSDYvi06M0FWCLcd0OYGIWVxp6/e3QotvJczh3tGWNF4Sm4lX/msRWeEjVkjPvX6IAqkKO4NXpmA/3xn08EGwp7B+9kpqIIukJhUPt5W9EJlfND2xExvjNfCnBDMnbO6nXr1izw0X0BhR1j2dhF0SUKP9XmEUeUJMg/5LlO9foDme+7zSMbuwQo/KLnv6Cc/iFrQ/6ngMKWVMnYJUJxMRqUw7sEqOi3vnU5oo/gZKvp/0FJ37pk6O+2LCg8nCLMBSTqXaIeHBXK/n5qmvmMtqLwy4oee2fcmzycBl6vFwIjMtTjel2qMUMYaZKw/Ik13+QBXOSfsmgLXR/bULGzks64d57YEdSKrSdRFr16XltrhKZJIhiy9dje/Psfh/hT8S+5x89t1x58JwAAAABJRU5ErkJggg=="/></svg>
+
+            </div>
+
+
+        </footer>
+
+
+
+    </md-sidenav-container>
+</div>

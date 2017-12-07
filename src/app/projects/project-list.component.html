@@ -1,0 +1,52 @@
+<div *ngIf="projects" id="container">
+
+    <header [style.background]="'url(' + globals.uploadsPath + headerImage + ')'"
+            [style.backgroundSize]="'cover'"
+            [style.backgroundRepeat]="'no-repeat'"
+            [style.backgroundPosition]="'center'">
+
+        <div class="full-width-title-background">
+            <div class="max-width-title-container">
+                <h1>{{tag}}</h1>
+            </div>
+</div>
+
+
+    </header>
+
+    <section>
+
+        <div class="max-width-container-project">
+
+
+            <main>
+
+                <div class="left" [innerHTML]="safeTextElement"></div>
+
+
+
+                <div class="right">
+                    <md-card *ngFor="let project of projects" [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'" [style.backgroundSize]="'cover'" [style.backgroundRepeat]="'no-repeat'">
+
+                        <a [routerLink]="['/project-details', project.id]"></a>
+
+                        <md-card-footer>
+                            <md-card-title>
+                                {{project.title}}
+                            </md-card-title>
+                        </md-card-footer>
+
+                    </md-card>
+                </div>
+
+
+
+            </main>
+
+
+        </div>
+
+    </section>
+
+</div>
+

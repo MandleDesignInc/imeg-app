@@ -1,0 +1,254 @@
+header {
+    flex: 0 0 auto;
+    z-index: 10;
+    background: #c7c3c3;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#appBarUpper, #appBarLower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app-bar-max-width {
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    margin: 0 5.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#appBarUpper {
+    height: 60px;
+    margin-bottom: 4px;
+    background: white;
+    color: #7f7f7f;
+}
+
+#appBarUpper a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+#appBarUpper nav {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 101;
+}
+
+#fbBtn, #twitterBtn, #linkedinBtn {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#fbBtn:hover, #twitterBtn:hover, #linkedinBtn:hover {
+    transform: scale(1.2);
+}
+
+#newsBtn { border-left: solid 1px #7f7f7f; min-width: 24px;}
+
+#appBarLower {
+    height: 39px;
+    background: #01518C;
+}
+
+#appBarLower nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 101;
+}
+
+#appBarLower nav a {
+    padding: 0 8px;
+    margin: 0 1px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#appBarLower nav a:hover {
+    background: #c7c3c3;
+}
+
+@media (max-width: 960px) {
+
+    #appBarUpper nav, #appBarLower nav { display: none; }
+
+}
+
+#logoContainerFullWidth {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logoContainerMaxWidth {
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    padding: 0 5vw;
+}
+
+#logoContainer {
+    position: relative;
+    height: 102px;
+    width: 274px;
+    margin-top: 12px;
+    display: flex;
+}
+
+#logoFrameTop {
+    z-index: 100;
+    width: 254px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-color: #C7C3C3;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border-width: 10px 10px 0px;
+}
+#logoFrameBottom {
+    z-index: 100;
+    width: 254px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-style: solid;
+    border-color: #01518C;
+    background-color: #FFFFFF;
+    border-width: 0px 10px 10px;
+}
+#logo {
+    z-index: 101;
+    width: 240px;
+    height: 58px;
+    margin: auto;
+    background: url("../assets/images/imeg-logo-small.svg");
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 960px) {
+
+    #appBarLower { height: 18px; }
+
+
+    #logo {
+        position: fixed;
+        width: 182px;
+        height: 53px;
+        top: 4px;
+        left: 50%;
+        margin-left: -91px;
+    }
+
+    #logoFrameTop, #logoFrameBottom { display: none; }
+
+}
+
+#drawerToggle {  display: none;  }
+@media (max-width: 960px) {
+
+    #drawerToggle {
+        display: block;
+        position: fixed;
+        top: 4px;
+        right: 4px;
+    }
+
+}
+
+md-sidenav nav {
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+md-sidenav nav a {
+    padding: 8px 24px;
+    text-decoration: none;
+    color: #01518C;
+    font-size: 1.5em;
+    border-bottom: solid 1px #01518C;
+}
+
+.active {
+    background: #c7c3c3;
+}
+
+
+/* content */
+
+md-sidenav-container {
+    padding-top: 103px;
+}
+
+
+/* footer */
+
+footer {
+    padding: 0 5vw;
+    color: white;
+    background: #01518C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div{
+    height: 60px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#footerLeft {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer svg {
+    height: 50%;
+    width: auto;
+}
+
+@media (max-width: 450px) {
+    footer {
+        font-size: 0.7em;
+    }
+}

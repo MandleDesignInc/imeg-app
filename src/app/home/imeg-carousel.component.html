@@ -1,0 +1,32 @@
+<div class="imeg-carousel" *ngIf="slides">
+
+    <span   *ngFor="let slide of slides"
+            class="slide"
+            [@fade]="slide.state"
+            [style.background]="'url(' + cmsPath + slide.image + ')'"
+            [style.backgroundSize]="'cover'"
+            [style.backgroundRepeat]="'no-repeat'"
+            [style.backgroundPosition]="'center center'">
+    </span>
+
+    <span class="max-width-container">
+
+        <span [class]="'caption-container ' + captionHover">
+
+            <span class="caption" (mouseover)="toggleCaptionHover()" (mouseout)="toggleCaptionHover()">{{activeCaption}}</span>
+
+            <span class="indicators">
+
+                <button *ngFor="let slide of slides; let i = index" [class]="'indicator ' + slide.state" (click)="manualSlideTo(i)" md-button>
+                    <span class="cdk-visually-hidden">Select slider image number {{i}}</span>
+                    <md-icon aria-hidden="true">chevron_right</md-icon>
+                </button>
+
+            </span>
+
+
+        </span>
+
+    </span>
+
+</div>

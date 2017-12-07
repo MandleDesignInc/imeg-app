@@ -1,0 +1,13 @@
+<div class="spotlight" *ngIf="ready">
+
+    <span   *ngFor="let slide of currentSlides"
+            [@slideUp]="'in'"
+            class="slide"
+            [style.background]="'url(' + cmsPath + slide.image + ')'"
+            [style.backgroundSize]="'cover'"
+            [style.backgroundRepeat]="'no-repeat'"
+            [style.backgroundPosition]="'center'">
+    </span>
+
+
+</div>

@@ -1,0 +1,69 @@
+section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 1000px;
+}
+
+@media (max-width: 960px) {
+    section {
+        flex-direction: column;
+    }
+}
+
+section .left, section .right {
+    display: flex;
+    flex-direction: column;
+}
+section .left {
+    flex: 1;
+}
+
+section .right {
+    flex: 1.5;
+}
+
+section .left img {
+    width: 90%;
+    height: auto;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+
+@media (max-width: 960px) {
+    section .left img {
+        max-width: 250px;
+
+    }
+}
+
+.small-title, .large-title {
+    padding: 8px 0;
+    color: #01518C;
+}
+
+.small-title {
+    padding-top: 0.5em;
+    font-size: 1.2em;
+}
+.large-title {
+    font-size: 2em;
+}
+
+@media (max-width: 960px) {
+    .large-title { padding-top: 16px;}
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    padding-top: 4px;
+}
+
+md-dialog-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

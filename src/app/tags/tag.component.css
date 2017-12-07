@@ -1,0 +1,71 @@
+section {
+    font-size: 18px;
+}
+
+.max-width-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2.5vw 5vw;
+}
+
+.max-width-container-md-cards {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2.5vw 4.5vw;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section span {
+    color: #6D6F71;
+    font-size: 14px;
+}
+
+md-card {
+    flex: auto;
+    height: 200px;
+    width: 200px;
+    margin: .5vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 960px) {
+
+    md-card {
+        margin: 1.5vw;
+    }
+}
+
+md-card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+md-card-footer {
+    z-index: 20;
+    margin-top: auto;
+    height: 72px;
+}
+md-card-title {
+    font-size: large;
+    padding: 8px;
+}
+
+.footer-background {
+    background: black;
+    opacity: 0.5;
+    height: 72px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+

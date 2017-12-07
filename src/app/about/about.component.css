@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin: auto;
+}
+
+section span {
+    color: #6D6F71;
+    font-size: 14px;
+    padding: .5vw;
+}
+
+md-grid-tile a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.max-width-container {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 2.5vw 5vw;
+}

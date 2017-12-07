@@ -1,0 +1,36 @@
+<section *ngIf="leadersPage">
+  <div class="max-width-container">
+
+    <span [innerHTML]="leadersPage.page.safeContent"></span>
+
+    <span *ngFor="let group of leadersPage.groups">
+
+      <div class="group-title">{{group.title}}</div>
+
+      <span class="group">
+
+        <md-card *ngFor="let leader of group.leaders"  (click)="openDialog(leader)">
+
+          <div>
+            <img [src]="leader.image" [alt]="leader.firstName + ' ' + leader.lastName">
+          </div>
+
+          <md-card-footer>
+            <span *ngIf="leader.firstName && leader.lastName" class="name">{{leader.firstName + ' ' + leader.lastName}}</span>
+            <span *ngIf="leader.title" class="title">{{leader.title}}</span>
+            <span *ngIf="leader.subtitle" class="subtitle">{{leader.subtitle}}</span>
+          </md-card-footer>
+
+
+        </md-card>
+
+      </span>
+
+
+
+    </span>
+
+
+
+  </div>
+</section>

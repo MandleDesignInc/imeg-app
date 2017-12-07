@@ -1,0 +1,39 @@
+<md-grid-list cols="4" gutterSize="16px">
+
+    <md-grid-tile *ngFor="let tile of tiles"
+                  [colspan]="tile.columnSpan"
+                  [rowspan]="tile.rowSpan"
+                  [style.backgroundColor]="tile.backgroundColor"
+                  [style.backgroundImage]="'url(' + tile.backgroundImage + ')'"
+                  [style.backgroundSize]="'cover'"
+                  [style.backgroundRepeat]="'no-repeat'"
+                  [style.backgroundPosition]="'center'">
+
+        <div [ngSwitch]="tile.type" [class]="tile.type + '-container'">
+
+            <span *ngSwitchCase="'text-tile'" [innerHTML]="tile.safeContent"></span>
+
+            <spotlight-tile *ngSwitchCase="'project-spotlight-tile'" [spotlightData]="tile.spotlight" [cmsPath]="baseAssetsPath"></spotlight-tile>
+
+            <!--
+            <span *ngSwitchDefault></span>
+            -->
+        </div>
+
+
+        <!-- TODO: routerlink? -->
+        <a *ngIf="tile.link" [href]="tile.link"></a>
+
+
+        <md-grid-tile-footer *ngIf="tile.title">
+            {{tile.title}}
+        </md-grid-tile-footer>
+
+
+    </md-grid-tile>
+
+</md-grid-list>
+
+
+
+

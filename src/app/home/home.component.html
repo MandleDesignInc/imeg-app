@@ -1,0 +1,18 @@
+<section *ngIf="contentReady">
+<!--
+    <imeg-carousel [slides]="slides" [cmsPath]="globals.uploadsPath"></imeg-carousel>
+-->
+    <mdl-slider [slides]="slides" [useIndicators]="true" [useChevrons]="false" [auto]="true"></mdl-slider>
+
+
+    <main>
+
+        <div class="full-width-container">
+            <div class="max-width-container">
+                <feature-tiles [tiles]="homePage.tiles" [baseAssetsPath]="globals.uploadsPath"></feature-tiles>
+            </div>
+        </div>
+
+    </main>
+
+</section>

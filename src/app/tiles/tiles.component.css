@@ -1,0 +1,26 @@
+.text-tile-container {
+    padding: 20px;
+    color: white;
+}
+
+spotlight-tile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.project-spotlight-tile-container {
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}

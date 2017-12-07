@@ -1,0 +1,47 @@
+<div *ngIf="project" id="container">
+
+    <header [style.background]="'url(' + globals.uploadsPath + project.headerImage + ')'"
+            [style.backgroundSize]="'cover'"
+            [style.backgroundRepeat]="'no-repeat'"
+            [style.backgroundPosition]="'center'">
+
+
+        <div class="full-width-title-background">
+            <div class="max-width-title-container">
+                <h1>{{project.title}}</h1>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+
+        <h2>{{project.subtitle}}</h2>
+
+        <main>
+
+            <div class="left" [innerHTML]="project.safeContent"></div>
+
+            <div class="right">
+                <span *ngIf="project.location">
+                        <h4>Location</h4>
+                        <span>{{project.location}}</span>
+                </span>
+                <span *ngIf="project.size">
+                        <h4>Size</h4>
+                        <span>{{project.size}}</span>
+                </span>
+                <span class="services" *ngIf="project.tags.services">
+                        <h4>Services Provided</h4>
+                        <span *ngFor="let service of project.tags.services">{{service | titlecase}}</span>
+                </span>
+
+                <span *ngIf="project.safeSidebarContent" [innerHTML]="project.safeSidebarContent"></span>
+            </div>
+
+        </main>
+
+    </section>
+
+</div>
+
