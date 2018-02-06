@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Leader, LeadersPage, LeadersService} from './leaders.service';
 import {Location} from '@angular/common';
-import {MdDialog} from '@angular/material';
+import {MatDialog} from '@angular/material';
 import {LeaderDialogComponent} from './leader-dialog.component';
 import {DomSanitizer} from '@angular/platform-browser';
 
@@ -13,7 +13,7 @@ export class LeadersComponent implements OnInit {
 
     leadersPage: LeadersPage;
 
-  constructor(private leadersService: LeadersService, private location: Location, public dialog: MdDialog, private sanitizer: DomSanitizer) { }
+  constructor(private leadersService: LeadersService, private location: Location, public dialog: MatDialog, private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
       this.leadersService.getLeadersPage(LeadersComponent.getId(this.location.path())).subscribe(result => this.onPageResult(result));

@@ -1,5 +1,5 @@
 import {Component, Inject} from '@angular/core';
-import {MD_DIALOG_DATA, MdDialogRef} from '@angular/material';
+import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
 
 @Component({
     selector: 'leader-dialog',
@@ -8,7 +8,7 @@ import {MD_DIALOG_DATA, MdDialogRef} from '@angular/material';
 })
 export class LeaderDialogComponent {
 
-    constructor(public dialogRef: MdDialogRef<LeaderDialogComponent>, @Inject(MD_DIALOG_DATA) public data: any) { }
+    constructor(public dialogRef: MatDialogRef<LeaderDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) { }
 
     onNoClick(): void {
         this.dialogRef.close();

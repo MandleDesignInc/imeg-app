@@ -1,5 +1,4 @@
 import {Injectable} from '@angular/core';
-import {Http} from '@angular/http';
 import {Page} from './content-model';
 import {HomePage} from '../home/home-model';
 import {TagPage} from '../tags/tags-model';
@@ -8,7 +7,8 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 import {AboutPage} from '../about/about-model';
-import {Slide} from '../home/slide';
+import {Http} from "@angular/http";
+import {ImegSlide, ModxSlideModel} from "../home/slide";
 
 
 
@@ -22,7 +22,8 @@ export class ContentService {
     constructor(private http: Http) { }
 
     getNavMenu(): Promise<Page[]> {
-        return this.http.get(this.pagesUrl).toPromise().then(response => response.json().results as Page[]);
+
+      return this.http.get(this.pagesUrl).toPromise().then(response => response.json().results as Page[]);
     }
 
     getPageObservable(id: number): Observable<Page> {
@@ -50,9 +51,9 @@ export class ContentService {
         return this.http.get(url).map(response => response.json().object as TagPage);
     }
 
-    getSlides(id: number): Promise<Slide[]> {
+    getSlides(id: number): Promise<ModxSlideModel[]> {
         const url = `${this.carouselUrl}/${id}`;
-        return this.http.get(url).toPromise().then(response => response.json().object.slides as Slide[]);
+        return this.http.get(url).toPromise().then(response => response.json().object.slides as ModxSlideModel[]);
     }
 
     getProjectsObservable(tag: string): Observable<ProjectList> {

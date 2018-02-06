@@ -9,23 +9,23 @@
             <div class="app-bar-max-width">
 
                 <nav>
-                    <a id="fbBtn" md-icon-button href="https://www.facebook.com/IMEGcorp/">
-                        <md-icon svgIcon="facebook"></md-icon>
+                    <a id="fbBtn" mat-icon-button href="https://www.facebook.com/IMEGcorp/">
+                        <mat-icon svgIcon="facebook"></mat-icon>
                     </a>
-                    <a id="twitterBtn" md-icon-button href="https://twitter.com/IMEGcorp">
-                        <md-icon svgIcon="twitter"></md-icon>
+                    <a id="twitterBtn" mat-icon-button href="https://twitter.com/IMEGcorp">
+                        <mat-icon svgIcon="twitter"></mat-icon>
                     </a>
-                    <a id="linkedinBtn" md-icon-button href="https://www.linkedin.com/company/imeg-corp">
-                        <md-icon svgIcon="linked-in"></md-icon>
+                    <a id="linkedinBtn" mat-icon-button href="https://www.linkedin.com/company/imeg-corp">
+                        <mat-icon svgIcon="linked-in"></mat-icon>
                     </a>
 
-                    <a id="newsBtn" md-button routerLink="/news">News</a>
+                    <a mat-button id="newsBtn" routerLink="/news">News</a>
 
                     <form>
-                        <md-form-field>
-                            <input type="search" mdInput value="" #searchInput>
-                            <button id="searchBtn" (click)="search(searchInput.value)" md-icon-button mdSuffix><md-icon>search</md-icon></button>
-                        </md-form-field>
+                        <mat-form-field>
+                            <input type="search" matInput value="" #searchInput>
+                            <button id="searchBtn" (click)="search(searchInput.value)" mat-icon-button mdSuffix><mat-icon>search</mat-icon></button>
+                        </mat-form-field>
                     </form>
                 </nav>
 
@@ -60,18 +60,18 @@
         </div>
 
 
-        <button id="drawerToggle" type="button" md-icon-button (click)="sidenav.open()"><md-icon>menu</md-icon></button>
+        <button id="drawerToggle" type="button" mat-icon-button (click)="sidenav.open()"><mat-icon>menu</mat-icon></button>
 
     </header>
 
 
-    <md-sidenav-container>
+    <mat-sidenav-container>
 
-        <md-sidenav mode="over" position="end" #sidenav>
+        <mat-sidenav mode="over" position="end" #sidenav>
             <nav>
                 <a *ngFor="let item of globals.navigationItems" [routerLink]="[['/', item.alias]]" routerLinkActive="active">{{item.title}}</a>
             </nav>
-        </md-sidenav>
+        </mat-sidenav>
 
         <router-outlet></router-outlet>
 
@@ -96,5 +96,5 @@
 
 
 
-    </md-sidenav-container>
+    </mat-sidenav-container>
 </div>

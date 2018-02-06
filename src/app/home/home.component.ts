@@ -3,9 +3,8 @@ import {Component, OnInit} from '@angular/core';
 import {HomePage} from './home-model';
 import {ContentService} from '../core/content.service';
 import {Globals} from '../core/globals';
-import {Slide} from './slide';
 import {DomSanitizer} from '@angular/platform-browser';
-import {MdlSlide} from 'mdl-components/mdl-slider/mdl-slide';
+import {ImegSlide, ModxSlideModel} from "./slide";
 
 
 @Component({
@@ -18,9 +17,7 @@ export class HomeComponent implements OnInit {
 
     homePage: HomePage;
 
-    // slides: Slide[] = [];
-
-    slides: MdlSlide[] = [];
+    slides: ImegSlide[] = [];
 
     contentReady: boolean;
 
@@ -46,15 +43,15 @@ export class HomeComponent implements OnInit {
         if (this.slides) this.contentReady = true;
     }
 
-    onSlidesResponse(response: Slide[]): void {
+    onSlidesResponse(response: ModxSlideModel[]): void {
 
         // TODO: refactor this
         response.forEach(slide => {
 
-            let mdlSlide = new MdlSlide(slide.MIGX_id, slide.caption, this.globals.uploadsPath + slide.image);
-            this.slides.push(mdlSlide);
-            console.log('state: ' + mdlSlide.state);
-            console.log('image path: ' + mdlSlide.image);
+            let imegSlide = new ImegSlide(slide.MIGX_id, slide.caption, this.globals.uploadsPath + slide.image);
+            this.slides.push(imegSlide);
+            console.log('state: ' + imegSlide.state);
+            console.log('image path: ' + imegSlide.image);
 
 
             /*

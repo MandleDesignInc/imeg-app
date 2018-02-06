@@ -3,16 +3,17 @@ import { CommonModule } from '@angular/common';
 import {LeadersComponent} from './leaders.component';
 import {LeadersRoutingModule} from './leaders-routing.module';
 import {LeadersService} from './leaders.service';
-import {MdButtonModule, MdDialogModule, MdGridListModule, MdIconModule} from '@angular/material';
 import {LeaderDialogComponent} from './leader-dialog.component';
+import {MatButtonModule, MatCardModule, MatDialogModule, MatGridListModule, MatIconModule} from "@angular/material";
 
 @NgModule({
   imports: [
     CommonModule,
-    MdGridListModule,
-    MdDialogModule,
-    MdIconModule,
-    MdButtonModule,
+    MatCardModule,
+    MatGridListModule,
+    MatDialogModule,
+    MatIconModule,
+    MatButtonModule,
     LeadersRoutingModule
   ],
   declarations: [LeadersComponent, LeaderDialogComponent],

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {PageComponent} from './page.component';
-import {MdCardModule} from '@angular/material';
+import {MatCardModule} from '@angular/material';
 import {PageRoutingModule} from './page-routing.module';
 
 
@@ -9,7 +9,7 @@ import {PageRoutingModule} from './page-routing.module';
 @NgModule({
     imports: [
         CommonModule,
-        MdCardModule,
+        MatCardModule,
         PageRoutingModule
     ],
     declarations: [

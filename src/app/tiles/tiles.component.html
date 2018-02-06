@@ -1,6 +1,6 @@
-<md-grid-list cols="4" gutterSize="16px">
+<mat-grid-list cols="4" gutterSize="16px">
 
-    <md-grid-tile *ngFor="let tile of tiles"
+    <mat-grid-tile *ngFor="let tile of tiles"
                   [colspan]="tile.columnSpan"
                   [rowspan]="tile.rowSpan"
                   [style.backgroundColor]="tile.backgroundColor"
@@ -25,14 +25,14 @@
         <a *ngIf="tile.link" [href]="tile.link"></a>
 
 
-        <md-grid-tile-footer *ngIf="tile.title">
+        <mat-grid-tile-footer *ngIf="tile.title">
             {{tile.title}}
-        </md-grid-tile-footer>
+        </mat-grid-tile-footer>
 
 
-    </md-grid-tile>
+    </mat-grid-tile>
 
-</md-grid-list>
+</mat-grid-list>
 
 
 

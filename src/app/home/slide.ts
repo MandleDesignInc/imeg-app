@@ -1,15 +1,18 @@
-export class Slide {
+export class ImegSlide {
+  constructor(public id: string, public caption: string, public image: string, public state: string = 'inactive') {
 
-    MIGX_id: string;
-    caption: string;
-    image: string;
+  }
 
-    state: string = 'inactive';
-
-
-    toggleState() {
-        this.state = this.state === 'active' ? 'inactive' : 'active';
-    }
-
+  toggleState() {
+    this.state = this.state === 'active' ? 'inactive' : 'active';
+  }
 }
 
+export class ModxSlideModel {
+
+  MIGX_id: string;
+  caption: string;
+  image: string;
+
+
+}

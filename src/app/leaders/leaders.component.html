@@ -9,20 +9,20 @@
 
       <span class="group">
 
-        <md-card *ngFor="let leader of group.leaders"  (click)="openDialog(leader)">
+        <mat-card *ngFor="let leader of group.leaders"  (click)="openDialog(leader)">
 
           <div>
             <img [src]="leader.image" [alt]="leader.firstName + ' ' + leader.lastName">
           </div>
 
-          <md-card-footer>
+          <mat-card-footer>
             <span *ngIf="leader.firstName && leader.lastName" class="name">{{leader.firstName + ' ' + leader.lastName}}</span>
             <span *ngIf="leader.title" class="title">{{leader.title}}</span>
             <span *ngIf="leader.subtitle" class="subtitle">{{leader.subtitle}}</span>
-          </md-card-footer>
+          </mat-card-footer>
 
 
-        </md-card>
+        </mat-card>
 
       </span>
 

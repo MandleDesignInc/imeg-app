@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import {MdIconRegistry, MdSnackBar} from '@angular/material';
 import {NavigationItem, Page} from './core/content-model';
 import {ContentService} from './core/content.service';
 import {Globals} from './core/globals';
 import {DomSanitizer} from '@angular/platform-browser';
+import {MatIconRegistry, MatSnackBar} from "@angular/material";
 
 @Component({
     selector: 'imeg-app',
@@ -12,7 +12,7 @@ import {DomSanitizer} from '@angular/platform-browser';
 })
 export class AppComponent implements OnInit {
 
-  constructor(public snackBar: MdSnackBar, private contentService: ContentService, public globals: Globals, iconReg: MdIconRegistry, sanitizer: DomSanitizer) {
+  constructor(public snackBar: MatSnackBar, private contentService: ContentService, public globals: Globals, iconReg: MatIconRegistry, sanitizer: DomSanitizer) {
 
       iconReg.addSvgIcon('facebook', sanitizer.bypassSecurityTrustResourceUrl('assets/images/facebook-logo.svg'));
       iconReg.addSvgIcon('twitter', sanitizer.bypassSecurityTrustResourceUrl('assets/images/twitter-logo.svg'));

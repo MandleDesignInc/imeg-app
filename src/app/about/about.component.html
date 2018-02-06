@@ -4,9 +4,9 @@
 
         <span [innerHTML]="aboutPage.page.content"></span>
 
-        <md-grid-list cols="4" gutterSize="16px">
+        <mat-grid-list cols="4" gutterSize="16px">
 
-            <md-grid-tile *ngFor="let tile of aboutPage.tiles"
+            <mat-grid-tile *ngFor="let tile of aboutPage.tiles"
                           [colspan]="tile.columnSpan"
                           [rowspan]="tile.rowSpan"
                           [style.backgroundColor]="tile.backgroundColor"
@@ -19,14 +19,14 @@
                 <a *ngIf="tile.alias" [routerLink]="['/about', tile.alias]"></a>
 
 
-                <md-grid-tile-footer *ngIf="tile.title">
+                <mat-grid-tile-footer *ngIf="tile.title">
                     {{tile.title}}
-                </md-grid-tile-footer>
+                </mat-grid-tile-footer>
 
 
-            </md-grid-tile>
+            </mat-grid-tile>
 
-        </md-grid-list>
+        </mat-grid-list>
 
 
     </div>

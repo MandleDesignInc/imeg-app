@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MdCardModule, MdGridListModule} from '@angular/material';
+import {MatCardModule, MatGridListModule} from '@angular/material';
 import {TilesComponent} from './tiles.component';
 import {SpotlightTileComponent} from './spotlight-tile.component';
 
@@ -8,8 +8,8 @@ import {SpotlightTileComponent} from './spotlight-tile.component';
 @NgModule({
     imports: [
         CommonModule,
-        MdGridListModule,
-        MdCardModule
+        MatGridListModule,
+        MatCardModule
     ],
     declarations: [
         TilesComponent,

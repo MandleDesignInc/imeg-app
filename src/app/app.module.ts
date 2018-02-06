@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CoreModule} from './core/core.module';
 import {AppRoutingModule} from './app-routing.module';
@@ -10,34 +10,38 @@ import {TagModule} from './tags/tag.module';
 import {ProjectsModule} from './projects/projects.module';
 import {PageModule} from './page/page.module';
 import {AppComponent} from './app.component';
-import {MdButtonModule, MdIconModule, MdInputModule, MdSidenavModule} from '@angular/material';
-
-
+import {MatButtonModule, MatIconModule, MatInputModule, MatSidenavModule} from "@angular/material";
+import {HttpClientModule} from "@angular/common/http";
+import {HttpModule} from "@angular/http";
 
 
 @NgModule({
-    declarations: [
-      AppComponent,
-    ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        CoreModule,
-        AppRoutingModule,
-        HomeModule,
-        AboutModule,
-        LeadersModule,
-        TagModule,
-        ProjectsModule,
-        PageModule,
-        MdSidenavModule,
-        MdButtonModule,
-        MdInputModule,
-        MdIconModule,
-    ],
-    bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    CoreModule,
+    AppRoutingModule,
+    HomeModule,
+    AboutModule,
+    LeadersModule,
+    TagModule,
+    ProjectsModule,
+    PageModule,
+    HttpModule,
+    HttpClientModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatInputModule,
+    MatIconModule
+  ],
+  bootstrap: [AppComponent],
+  providers: []
 
 })
-export class AppModule { }
+export class AppModule {
+}
 
 
