@@ -62,7 +62,7 @@ section .left img {
     padding-top: 4px;
 }
 
-md-dialog-actions {
+mat-dialog-actions {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;

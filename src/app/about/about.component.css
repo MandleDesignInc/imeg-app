@@ -11,7 +11,7 @@ section span {
     padding: .5vw;
 }
 
-md-grid-tile a {
+mat-grid-tile a {
     position: absolute;
     height: 100%;
     width: 100%;

@@ -82,7 +82,7 @@ section span {
     font-size: 16px;
 }
 
-md-card {
+mat-card {
     flex: auto;
     height: 200px;
     width: 200px;
@@ -93,7 +93,7 @@ md-card {
     flex-direction: column;
 }
 
-md-card a {
+mat-card a {
     position: absolute;
     top: 0;
     left: 0;
@@ -101,12 +101,12 @@ md-card a {
     bottom: 0;
 }
 
-md-card-footer {
+mat-card-footer {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: auto;
     height: 72px;
 }
-md-card-title {
+mat-card-title {
     font-size: large;
     padding: 8px;
 }

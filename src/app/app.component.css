@@ -180,13 +180,13 @@ header {
 
 }
 
-md-sidenav nav {
+mat-sidenav nav {
     margin-top: 82px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
-md-sidenav nav a {
+mat-sidenav nav a {
     padding: 8px 24px;
     text-decoration: none;
     color: #01518C;
@@ -201,7 +201,7 @@ md-sidenav nav a {
 
 /* content */
 
-md-sidenav-container {
+mat-sidenav-container {
     padding-top: 103px;
 }
 

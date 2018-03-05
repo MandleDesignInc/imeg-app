@@ -8,7 +8,7 @@ section {
     padding: 2.5vw 5vw;
 }
 
-.max-width-container-md-cards {
+.max-width-container-mat-cards {
     max-width: 1200px;
     margin: auto;
     padding: 2.5vw 4.5vw;
@@ -21,7 +21,7 @@ section span {
     font-size: 14px;
 }
 
-md-card {
+mat-card {
     flex: auto;
     height: 200px;
     width: 200px;
@@ -33,12 +33,12 @@ md-card {
 
 @media (max-width: 960px) {
 
-    md-card {
+    mat-card {
         margin: 1.5vw;
     }
 }
 
-md-card a {
+mat-card a {
     position: absolute;
     top: 0;
     left: 0;
@@ -46,12 +46,12 @@ md-card a {
     bottom: 0;
 }
 
-md-card-footer {
+mat-card-footer {
     z-index: 20;
     margin-top: auto;
     height: 72px;
 }
-md-card-title {
+mat-card-title {
     font-size: large;
     padding: 8px;
 }
