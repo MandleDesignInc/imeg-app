@@ -12,6 +12,7 @@ import {LeadersComponent} from '../leaders/leaders.component';
             { path: 'about', component: AboutComponent },
             { path: 'about/corporate-leaders', component: LeadersComponent},
             { path: 'about/team-leaders', component: LeadersComponent},
+            { path: 'about/:alias', component: PageComponent },
         ])
     ],
     exports: [RouterModule]
