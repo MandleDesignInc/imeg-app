@@ -15,7 +15,8 @@ import {ImegSlide, ModxSlideModel} from "../home/slide";
 
 @Injectable()
 export class ContentService {
-    private pagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/pages';
+    private pagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/pagesByAlias';
+    private navigationUrl = 'http://bluemandle2.com/~imeg/cms/rest/navigation';
     private carouselUrl = 'http://bluemandle2.com/~imeg/cms/rest/carousel';
 
 
@@ -23,11 +24,11 @@ export class ContentService {
 
     getNavMenu(): Promise<Page[]> {
 
-      return this.http.get(this.pagesUrl).toPromise().then(response => response.json().results as Page[]);
+      return this.http.get(this.navigationUrl).toPromise().then(response => response.json().results as Page[]);
     }
 
-    getPageObservable(id: number): Observable<Page> {
-        const url = `${this.pagesUrl}/${id}`;
+    getPageObservable(alias: string): Observable<Page> {
+        const url = `${this.pagesUrl}?alias=${alias}`;
         return this.http.get(url).map(response => response.json().object as Page);
     }
 

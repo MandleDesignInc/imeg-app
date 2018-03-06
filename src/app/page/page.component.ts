@@ -26,7 +26,7 @@ export class PageComponent implements OnInit {
     ngOnInit(): void {
 
         this.route.paramMap
-                .switchMap((params: ParamMap) => this.contentService.getPageObservable(this.getId(params.get('alias'))))
+                .switchMap((params: ParamMap) => this.contentService.getPageObservable(params.get('alias')))
                 .subscribe(page => this.onPageResponse(page), error => this.router.navigate(['/page-not-found']));
 
     }

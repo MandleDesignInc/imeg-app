@@ -69,7 +69,8 @@
 
         <mat-sidenav mode="over" position="end" #sidenav>
             <nav>
-                <a *ngFor="let item of globals.navigationItems" [routerLink]="[['/', item.alias]]" routerLinkActive="active">{{item.title}}</a>
+                <a [routerLink]="['/', 'home']" routerLinkActive="active">Home</a>
+                <a *ngFor="let item of globals.rootMenu" [routerLink]="['/', item.alias]" routerLinkActive="active">{{item.title}}</a>
             </nav>
         </mat-sidenav>
 
