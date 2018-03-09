@@ -45,6 +45,12 @@ export class ContentService {
         return this.http.get(url).map(response => response.json().object as AboutPage);
     }
 
+    getNewsPageLinks(): Observable<any> {
+      let newsUrl = 'http://bluemandle2.com/~imeg/cms/rest/news';
+      const url = `${newsUrl}`;
+      return this.http.get(url).map(response => response.json().results as Page[]);
+    }
+
     getPageObservableWithTags(id: number): Observable<TagPage> {
         let tagsUrl = 'http://bluemandle2.com/~imeg/cms/rest/tags';
         const url = `${tagsUrl}/${id}`;

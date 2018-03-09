@@ -13,6 +13,7 @@ import {AppComponent} from './app.component';
 import {MatButtonModule, MatIconModule, MatInputModule, MatSidenavModule} from "@angular/material";
 import {HttpClientModule} from "@angular/common/http";
 import {HttpModule} from "@angular/http";
+import { NewsModule } from './news/news.module';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import {HttpModule} from "@angular/http";
     LeadersModule,
     TagModule,
     ProjectsModule,
+    NewsModule,
     PageModule,
     HttpModule,
     HttpClientModule,

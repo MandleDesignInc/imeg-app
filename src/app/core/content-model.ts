@@ -16,8 +16,8 @@ export class Page {
     alias: string;
     link_attributes: string;
     published: boolean;
-    pub_date: number;
-    unpub_date: number;
+    pub_date: Date;
+    unpub_date: Date;
     parent: number;
     isFolder: boolean;
     introtext: string;
@@ -33,7 +33,7 @@ export class Page {
     searchable: boolean;
     cacheable: boolean;
     createdby: number;
-    createdon: string;
+    createdon: Date;
     editedby: number;
     editedon: string;
     deleted: boolean;
@@ -53,6 +53,7 @@ export class Page {
     uri_override: number;
     hide_children_in_tree: number;
     show_in_tree: number;
+    image?: string;
 }
 
 export class NavigationItem {

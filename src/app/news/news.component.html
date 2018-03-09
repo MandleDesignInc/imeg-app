@@ -1,0 +1,22 @@
+<section>
+  <div class="max-width-container">
+    <span>
+      <h2>News & Events</h2>
+      <div *ngFor="let newsItem of newsLinks" class="news-item">
+        <a [routerLink]="['/news/', newsItem.alias]">
+          <span *ngIf="newsItem.image" class="image"><img [src]="newsItem.image"></span>
+          <span class="content">
+            <span class="title">{{ newsItem.pagetitle }}</span>
+            <span class="date">{{ newsItem.createdon | date }}</span>
+            <span class="introtext">{{ newsItem.introtext }}</span>
+          </span>
+        </a>
+
+      </div>
+    </span>
+  </div>
+</section>
+
+
+
+
