@@ -70,9 +70,8 @@ header {
 }
 
 #appBarLower nav a {
-    padding: 0 8px;
+    padding: 0 25px;
     margin: 0 1px;
-    color: white;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -80,6 +79,12 @@ header {
     align-items: center;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
+    line-height: 28px;
+    text-align: center;
+    font-size: 23px;
+    color: #FFFFFF;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 400;
 }
 
 #appBarLower nav a:hover {
