@@ -1,4 +1,4 @@
-<section *ngIf="page">
+<section *ngIf="page" class="page-content">
 
     <div class="max-width-container">
 
@@ -6,7 +6,7 @@
 
     </div>
 
-    <div class="max-width-container-mat-cards">
+    <div class="max-width-container-mat-cards tag-cards">
 
         <mat-card *ngFor="let tag of page.tags"
                  (mouseover)="tag.toggleState()"

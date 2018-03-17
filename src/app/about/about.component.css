@@ -20,6 +20,13 @@ mat-grid-tile a {
     z-index: 20;
 }
 
+mat-grid-tile-footer {
+  font-size: large;
+  padding: 8px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 30px;
+}
+
 .max-width-container {
     max-width: 1200px;
     margin: auto;

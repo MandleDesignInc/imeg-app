@@ -107,8 +107,10 @@ mat-card-footer {
     height: 72px;
 }
 mat-card-title {
-    font-size: large;
-    padding: 8px;
+  font-size: large;
+  padding: 8px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 22px;
 }
 
 

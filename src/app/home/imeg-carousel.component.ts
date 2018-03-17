@@ -54,7 +54,7 @@ export class ImegCarouselComponent implements AfterViewInit, OnDestroy {
 
   ngAfterViewInit(): void {
 
-    this.slideTo(0);
+    //this.slideTo(0);
 
     this.timeout = 5000;
     this.start();

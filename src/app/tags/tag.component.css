@@ -11,7 +11,8 @@ section {
 .max-width-container-mat-cards {
     max-width: 1200px;
     margin: auto;
-    padding: 2.5vw 4.5vw;
+    /*padding: 2.5vw 4.5vw;*/
+    padding: 0.5vw 4.5vw;
     display: flex;
     flex-flow: row wrap;
 }
@@ -54,6 +55,8 @@ mat-card-footer {
 mat-card-title {
     font-size: large;
     padding: 8px;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-size: 22px;
 }
 
 .footer-background {

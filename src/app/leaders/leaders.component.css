@@ -37,6 +37,10 @@ section {
 mat-card {
     width: 200px;
     padding: 8px;
+    background: none;
+    border: none;
+    box-shadow: none !important;
+    min-height: 275px;
 }
 
 mat-card img {
@@ -47,6 +51,8 @@ mat-card-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 5px 10px;
 }
 
 .name {

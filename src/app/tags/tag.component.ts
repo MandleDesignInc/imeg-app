@@ -73,7 +73,7 @@ export class TagComponent implements OnInit {
     }
 
     getId(path: string): number {
-        let id = 0;
+        let id = path ? 23 : 0;
 
         this.globals.navigationItems.forEach(item => {
             if (item.path === path) id = item.id;

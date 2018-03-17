@@ -28,6 +28,7 @@ section span {
   display: block;
   clear: both;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .news-item .title {
