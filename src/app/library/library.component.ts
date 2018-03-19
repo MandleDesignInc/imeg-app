@@ -33,7 +33,9 @@ export class LibraryComponent implements OnInit {
     this.contentService.getSubPagesByIdObservable(page.id).subscribe(page => {
       this.subpages = page.subpages;
       console.log(page.subpages);
-    }, error => {}));
+    }, error => {
+
+    });
 
     this.page = page;
   }
