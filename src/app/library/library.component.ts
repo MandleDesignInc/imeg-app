@@ -13,6 +13,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class LibraryComponent implements OnInit {
 
   page: Page;
+  subpages: Page[];
 
   constructor(private contentService: ContentService,
               private globals: Globals,
@@ -28,6 +29,11 @@ export class LibraryComponent implements OnInit {
 
   onPageResponse(page: Page): void {
     page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);
+
+    this.contentService.getSubPagesByIdObservable(page.id).subscribe(page => {
+      this.subpages = page.subpages;
+      console.log(page.subpages);
+    }, error => {}));
 
     this.page = page;
   }

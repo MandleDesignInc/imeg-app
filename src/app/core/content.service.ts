@@ -16,6 +16,7 @@ import {ImegSlide, ModxSlideModel} from "../home/slide";
 @Injectable()
 export class ContentService {
     private pagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/pagesByAlias';
+    private subPagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/subpagesByParentId';
     private navigationUrl = 'http://bluemandle2.com/~imeg/cms/rest/navigation';
     private carouselUrl = 'http://bluemandle2.com/~imeg/cms/rest/carousel';
 
@@ -30,6 +31,11 @@ export class ContentService {
     getPageObservable(alias: string): Observable<Page> {
         const url = `${this.pagesUrl}?alias=${alias}`;
         return this.http.get(url).map(response => response.json().object as Page);
+    }
+
+    getSubPagesByIdObservable(id: number): Observable<Page> {
+      const url = `${this.subPagesUrl}/${id}`;
+      return this.http.get(url).map(response => response.json().object as Page);
     }
 
     getHomePage(id: number): Observable<HomePage> {
