@@ -1,0 +1,31 @@
+<section *ngIf="page" class="page-content">
+  <div class="max-width-container">
+    <span [innerHTML]="page.safeContent"></span>
+
+
+    <div class="max-width-container-mat-cards tag-cards">
+
+      <!--<mat-card *ngFor="let tag of page.tags"-->
+                <!--(mouseover)="tag.toggleState()"-->
+                <!--(mouseout)="tag.toggleState()"-->
+                <!--[@tagState]="tag.state"-->
+                <!--[style.background]="'url(' + globals.uploadsPath + tag.previewImage + ')'"-->
+                <!--[style.backgroundSize]="'cover'"-->
+                <!--[style.backgroundRepeat]="'no-repeat'">-->
+
+        <!--<a [routerLink]="['/projects', tag.path]"></a>-->
+
+        <!--<div class="footer-background"></div>-->
+
+        <!--<mat-card-footer>-->
+          <!--<mat-card-title>-->
+            <!--{{tag.name}}-->
+          <!--</mat-card-title>-->
+        <!--</mat-card-footer>-->
+        <!---->
+      <!--</mat-card>-->
+
+    </div>
+  </div>
+</section>
+

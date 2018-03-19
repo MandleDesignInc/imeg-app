@@ -14,6 +14,7 @@ import {MatButtonModule, MatIconModule, MatInputModule, MatSidenavModule} from "
 import {HttpClientModule} from "@angular/common/http";
 import {HttpModule} from "@angular/http";
 import { NewsModule } from './news/news.module';
+import { LibraryModule } from './library/library.module';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { NewsModule } from './news/news.module';
     TagModule,
     ProjectsModule,
     NewsModule,
+    LibraryModule,
     PageModule,
     HttpModule,
     HttpClientModule,
