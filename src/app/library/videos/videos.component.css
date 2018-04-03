@@ -17,8 +17,19 @@ section span {
   display: flex;
   justify-content: space-between;
 }
+
 .flex-grid-thirds .col {
   width: 32%;
+}
+
+@media (max-width: 960px) {
+
+  .flex-grid-thirds, .max-width-container {
+    padding: 2.5vw;
+  }
+  .flex-grid-thirds .col {
+    width: 100%;
+  }
 }
 
 .page-content h1 {
