@@ -4,8 +4,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ContentService } from '../../core/content.service';
 import { Page, Video } from '../../core/content-model';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
-import { SafePipe } from '../../core/safe.pipe';
-
 
 @Component({
   selector: 'app-newsletters',
@@ -15,7 +13,7 @@ import { SafePipe } from '../../core/safe.pipe';
 export class VideosComponent implements OnInit {
 
   page: Page;
-  videos: Video[] = [];
+  videos: Video[];
 
   constructor(private contentService: ContentService,
               private globals: Globals,

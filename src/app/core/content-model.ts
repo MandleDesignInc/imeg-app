@@ -26,7 +26,7 @@ export class Page {
 
     content: string;
     safeContent: SafeHtml;
-    subpages: Page[];
+    subpages: any[];
 
 
     richtext: boolean;

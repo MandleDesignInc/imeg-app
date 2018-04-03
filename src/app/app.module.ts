@@ -34,7 +34,7 @@ import { PresentationsModule } from './library/presentations/presentations.modul
     AboutModule,
     VideosModule,
     ArticlesModule,
-    PresentationsModule
+    PresentationsModule,
     NewslettersModule,
     LeadersModule,
     TagModule,

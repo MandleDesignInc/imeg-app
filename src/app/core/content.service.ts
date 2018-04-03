@@ -33,9 +33,9 @@ export class ContentService {
         return this.http.get(url).map(response => response.json().object as Page);
     }
 
-    getSubPagesByIdObservable(id: number): Observable<Page> {
+    getSubPagesByIdObservable(id: number): Observable<any> {
       const url = `${this.subPagesUrl}/${id}`;
-      return this.http.get(url).map(response => response.json().object as Page);
+      return this.http.get(url).map(response => response.json().object as any);
     }
 
     getHomePage(id: number): Observable<HomePage> {
