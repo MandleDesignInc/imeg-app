@@ -1,5 +1,6 @@
 
 import {SafeHtml} from '@angular/platform-browser';
+import { inherits } from 'util';
 
 export class Pages {
     results: Page[];
@@ -55,6 +56,17 @@ export class Page {
     hide_children_in_tree: number;
     show_in_tree: number;
     image?: string;
+}
+
+export class Subpage extends Page {
+  backgroundImage: string;
+  title: string;
+  subtitle: string;
+  state: string;
+
+  toggleState() {
+    this.state = this.state === 'in' ? 'out' : 'in';
+  }
 }
 
 export class NavigationItem {
