@@ -13,16 +13,6 @@ section span {
   padding: 2.5vw 5vw;
 }
 
-section {
-  font-size: 18px;
-}
-
-.max-width-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2.5vw 5vw;
-}
-
 .max-width-container-mat-cards {
   max-width: 1200px;
   margin: auto;

@@ -1,5 +1,5 @@
 
-import {SafeHtml} from '@angular/platform-browser';
+import {SafeHtml, SafeUrl} from '@angular/platform-browser';
 import { inherits } from 'util';
 
 export class Pages {
@@ -67,6 +67,10 @@ export class Subpage extends Page {
   toggleState() {
     this.state = this.state === 'in' ? 'out' : 'in';
   }
+}
+
+export class Video extends Page {
+  vimeoURL: SafeUrl;
 }
 
 export class NavigationItem {

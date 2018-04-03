@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Page} from './content-model';
+import { Page, Video } from './content-model';
 import {HomePage} from '../home/home-model';
 import {TagPage} from '../tags/tags-model';
 import {Project, ProjectList} from '../projects/project-model';

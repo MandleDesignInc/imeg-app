@@ -1,3 +1,19 @@
-<p>
-  videos works!
-</p>
+<section *ngIf="page" class="page-content">
+  <div class="max-width-container">
+    <span [innerHTML]="page.safeContent"></span>
+
+
+    <div class="max-width-container flex-grid-thirds">
+
+      <div class="video col" *ngFor="let video of videos">
+        <div class="embed-container">
+          <iframe [src]="sanitize(video.vimeoURL)" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <h2>{{ video.pagetitle }}</h2>
+        <p>{{ video.description }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+

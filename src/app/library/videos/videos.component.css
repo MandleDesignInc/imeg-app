@@ -1,0 +1,49 @@
+section {
+  font-size: 18px;
+}
+
+section span {
+  color: #6D6F71;
+  font-size: 14px;
+}
+
+.max-width-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2.5vw 0vw;
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+
+.page-content h1 {
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  font-size: 47px !important;
+}
+
+
+iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+h2 {
+  color: #01518C;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+
