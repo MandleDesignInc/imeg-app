@@ -15,6 +15,10 @@ import {HttpClientModule} from "@angular/common/http";
 import {HttpModule} from "@angular/http";
 import { NewsModule } from './news/news.module';
 import { LibraryModule } from './library/library.module';
+import { VideosModule } from './library/videos/videos.module';
+import { NewslettersModule } from './library/newsletters/newsletters.module';
+import { ArticlesModule } from './library/articles/articles.module';
+import { PresentationsModule } from './library/presentations/presentations.module';
 
 
 @NgModule({
@@ -28,6 +32,10 @@ import { LibraryModule } from './library/library.module';
     AppRoutingModule,
     HomeModule,
     AboutModule,
+    VideosModule,
+    ArticlesModule,
+    PresentationsModule,
+    NewslettersModule,
     LeadersModule,
     TagModule,
     ProjectsModule,
