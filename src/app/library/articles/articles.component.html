@@ -1,3 +1,35 @@
-<p>
-  articles works!
-</p>
+<section *ngIf="page" class="page-content">
+  <div class="max-width-container">
+    <span [innerHTML]="page.safeContent"></span>
+
+
+    <div class="max-width-container flex-grid-quarters">
+
+      <div class="article col" *ngFor="let article of articles">
+        <a [href]="[article.externalArticleURL]" *ngIf="article.externalArticleURL != ''" target="_blank">
+        <span class="article-image">
+          <img [src]="globals.uploadsPath + article.articleImage">
+        </span>
+        <span class="article-content">
+            <span class="title">{{ article.pagetitle }}</span>
+            <span class="introtext" [innerHTML]="sanitize(article.introtext)"></span>
+        </span>
+        </a>
+
+        <a [routerLink]="['/articles',article.alias]" *ngIf="article.externalArticleURL == ''">
+        <span class="article-image">
+          <img [src]="globals.uploadsPath + article.articleImage">
+        </span>
+        <span class="article-content">
+            <span class="title">{{ article.pagetitle }}</span>
+            <span class="introtext" [innerHTML]="sanitize(article.introtext)"></span>
+        </span>
+        </a>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+

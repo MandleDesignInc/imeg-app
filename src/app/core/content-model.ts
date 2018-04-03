@@ -73,6 +73,11 @@ export class Video extends Page {
   vimeoURL: SafeUrl;
 }
 
+export class Article extends Page {
+  externalArticleURL: SafeUrl;
+  articleImage: string;
+}
+
 export class NavigationItem {
     path: string;
     title: string;
