@@ -1,3 +1,19 @@
-<p>
-  presentations works!
-</p>
+<section *ngIf="page" class="page-content">
+  <div class="max-width-container">
+    <span [innerHTML]="page.safeContent"></span>
+
+    <hr>
+    <span><h2>Recorded Presentations</h2></span>
+    <div class="max-width-container flex-grid-thirds">
+      <div class="video col" *ngFor="let presentation of presentations">
+        <div class="embed-container">
+          <iframe [src]="sanitize(presentation.vimeoURL)" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <h2>{{ presentation.pagetitle }}</h2>
+        <p [innerHTML]="presentation.description"></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
