@@ -1,3 +1,18 @@
-<p>
-  newsletters works!
-</p>
+<section *ngIf="page" class="page-content">
+  <div class="max-width-container">
+    <span [innerHTML]="page.safeContent"></span>
+
+    <div class="max-width-container grid">
+      <div class="block" *ngFor="let newsletter of newsletters">
+        <h2><a [routerLink]="['/newsletters', newsletter.alias]">{{ newsletter.pagetitle }}</a></h2>
+        <div class="newsletter-content">
+          <div class="image">
+            <img [src]="globals.uploadsPath + newsletter.articleImage">
+          </div>
+          <div class="introtext" [innerHTML]="sanitize(newsletter.introtext)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

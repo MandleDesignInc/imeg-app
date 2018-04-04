@@ -78,6 +78,10 @@ export class Article extends Page {
   articleImage: string;
 }
 
+export class Newsletter extends Page {
+  articleImage: string;
+}
+
 export class NavigationItem {
     path: string;
     title: string;

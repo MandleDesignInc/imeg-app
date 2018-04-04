@@ -1,0 +1,76 @@
+section {
+  font-size: 18px;
+}
+
+section span {
+  color: #6D6F71;
+  font-size: 14px;
+}
+
+.max-width-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2.5vw 0vw;
+}
+
+
+@media (max-width: 960px) {
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 150px;
+  grid-row-gap: 30px;
+}
+
+.page-content h1 {
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  font-size: 47px !important;
+}
+
+.grid .block h2 a {
+  text-decoration: none;
+  color: #01518C;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #000;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.newsletter-content .image {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.newsletter-content .introtext {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 14px;
+  line-height: 17px;
+  word-wrap: break-word;
+}
+
+.newsletter-content .image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+h2 {
+  color: #01518C;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+
