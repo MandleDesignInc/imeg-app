@@ -4,10 +4,13 @@
 
     padding: 2.5vw 5vw;
 }
-
-
-
-
-
-
-
+#u3925816-2, #u3925812-2, #u3925809-2, #u3925807-2, #u3925820-2, #u3925818-2 {
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding-left: 5px;
+}
+.material-icons {
+  font-weight: bold;
+  font-size: 30px;
+}

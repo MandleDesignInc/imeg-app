@@ -47,7 +47,7 @@ section span {
 }
 
 .article .article-content {
-  padding: 5px;
+  padding: 5px 5px 15px;
 }
 
 .article span {
@@ -62,13 +62,16 @@ section span {
 
 .flex-grid-quarters {
   display: flex;
-  justify-content: flex-start;
-  flex-direction: row
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .flex-grid-quarters .col {
   width: 23%;
   margin: 0 1%;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 960px) {
@@ -103,5 +106,3 @@ p {
   font-size: 14px;
   margin-top: 0px;
 }
-
-
