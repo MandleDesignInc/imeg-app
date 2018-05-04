@@ -95,6 +95,10 @@ a:link {
   height: 100%;
 }
 
+footer {
+  clear: left;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   body {
       text-rendering: auto;
