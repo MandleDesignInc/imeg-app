@@ -9,6 +9,8 @@ import 'rxjs/add/operator/toPromise';
 import {AboutPage} from '../about/about-model';
 import {Http} from "@angular/http";
 import {ImegSlide, ModxSlideModel} from "../home/slide";
+import {LocationsPage} from '../locations/locations-model';
+import {ImegLocations, ModxLocationModel} from "../locations/location";
 
 
 
@@ -19,6 +21,7 @@ export class ContentService {
     private subPagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/subpagesByParentId';
     private navigationUrl = 'http://bluemandle2.com/~imeg/cms/rest/navigation';
     private carouselUrl = 'http://bluemandle2.com/~imeg/cms/rest/carousel';
+    private locationsUrl = 'http://bluemandle2.com/~imeg/cms/rest/locations';
 
 
     constructor(private http: Http) { }
@@ -43,6 +46,17 @@ export class ContentService {
         const url = `${homeUrl}/${id}`;
 
         return this.http.get(url).map(response => response.json().object as HomePage);
+    }
+
+    getLocationsPage(id: number): Observable<LocationsPage> {
+      let homeUrl = 'http://bluemandle2.com/~imeg/cms/rest/home';
+      const url = `${homeUrl}/${id}`;
+      return this.http.get(url).map(response => response.json().object as LocationsPage);
+    }
+    getLocations(id: number): Promise<ModxLocationModel[]> {
+        //const url = `${this.locationsUrl}/${id}`;
+        const url = `${this.locationsUrl}/${id}`;
+        return this.http.get(url).toPromise().then(response => response.json().object.locations as ModxLocationModel[]);
     }
 
     getAboutPage(id: number): Observable<AboutPage> {
@@ -89,5 +103,3 @@ export class ContentService {
     }
 
 }
-
-

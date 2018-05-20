@@ -5,6 +5,7 @@ import {CoreModule} from './core/core.module';
 import {AppRoutingModule} from './app-routing.module';
 import {HomeModule} from './home/home.module';
 import {AboutModule} from './about/about.module';
+import { LocationsModule } from './locations/locations.module';
 import {LeadersModule} from './leaders/leaders.module';
 import {TagModule} from './tags/tag.module';
 import {ProjectsModule} from './projects/projects.module';
@@ -32,6 +33,7 @@ import { PresentationsModule } from './library/presentations/presentations.modul
     AppRoutingModule,
     HomeModule,
     AboutModule,
+    LocationsModule,
     VideosModule,
     ArticlesModule,
     PresentationsModule,
@@ -47,7 +49,7 @@ import { PresentationsModule } from './library/presentations/presentations.modul
     MatSidenavModule,
     MatButtonModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
   ],
   bootstrap: [AppComponent],
   providers: []
@@ -55,5 +57,3 @@ import { PresentationsModule } from './library/presentations/presentations.modul
 })
 export class AppModule {
 }
-
-

@@ -1,0 +1,1293 @@
+[01-Oct-2017 04:12:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/Projects.php:86) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 646
+[01-Oct-2017 04:12:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/Projects.php:86) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 647
+[01-Oct-2017 04:33:19 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 04:33:19 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 04:33:24 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 04:33:24 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 04:33:37 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 04:33:37 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 04:38:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/Projects.php:74) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 646
+[01-Oct-2017 04:38:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/Projects.php:74) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 647
+[01-Oct-2017 04:39:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/Projects.php:78) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 646
+[01-Oct-2017 04:39:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/Projects.php:78) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 647
+[01-Oct-2017 04:40:12 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 78
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:35:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:36:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:38:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 94
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 110
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 112
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 110
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 112
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 110
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 112
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 110
+[01-Oct-2017 05:45:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 112
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 93
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 106
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 108
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 106
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 108
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 106
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 108
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 106
+[01-Oct-2017 05:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 108
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:50:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 98
+[01-Oct-2017 05:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:56:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:57:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 99
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 05:59:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:00:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 104
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:03:28 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:04:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:05:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:06:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:07:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:09:24 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:10:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:12:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:13:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 107
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:15:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:16:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:17:46 UTC] PHP Warning:  Illegal offset type in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 127
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:18:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:21:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:22:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:22:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:22:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:22:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 103
+[01-Oct-2017 06:25:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:25:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:25:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:25:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:27:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:27:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:27:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:27:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:28:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:28:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:28:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:28:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:32:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:32:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:34:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:34:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:34:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:34:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:34:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:35:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:35:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:35:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:35:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:35:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:36:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:36:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:36:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:41:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:41:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:41:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:41:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:41:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:42:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:42:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:42:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:42:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 101
+[01-Oct-2017 06:42:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 124
+[01-Oct-2017 06:52:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:52:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:52:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:52:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:52:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:121
+Stack trace:
+#0 [internal function]: MyControllerProjects->post()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#2 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#3 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 121
+[01-Oct-2017 06:53:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:53:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:53:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:53:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:53:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 123
+[01-Oct-2017 06:54:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:54:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:54:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:54:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:54:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 123
+[01-Oct-2017 06:58:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:58:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:58:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:58:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:58:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 123
+[01-Oct-2017 06:59:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 123
+[01-Oct-2017 06:59:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 06:59:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 123
+[01-Oct-2017 07:02:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 07:02:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 07:02:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 07:02:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 100
+[01-Oct-2017 07:02:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 125
+[01-Oct-2017 07:10:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/core/model/modx/modtemplatevar.class.php:502
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/modtemplatevar.class.php(280): modTemplateVar->getRenderDirectories('OnTVOutputRende...', 'output')
+#1 /home/imeg/public_html/cms/core/model/modx/modresource.class.php(834): modTemplateVar->renderOutput(29)
+#2 /home/imeg/public_html/cms/rest/Controllers/Projects.php(96): modResource->getTVValue(33)
+#3 [internal function]: MyControllerProjects->post()
+#4 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#5 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#6 {main}
+  thrown in /home/imeg/public_html/cms/core/model/modx/modtemplatevar.class.php on line 502
+[01-Oct-2017 07:31:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 07:31:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 07:31:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 07:31:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 113
+[01-Oct-2017 07:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:116
+Stack trace:
+#0 [internal function]: MyControllerProjects->post()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#2 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#3 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 116
+[02-Oct-2017 20:57:36 UTC] PHP Catchable fatal error:  Object of class MyControllerProjects could not be converted to string in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 109
+[03-Oct-2017 04:33:42 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 117
+[03-Oct-2017 05:27:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:217
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(111): MyControllerProjects->getTemplateVariable('29', 28)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerProjects->read('29')
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 217
+[04-Oct-2017 15:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:31:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:31:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:31:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:33:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:35:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:35:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:35:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:39:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:39:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:42:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:43:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:51:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:52:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 15:55:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:29
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 29
+[04-Oct-2017 16:00:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:85
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(38): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 85
+[04-Oct-2017 16:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:83
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(38): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 83
+[04-Oct-2017 16:04:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:83
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(38): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 83
+[04-Oct-2017 16:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:213
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(27): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 213
+[04-Oct-2017 16:25:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:215
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(28): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 215
+[04-Oct-2017 16:25:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:215
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(28): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 215
+[04-Oct-2017 16:26:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:215
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(28): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 215
+[04-Oct-2017 16:26:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:213
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(26): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 213
+[04-Oct-2017 16:27:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:201
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(25): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 201
+[04-Oct-2017 16:30:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:199
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(25): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 199
+[04-Oct-2017 16:30:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:196
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(25): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 196
+[04-Oct-2017 16:31:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:201
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(25): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 201
+[04-Oct-2017 16:31:42 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 70
+[04-Oct-2017 16:31:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 70
+[04-Oct-2017 16:31:56 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 70
+[04-Oct-2017 16:32:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 70
+[04-Oct-2017 16:33:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:208
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(24): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 208
+[04-Oct-2017 16:40:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/imeg/public_html/cms/rest/Controllers/Projects.php:201
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(35): MyControllerProjects->getTagArray(42, 33)
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 201
+[04-Oct-2017 17:23:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:57
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 57
+[04-Oct-2017 17:23:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:57
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 57
+[04-Oct-2017 17:43:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagArray() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:38
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 38
+[04-Oct-2017 17:43:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagArray() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:79
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(24): MyControllerProjects->getAllProjects()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 79
+[04-Oct-2017 17:43:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagArray() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:79
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(24): MyControllerProjects->getAllProjects()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 79
+[04-Oct-2017 17:43:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagArray() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:79
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(24): MyControllerProjects->getAllProjects()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 79
+[04-Oct-2017 17:46:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagArray() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:38
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 38
+[04-Oct-2017 17:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagArray() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:38
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 38
+[04-Oct-2017 17:53:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:55
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 55
+[04-Oct-2017 17:54:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:55
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 55
+[04-Oct-2017 17:54:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:55
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 55
+[04-Oct-2017 17:54:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:55
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 55
+[04-Oct-2017 17:55:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:55
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 55
+[04-Oct-2017 17:56:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:54
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 54
+[04-Oct-2017 17:57:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:54
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 54
+[04-Oct-2017 17:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:54
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 54
+[04-Oct-2017 17:57:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:54
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 54
+[04-Oct-2017 17:59:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:37
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 37
+[04-Oct-2017 17:59:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:37
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(22): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 37
+[04-Oct-2017 18:02:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 25
+[04-Oct-2017 18:02:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 25
+[04-Oct-2017 18:02:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 25
+[04-Oct-2017 18:02:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 25
+[04-Oct-2017 18:04:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 25
+[04-Oct-2017 18:06:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:34
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(20): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 34
+[04-Oct-2017 18:07:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:34
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(20): MyControllerProjects->getFilteredProjects()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 34
+[04-Oct-2017 18:08:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:34
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(20): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 34
+[04-Oct-2017 18:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:34
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(20): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 34
+[04-Oct-2017 18:14:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:34
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(20): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 34
+[04-Oct-2017 18:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerProjects::getTagData() in /home/imeg/public_html/cms/rest/Controllers/Projects.php:34
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Projects.php(20): MyControllerProjects->getFilteredProjects('commercial')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerProjects->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerProjects))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Projects.php on line 34
+[05-Oct-2017 06:01:12 UTC] PHP Warning:  require_once(/home/imeg/public_html/cms/core/model/modx/modx.class.php): failed to open stream: No such file or directory in /home/imeg/public_html/cms/rest/index.php on line 4
+[05-Oct-2017 06:01:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/imeg/public_html/cms/core/model/modx/modx.class.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/imeg/public_html/cms/rest/index.php on line 4
+[05-Oct-2017 06:01:12 UTC] PHP Warning:  require_once(/home/imeg/public_html/cms/core/model/modx/modx.class.php): failed to open stream: No such file or directory in /home/imeg/public_html/cms/rest/index.php on line 4
+[05-Oct-2017 06:01:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/imeg/public_html/cms/core/model/modx/modx.class.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/imeg/public_html/cms/rest/index.php on line 4
+[05-Oct-2017 06:01:12 UTC] PHP Warning:  require_once(/home/imeg/public_html/cms/core/model/modx/modx.class.php): failed to open stream: No such file or directory in /home/imeg/public_html/cms/rest/index.php on line 4
+[05-Oct-2017 06:01:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/imeg/public_html/cms/core/model/modx/modx.class.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/imeg/public_html/cms/rest/index.php on line 4
+[05-Oct-2017 21:14:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getSelectedTagData() in /home/imeg/public_html/cms/rest/Controllers/Home.php:39
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(20): MyControllerHome->getProjects()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerHome->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 39
+[05-Oct-2017 21:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getSelectedTagData() in /home/imeg/public_html/cms/rest/Controllers/Home.php:39
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(20): MyControllerHome->getProjects()
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerHome->getList()
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 39
+[06-Oct-2017 06:38:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getTags() in /home/imeg/public_html/cms/rest/Controllers/Home.php:162
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(105): MyControllerHome->getFullProject('29')
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(48)
+#2 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#4 [internal function]: modRestController->get()
+#5 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#6 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#7 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 162
+[06-Oct-2017 06:39:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getTags() in /home/imeg/public_html/cms/rest/Controllers/Home.php:164
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(107): MyControllerHome->getFullProject('29')
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(48)
+#2 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#4 [internal function]: modRestController->get()
+#5 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#6 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#7 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 164
+[06-Oct-2017 06:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getTags() in /home/imeg/public_html/cms/rest/Controllers/Home.php:165
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(108): MyControllerHome->getFullProject('29')
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(48)
+#2 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#4 [internal function]: modRestController->get()
+#5 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#6 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#7 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 165
+[06-Oct-2017 06:41:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getTags() in /home/imeg/public_html/cms/rest/Controllers/Home.php:166
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(109): MyControllerHome->getFullProject('29')
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(48)
+#2 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#4 [internal function]: modRestController->get()
+#5 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#6 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#7 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 166
+[06-Oct-2017 06:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getTags() in /home/imeg/public_html/cms/rest/Controllers/Home.php:166
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(109): MyControllerHome->getFullProject('29')
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(48)
+#2 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#4 [internal function]: modRestController->get()
+#5 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#6 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#7 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 166
+[06-Oct-2017 06:44:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MyControllerHome::getTags() in /home/imeg/public_html/cms/rest/Controllers/Home.php:168
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(111): MyControllerHome->getFullProject('29')
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(48)
+#2 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#4 [internal function]: modRestController->get()
+#5 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#6 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#7 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 168
+[09-Oct-2017 19:38:19 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 84
+[10-Oct-2017 04:40:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/imeg/public_html/cms/rest/Controllers/Home.php:92
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(50)
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#3 [internal function]: modRestController->get()
+#4 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#5 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#6 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 92
+[10-Oct-2017 04:40:45 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/imeg/public_html/cms/rest/Controllers/Home.php:92
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(50)
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#3 [internal function]: modRestController->get()
+#4 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#5 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#6 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 92
+[10-Oct-2017 04:40:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/imeg/public_html/cms/rest/Controllers/Home.php:92
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(50)
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#3 [internal function]: modRestController->get()
+#4 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#5 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#6 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 92
+[10-Oct-2017 04:41:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/imeg/public_html/cms/rest/Controllers/Home.php:93
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Home.php(55): MyControllerHome->getTile(50)
+#1 /home/imeg/public_html/cms/rest/Controllers/Home.php(31): MyControllerHome->getTiles('1')
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerHome->read('1')
+#3 [internal function]: modRestController->get()
+#4 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerHome))
+#5 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#6 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Home.php on line 93
+[14-Oct-2017 04:53:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getLeader() in /home/imeg/public_html/cms/rest/Controllers/Leaders.php:63
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Leaders.php(31): MyControllerLeaders->getLeaders('51')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerLeaders->read('51')
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerLeaders))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Leaders.php on line 63
+[14-Oct-2017 04:53:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getLeader() in /home/imeg/public_html/cms/rest/Controllers/Leaders.php:63
+Stack trace:
+#0 /home/imeg/public_html/cms/rest/Controllers/Leaders.php(31): MyControllerLeaders->getLeaders('51')
+#1 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerLeaders->read('51')
+#2 [internal function]: modRestController->get()
+#3 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerLeaders))
+#4 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#5 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/Leaders.php on line 63
+[06-Mar-2018 17:25:20 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:25:22 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:25:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:25:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:25:31 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:25:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:25:40 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 16
+[06-Mar-2018 17:32:08 UTC] PHP Fatal error:  Uncaught TypeError: Return value of MyControllerPagesByAlias::read() must be of the type string, null returned in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php:13
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerPagesByAlias->read('10')
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerPagesByAlias))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 13
+[06-Mar-2018 17:32:08 UTC] PHP Fatal error:  Uncaught TypeError: Return value of MyControllerPagesByAlias::read() must be of the type string, null returned in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php:13
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(437): MyControllerPagesByAlias->read('10')
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerPagesByAlias))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/PagesByAlias.php on line 13
+[06-Mar-2018 17:45:27 UTC] PHP Warning:  Illegal offset type in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 209
+[06-Mar-2018 17:45:27 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 196
+[06-Mar-2018 17:45:44 UTC] PHP Warning:  Illegal offset type in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 209
+[06-Mar-2018 17:45:44 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 196
+[06-Mar-2018 17:45:48 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 196
+[06-Mar-2018 17:48:03 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 196
+[06-Mar-2018 17:48:14 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php on line 196
+[08-Mar-2018 23:44:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method xPDOQuery_mysql::outerJoin() in /home/imeg/public_html/cms/rest/Controllers/News.php:21
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 21
+[08-Mar-2018 23:48:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method xPDOQuery_mysql::outerJoin() in /home/imeg/public_html/cms/rest/Controllers/News.php:21
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 21
+[08-Mar-2018 23:48:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method xPDOQuery_mysql::outerJoin() in /home/imeg/public_html/cms/rest/Controllers/News.php:21
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 21
+[08-Mar-2018 23:48:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method xPDOQuery_mysql::outerJoin() in /home/imeg/public_html/cms/rest/Controllers/News.php:21
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 21
+[08-Mar-2018 23:58:10 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:10 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:11 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:11 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:12 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:12 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:12 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:12 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:21 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:21 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:22 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:22 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:22 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:22 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:23 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:23 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:23 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:30 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:31 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:31 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:51 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type modDocument_mysql as array in /home/imeg/public_html/cms/rest/Controllers/News.php:43
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43
+[08-Mar-2018 23:58:52 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:52 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type modDocument_mysql as array in /home/imeg/public_html/cms/rest/Controllers/News.php:43
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43
+[08-Mar-2018 23:58:52 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:52 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type modDocument_mysql as array in /home/imeg/public_html/cms/rest/Controllers/News.php:43
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43
+[08-Mar-2018 23:58:52 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 49
+[08-Mar-2018 23:58:52 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type modDocument_mysql as array in /home/imeg/public_html/cms/rest/Controllers/News.php:43
+Stack trace:
+#0 /home/imeg/public_html/cms/core/model/modx/rest/modrestcontroller.class.php(435): MyControllerNews->getList()
+#1 [internal function]: modRestController->get()
+#2 /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php(158): ReflectionMethod->invoke(Object(MyControllerNews))
+#3 /home/imeg/public_html/cms/rest/index.php(23): modRestService->process()
+#4 {main}
+  thrown in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43
+[08-Mar-2018 23:59:46 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 50
+[08-Mar-2018 23:59:47 UTC] PHP Warning:  Missing argument 2 for MyControllerNews::getTemplateVariable(), called in /home/imeg/public_html/cms/rest/Controllers/News.php on line 43 and defined in /home/imeg/public_html/cms/rest/Controllers/News.php on line 50
+[19-Mar-2018 22:47:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php:46) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 646
+[19-Mar-2018 22:47:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php:46) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 647
+[19-Mar-2018 22:47:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php:46) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 646
+[19-Mar-2018 22:47:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php:46) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 647
+[19-Mar-2018 22:47:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php:47) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 646
+[19-Mar-2018 22:47:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php:47) in /home/imeg/public_html/cms/core/model/modx/rest/modrestservice.class.php on line 647
+[19-Mar-2018 22:48:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php on line 48
+[19-Mar-2018 22:48:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php on line 48
+[19-Mar-2018 22:48:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php on line 48
+[19-Mar-2018 22:48:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php on line 48
+[19-Mar-2018 22:48:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/imeg/public_html/cms/rest/Controllers/SubpagesByParentId.php on line 48
