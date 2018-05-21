@@ -25,7 +25,7 @@ export class LocationsComponent implements OnInit {
 
     ngOnInit(): void {
 
-        //this.contentService.getLocationsPage(this.pageId).subscribe(result => this.onLocationsPage(result));
+        this.contentService.getLocationsPage(this.pageId).subscribe(result => this.onLocationsPage(result));
 
         this.contentService.getLocations(this.pageId).then(response => this.onLocationsResponse(response));
     }
@@ -50,8 +50,9 @@ export class LocationsComponent implements OnInit {
 
             let imegLocations = new ImegLocations(location.MIGX_id, location.city, location.info, this.globals.uploadsPath + location.image);
             this.locations.push(imegLocations);
+            console.log('locations: ' + imegLocations);
             //console.log('state: ' + imegSlide.state);
-            console.log('image path: ' + imegLocations.image);
+            //console.log('image path: ' + imegLocations.image);
 
 
             /*

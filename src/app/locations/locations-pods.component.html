@@ -1,5 +1,5 @@
-<div class="transition rgba-background clearfix grpelem"><!-- content -->
+<div class="transition rgba-background clearfix grpelem" *ngFor="let location of locations"><!-- content -->
  <h3>{{location.city}}</h3>
- {{location.info}}
+ <div innerHTML="{{location.info}}"></div>
  <img src="{{location.image}}"/>
 </div>

@@ -1,8 +1,15 @@
+<div class="clearfix borderbox" id="page" style=""><!-- group -->
+
 <section class="page-content">
     <div class="max-width-container">
-      test
 
-        <app-locations></app-locations>
+        <feature-tiles [tiles]="locationsPage.tiles" [baseAssetsPath]="globals.uploadsPath"></feature-tiles>
+
+        <h1>North American Locations</h1>
+
+        <app-locations [locations]="locations"></app-locations>
 
     </div>
 </section>
+
+</div>
