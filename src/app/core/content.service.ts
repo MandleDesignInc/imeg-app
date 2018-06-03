@@ -58,6 +58,11 @@ export class ContentService {
         const url = `${this.locationsUrl}/${id}`;
         return this.http.get(url).toPromise().then(response => response.json().object.locations as ModxLocationModel[]);
     }
+    getInternationalLocations(id: number): Promise<ModxLocationModel[]> {
+        //const url = `${this.locationsUrl}/${id}`;
+        const url = `${this.locationsUrl}/${id}`;
+        return this.http.get(url).toPromise().then(response => response.json().object.internationalLocations as ModxLocationModel[]);
+    }
 
     getAboutPage(id: number): Observable<AboutPage> {
         let aboutUrl = 'http://bluemandle2.com/~imeg/cms/rest/about';

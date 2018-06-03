@@ -5,9 +5,15 @@
 
         <feature-tiles [tiles]="locationsPage.tiles" [baseAssetsPath]="globals.uploadsPath"></feature-tiles>
 
-        <h1>North American Locations</h1>
+        <h2>North American Locations</h2>
+        <div class="max-width-container flex-grid-fifths">
+          <app-locations [locations]="locations"></app-locations>
+        </div>
 
-        <app-locations [locations]="locations"></app-locations>
+        <h2>International Locations</h2>
+        <div class="max-width-container flex-grid-fifths">
+          <app-locations [locations]="internationalLocations"></app-locations>
+        </div>
 
     </div>
 </section>

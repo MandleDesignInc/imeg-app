@@ -4,7 +4,7 @@ import {LocationsPage} from './locations-model';
 import {ContentService} from '../core/content.service';
 import {Globals} from '../core/globals';
 import {DomSanitizer} from '@angular/platform-browser';
-import {ImegLocations, ModxLocationModel} from "./location";
+import {ImegLocations, InternationalLocations, ModxLocationModel} from "./location";
 
 
 @Component({
@@ -18,6 +18,7 @@ export class LocationsComponent implements OnInit {
     locationsPage: LocationsPage;
 
     locations: ImegLocations[] = [];
+    internationalLocations: InternationalLocations[] = [];
 
     contentReady: boolean;
 
@@ -28,6 +29,8 @@ export class LocationsComponent implements OnInit {
         this.contentService.getLocationsPage(this.pageId).subscribe(result => this.onLocationsPage(result));
 
         this.contentService.getLocations(this.pageId).then(response => this.onLocationsResponse(response));
+
+        this.contentService.getInternationalLocations(this.pageId).then(responseI => this.internationalResponse(responseI));
     }
 
     onLocationsPage (locationsPage: LocationsPage): void {
@@ -65,6 +68,16 @@ export class LocationsComponent implements OnInit {
 
             this.slides.push(slideObj);
             */
+        });
+
+        if (this.locationsPage) this.contentReady = true;
+    }
+    internationalResponse(responseI: ModxLocationModel[]): void {
+
+        responseI.forEach(internationalLocation => {
+            let internationalLocations = new InternationalLocations(internationalLocation.MIGX_id, internationalLocation.city, internationalLocation.info, this.globals.uploadsPath + internationalLocation.image);
+            this.internationalLocations.push(internationalLocations);
+            console.log('International locations: ' + internationalLocations);
         });
 
         if (this.locationsPage) this.contentReady = true;

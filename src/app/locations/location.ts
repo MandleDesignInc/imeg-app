@@ -3,6 +3,11 @@ export class ImegLocations {
 
   }
 }
+export class InternationalLocations {
+  constructor(public id: string, public city: string, public info: string, public image: string) {
+
+  }
+}
 
 export class ModxLocationModel {
 
