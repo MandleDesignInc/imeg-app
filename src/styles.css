@@ -28,13 +28,22 @@ body, div, dl, dt, dd, ul, ol, li, nav, h1, h2, h3, h4, h5, h6, pre, code, form,
     transform-origin: left top;
     background-repeat: no-repeat;
 }
-
+.H1-title {
+    color: #6D6F71;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    padding: 0px 10px 0px 0px;
+}
 .h2-title {
     color: #3E3E3E;
     font-family: acumin-pro-extra-condensed, sans-serif;
     font-size: 38px;
     font-weight: 700;
     text-align: left;
+    line-height: 70px;
     padding: 0px;
 }
 .H2-Project,.mat-grid-tile-footer {
@@ -72,6 +81,10 @@ a:link {
     line-height: 28px;
     text-align: left;
     padding: 0px;
+}
+
+.Character-Style-1, .Character-Style-2 {
+    color: #6D6F71;
 }
 
 /*.page-content * {*/

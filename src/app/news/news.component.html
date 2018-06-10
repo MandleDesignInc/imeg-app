@@ -7,7 +7,7 @@
           <span *ngIf="newsItem.image" class="image"><img [src]="newsItem.image"></span>
           <span class="content">
             <span class="title">{{ newsItem.pagetitle }}</span>
-            <span class="date">{{ newsItem.createdon | date }}</span>
+            <span class="date">{{ newsItem.publishedon | date }}</span>
             <span class="introtext">{{ newsItem.introtext }}</span>
           </span>
         </a>
@@ -16,7 +16,3 @@
     </span>
   </div>
 </section>
-
-
-
-

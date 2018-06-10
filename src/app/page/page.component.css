@@ -12,3 +12,7 @@ section span {
     margin: auto;
     padding: 2.5vw 5vw;
 }
+
+p {
+  margin-bottom: 20px;
+}
