@@ -33,7 +33,6 @@ export class NewsPageComponent implements OnInit {
 
     onPageResponse(page: Page): void {
         page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);
-        page.title = page.pagetitle;
 
         this.page = page;
     }
