@@ -11,6 +11,7 @@ section span {
     max-width: 1200px;
     margin: auto;
     padding: 2.5vw 5vw;
+    overflow: hidden;
 }
 
 p {

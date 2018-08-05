@@ -1,5 +1,6 @@
 section {
     font-size: 18px;
+    font-family: acumin-pro-extra-condensed, sans-serif;
 }
 
 .max-width-container {
@@ -9,8 +10,10 @@ section {
 }
 
 .group-title {
-    color: #01518C;
-    font-size: 30px;
+    color: #6D6F71;
+    line-height: 46px;
+    font-size: 38px;
+    font-weight: bold;
     width: 100%;
     text-align: center;
 }
@@ -36,11 +39,19 @@ section {
 
 mat-card {
     width: 200px;
-    padding: 8px;
+    padding: 0px;
+    margin: 6px;
     background: none;
     border: none;
     box-shadow: none !important;
     min-height: 275px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+}
+mat-card:hover {
+  background-color: rgba(175,176,177,0.1);
+  border: 2px solid #C7C3C3;
 }
 
 mat-card img {
@@ -48,9 +59,11 @@ mat-card img {
 }
 
 mat-card-footer {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;*/
+    position: relative;
+    overflow: hidden;
     text-align: center;
     padding: 5px 10px;
 }
@@ -58,9 +71,14 @@ mat-card-footer {
 .name {
     color: #01518C;
     font-size: 22px;
+    line-height: 26px;
 }
 .title, .subtitle {
     color: #6D6F71;
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 20px;
 
+}
+.name,.title,.subtitle {
+  display: block;
 }

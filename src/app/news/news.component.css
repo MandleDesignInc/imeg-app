@@ -18,6 +18,7 @@ section span {
   margin-bottom: 25px;
   padding-bottom: 5px;
   border-bottom: 1px solid #ccc;
+  font-family: acumin-pro-extra-condensed, sans-serif;
 }
 
 .news-item span {
@@ -33,18 +34,21 @@ section span {
 
 .news-item .title {
   color: #01518C;
-  font-size: 22px;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: bold;
 }
 
 .news-item .date {
   color: #01518C;
-  font-size: 22px;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: normal;
 }
 
 .news-item .introtext {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .news-item .image {
@@ -65,4 +69,3 @@ section span {
 .news-item .image img {
   max-width: 100%;
 }
-

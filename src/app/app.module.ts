@@ -20,11 +20,12 @@ import { VideosModule } from './library/videos/videos.module';
 import { NewslettersModule } from './library/newsletters/newsletters.module';
 import { ArticlesModule } from './library/articles/articles.module';
 import { PresentationsModule } from './library/presentations/presentations.module';
+import { RegionModule } from './region/region.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +51,7 @@ import { PresentationsModule } from './library/presentations/presentations.modul
     MatButtonModule,
     MatInputModule,
     MatIconModule,
+    RegionModule
   ],
   bootstrap: [AppComponent],
   providers: []

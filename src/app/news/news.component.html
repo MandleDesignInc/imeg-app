@@ -6,7 +6,7 @@
         <a [routerLink]="['/news/', newsItem.alias]">
           <span *ngIf="newsItem.image" class="image"><img [src]="newsItem.image"></span>
           <span class="content">
-            <span class="title">{{ newsItem.pagetitle }}</span>
+            <h2 class="title">{{ newsItem.pagetitle }}</h2>
             <span class="date">{{ newsItem.publishedon | date }}</span>
             <span class="introtext">{{ newsItem.introtext }}</span>
           </span>

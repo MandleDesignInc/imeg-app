@@ -11,6 +11,7 @@ import {Http} from "@angular/http";
 import {ImegSlide, ModxSlideModel} from "../home/slide";
 import {LocationsPage} from '../locations/locations-model';
 import {ImegLocations, ModxLocationModel} from "../locations/location";
+import {Region} from '../region/region-model';
 
 
 
@@ -104,6 +105,14 @@ export class ContentService {
         const url = `${projectsUrl}/${id}`;
 
         return this.http.get(url).map(response => response.json().object.projects as Project);
+
+    }
+
+    getRegion(alias: string): Observable<Region> {
+        let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/regions';
+        const url = `${regionUrl}/${alias}`;
+
+        return this.http.get(url).map(response => response.json().object.projects as Region);
 
     }
 

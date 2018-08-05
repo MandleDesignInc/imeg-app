@@ -37,7 +37,7 @@ class MyControllerProjects extends modRestController {
         }
 
         $tagData = $this->getSelectedTagData($tag);
-        
+
 
         $result = array();
         $result['projects'] = $projects;
@@ -95,6 +95,12 @@ class MyControllerProjects extends modRestController {
         $lower = strtolower($spaceToDashes);
         return $lower;
     }
+    public function formatTagBreaks($tag) {
+        $pipesToCommas= str_replace('||', ',', $tag);
+        $spaceToDashes = str_replace(',', '\\n', strtolower($pipesToCommas));
+        $lower = strtolower($spaceToDashes);
+        return $lower;
+    }
 
     public function getSelectedTagData($tag) {
         $tagList = array();
@@ -124,7 +130,7 @@ class MyControllerProjects extends modRestController {
 
     public function getTags($id) {
         $result = array();
-        
+
         $result['services'] = explode(',', $this->formatTag($this->getTemplateVariable($id, 33)));
         $result['markets'] = explode(',', $this->formatTag($this->getTemplateVariable($id, 35)));
 

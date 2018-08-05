@@ -1,6 +1,7 @@
 <section *ngIf="page" class="page-content">
     <div class="max-width-container">
 
+        <h1 *ngIf="page.longtitle" class="H1-title">{{page.longtitle}}</h1>
         <span [innerHTML]="page.safeContent"></span>
 
     </div>

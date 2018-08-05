@@ -2,8 +2,10 @@
 
 class MyControllerNews extends modRestController {
     public $classKey = 'modResource';
-    public $defaultSortField = 'id';
-    public $defaultSortDirection = 'ASC';
+    /*public $defaultSortField = 'id';
+    public $defaultSortDirection = 'ASC';*/
+    public $defaultSortField = 'publishedon';
+    public $defaultSortDirection = 'DESC';
 
     /**
      * Abstract method for routing GET requests without a primary key passed. Must be defined in your derivative
@@ -20,7 +22,7 @@ class MyControllerNews extends modRestController {
         $c->innerJoin('modTemplateVar','TemplateVar','`TemplateVar`.`id` = `TemplateVarResources`.`tmplvarid`');
         $c->where(array('parent' => 270));
         $c = $this->prepareListQueryBeforeCount($c);
-      
+
         $total = $this->modx->getCount($this->classKey,$c);
         $alias = !empty($this->classAlias) ? $this->classAlias : $this->classKey;
         $c->select($this->modx->getSelectColumns($this->classKey,$alias));
@@ -38,13 +40,18 @@ class MyControllerNews extends modRestController {
         foreach ($objects as $object) {
             $preparedListObject = $this->prepareListObject($object);
             $uploadsPath = 'http://bluemandle2.com/~imeg/cms/assets/uploads/';
-            $image = $uploadsPath . $this->getTemplateVariable($preparedListObject['id'], 65);
-            $preparedListObject['image'] = $image;
+            $image = $this->getTemplateVariable($preparedListObject['id'], 65);
+            if($image!=''){
+              $finalImage = $uploadsPath . $image;
+            } else {
+              $finalImage = '';
+            }
+            $preparedListObject['image'] = $finalImage;
             $list[] = $preparedListObject;
         }
         return $this->collection($list,$total);
     }
-    
+
     public function getTemplateVariable($id, $tvId, $richText = false) {
 
         $tv = $this->modx->getObject('modTemplateVarResource', array('tmplvarid' => $tvId, 'contentid' => $id));

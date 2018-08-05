@@ -88,7 +88,7 @@ class MyControllerLeaders extends modRestController {
         $leader['phone'] = $this->getTemplateVariable($id, 67);
 
         // image
-        $leader['image'] = $this->getTemplateVariable($id, 65);
+        $leader['image'] = $this->getTemplateVariable($id, 70);
         if ($leader['image'] != "") $leader['image'] = $uploadsPath . $leader['image'];
 
         // markets

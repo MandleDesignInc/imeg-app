@@ -4,7 +4,7 @@
  * Date: 9/30/17
  */
 
-class MyControllerProjects extends modRestController {
+class MyControllerRegions extends modRestController {
     public $classKey = 'modResource';
     public $defaultSortField = 'id';
     public $defaultSortDirection = 'ASC';

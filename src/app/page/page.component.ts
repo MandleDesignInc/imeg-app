@@ -33,7 +33,8 @@ export class PageComponent implements OnInit {
 
     onPageResponse(page: Page): void {
         page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);
-
+        page.longtitle = page.longtitle;
+        
         this.page = page;
     }
 
