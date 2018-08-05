@@ -14,7 +14,7 @@ import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
 })
 export class RegionComponent implements OnInit {
 
-  page: Page;
+  region: Region;
 
   constructor(
       private contentService: ContentService,
@@ -25,18 +25,9 @@ export class RegionComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.route.paramMap
+            .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('alias')))
 
-      this.route.paramMap
-              .switchMap((params: ParamMap) => this.contentService.getPageObservable(params.get('alias')))
-              .subscribe(page => this.onPageResponse(page), error => this.router.navigate(['/page-not-found']));
-
-  }
-
-  onPageResponse(page: Page): void {
-      page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);
-      page.longtitle = page.longtitle;
-
-      this.page = page;
   }
 
 }

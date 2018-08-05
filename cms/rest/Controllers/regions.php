@@ -1,7 +1,7 @@
 <?php
 /**
- * Created by Ryan Potsander
- * Date: 9/30/17
+ * Created by Justin McDanel
+ * Date: 8/5/18
  */
 
 class MyControllerRegions extends modRestController {

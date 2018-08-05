@@ -7,12 +7,4 @@ export class Region {
     subtitle: string;
     alias: string;
     content: string;
-    safeContent: SafeHtml;
-    headerImage: string;
-    previewImage: string;
-    location: string;
-    size: string;
-    sidebarContent: string;
-    safeSidebarContent: SafeHtml;
-    tags: TagList;
 }
