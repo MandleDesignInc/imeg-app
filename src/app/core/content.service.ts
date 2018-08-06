@@ -112,7 +112,7 @@ export class ContentService {
         let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/regions';
         const url = `${regionUrl}/${alias}`;
 
-        return this.http.get(url).map(response => response.json().object.projects as Region);
+        return this.http.get(url).map(response => response.json().object.region as Region);
 
     }
 

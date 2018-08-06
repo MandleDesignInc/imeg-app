@@ -26,7 +26,7 @@ export class RegionComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap
-            .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('alias')))
+            .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('id')))
 
   }
 
