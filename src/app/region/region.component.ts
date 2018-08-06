@@ -27,7 +27,16 @@ export class RegionComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap
             .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('id')))
+            .subscribe(region => this.onProjectResult(region));
+  }
 
+  onProjectResult(region: Region): void {
+
+      if (region.content) region.safeContent = this.sanitizer.bypassSecurityTrustHtml(region.content);
+
+      if (region.sidebarContent) region.safeSidebarContent = this.sanitizer.bypassSecurityTrustHtml(region.sidebarContent);
+
+      this.region = region;
   }
 
 }

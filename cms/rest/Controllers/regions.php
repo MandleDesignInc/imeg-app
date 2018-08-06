@@ -1,10 +1,10 @@
 <?php
 /**
- * Created by Justin McDanel
- * Date: 8/5/18
+ * Created by Ryan Potsander
+ * Date: 9/30/17
  */
 
-class MyControllerRegions extends modRestController {
+class MyControllerRegion extends modRestController {
     public $classKey = 'modResource';
     public $defaultSortField = 'id';
     public $defaultSortDirection = 'ASC';
@@ -16,7 +16,7 @@ class MyControllerRegions extends modRestController {
      * @abstract
      * @return array
      */
-  /*  public function getList() {
+    public function getList() {
         return $this->success('', $this->getProjects());
     }
 
@@ -52,7 +52,7 @@ class MyControllerRegions extends modRestController {
     public function collection($list = array(), $total = false, $status = null) {
 
         return parent::collection($list, $total, $status);
-    }*/
+    }
 
 
     public function read($id) {
@@ -73,7 +73,7 @@ class MyControllerRegions extends modRestController {
 
 
         $objectArray = array();
-        $objectArray['region'] = $this->getRegion($id);
+        $objectArray['projects'] = $this->getFullProject($id);
 
         return $this->success('',$objectArray);
     }
@@ -89,18 +89,94 @@ class MyControllerRegions extends modRestController {
 
     }
 
+    public function formatTag($tag) {
+        $pipesToCommas= str_replace('||', ',', $tag);
+        $spaceToDashes = str_replace(' ', '-', strtolower($pipesToCommas));
+        $lower = strtolower($spaceToDashes);
+        return $lower;
+    }
+    public function formatTagBreaks($tag) {
+        $pipesToCommas= str_replace('||', ',', $tag);
+        $spaceToDashes = str_replace(',', '\\n', strtolower($pipesToCommas));
+        $lower = strtolower($spaceToDashes);
+        return $lower;
+    }
+
+    public function getSelectedTagData($tag) {
+        $tagList = array();
+        $tagList['services'] = json_decode($this->getTemplateVariable(23, 32), true);
+        $tagList['markets'] = json_decode($this->getTemplateVariable(24, 32), true);
+
+
+        $result = array();
+        $result['headerImage'] = 'default';
+        $result['tag'] = 'default';
+        $result['content'] = 'default';
+
+        foreach ($tagList as $list) {
+            foreach ($list as $item) {
+                if ($this->formatTag($item['name']) == $tag) {
+                    $result['headerImage'] = $item['image'];
+                    $result['tag'] = $item['name'];
+                    $result['content'] = $item['text'];
+
+                    break 2;
+                }
+            }
+        }
+
+        return $result;
+    }
+
+    public function getTags($id) {
+        $result = array();
+
+        $result['services'] = explode(',', $this->formatTag($this->getTemplateVariable($id, 33)));
+        $result['markets'] = explode(',', $this->formatTag($this->getTemplateVariable($id, 35)));
+
+        foreach ($result as $item) {
+
+            foreach ($item as $tag) {
+
+                $this->formatTag($tag);
+            }
+        }
+
+        return $result;
+    }
+
+
+    public function getPartialProject($id) {
+        $page = $this->modx->getObject('modResource', $id);
+
+        $project['id'] = $id;
+        $project['title'] = $page->get('pagetitle');
+        $project['previewImage'] = $this->getTemplateVariable($id, 31);
+        $project['tags'] = $this->getTags($id);
+        $project['path'] = str_replace(' ', '-', strtolower($page->get('pagetitle')));
+
+        return $project;
+    }
+
     // TODO: review and refactor, this assumes $this refers to the correct project
-    public function getRegion($id) {
-        $region = array();
+    public function getFullProject($id) {
+        $project = array();
 
-        $region['id'] = $id;
-        $region['title'] = $this->object->pagetitle;
-        //$region['subtitle'] = $this->getTemplateVariable($id, 36, true);
-        $region['alias'] = $this->object->alias;
-        $region['content'] = $this->object->content;
+        $project['id'] = $id;
+        $project['title'] = $this->object->pagetitle;
+        $project['subtitle'] = $this->getTemplateVariable($id, 36, true);
+        $project['alias'] = $this->object->alias;
+        $project['content'] = $this->object->content;
+        $project['headerImage'] = $this->getTemplateVariable($id, 25);
+        $project['previewImage'] = $this->getTemplateVariable($id, 31);
+        $project['location'] = $this->getTemplateVariable($id, 26);
+        $project['size'] = $this->getTemplateVariable($id, 27);
+        $project['sidebarContent'] = $this->getTemplateVariable($id, 28, true);
+        $project['tags'] = $this->getTags($id);
+        // $project['tag'] = $id;
 
 
-        return $region;
+        return $project;
     }
 
 
