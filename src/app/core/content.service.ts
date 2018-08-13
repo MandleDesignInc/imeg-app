@@ -108,12 +108,17 @@ export class ContentService {
 
     }
 
-    getRegion(alias: string): Observable<Region> {
-        let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/regions';
+    /*getRegion(alias: string): Observable<Region> {
+        let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
         const url = `${regionUrl}/${alias}`;
 
-        return this.http.get(url).map(response => response.json().object.projects as Region);
+        return this.http.get(url).map(response => response.json().object as Region);
+    }*/
 
+    getRegion(alias: string): Observable<Region> {
+        let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
+        const url = `${regionUrl}?alias=${alias}`;
+        return this.http.get(url).map(response => response.json().object as Region);
     }
 
 }

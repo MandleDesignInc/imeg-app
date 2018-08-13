@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, ParamMap, Router} from '@angular/router';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import 'rxjs/add/operator/switchMap';
-import {Region} from './region-model';
-import {Page} from '../core/content-model';
+import {Region, Article, regionArticles} from './region-model';
 import {Globals} from '../core/globals';
 import {ContentService} from '../core/content.service';
 import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
@@ -15,6 +14,7 @@ import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
 export class RegionComponent implements OnInit {
 
   region: Region;
+  articles: Article[];
 
   constructor(
       private contentService: ContentService,
@@ -26,17 +26,21 @@ export class RegionComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap
-            .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('id')))
-            .subscribe(region => this.onProjectResult(region));
-  }
+            .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('alias')))
+            //.subscribe(result => this.region = result);
+            .subscribe(region => this.onRegionLoaded(region));
+    }
 
-  onProjectResult(region: Region): void {
+    onRegionLoaded(region: Region): void {
 
-      if (region.content) region.safeContent = this.sanitizer.bypassSecurityTrustHtml(region.content);
+        // TODO: need refactoring here
 
-      if (region.sidebarContent) region.safeSidebarContent = this.sanitizer.bypassSecurityTrustHtml(region.sidebarContent);
+        //article.content = this.sanitizer.bypassSecurityTrustHtml(region.news.articles.content);
+        region.safeMap = this.sanitizer.bypassSecurityTrustHtml(region.map);
+        region.headerBackgroundImage = this.globals.uploadsPath + region.headerImage;
+        //region.page.content = this.sanitizer.bypassSecurityTrustHtml(region.page.content);
 
-      this.region = region;
-  }
+        this.region = region;
 
+    }
 }
