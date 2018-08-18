@@ -10,25 +10,50 @@ export class Region {
 
     headerImage: string;
     headerBackgroundImage: string;
-
-    news: string;
     projectHeadline: string;
-    projects: string;
 
-    headline: string;
-    articles: string;
-    project: string;
+    news: News;
 
+    projects: Projects;
+
+    contacts: Contact;
+
+    locations: Location;
 
     map: string;
     safeMap: SafeHtml;
 }
 
+export class News {
+  headline: string;
+  articles: Article;
+}
+
 export class Article {
   title: string;
   content: string;
+  safeContent: SafeHtml;
   link: string;
 }
-export class regionArticles {
-  articles: Article[];
+
+export class Projects {
+  project: Project;
+}
+
+export class Project {
+  projectHeadline: string;
+  previewImage: string;
+  title: string;
+  path: string;
+}
+
+export class Contact {
+  name: string;
+  title: string;
+  email: string;
+}
+
+export class Location {
+  title: string;
+  description: string;
 }

@@ -67,6 +67,19 @@
       <div class="max-width-container">
         <div class="H1-title" style="color: #01518C; display: block; width: 100%;">Contact Us</div>
         <div [innerHTML]="region.safeMap"></div>
+        <div>
+          <div *ngFor="let location of region.locations">
+            <h4>{{location.title}}</h4>
+            {{location.description}}
+          </div>
+        </div>
+        <div>
+          <div *ngFor="let contact of region.contacts">
+            <h4>{{contact.name}}</h4>
+            {{contact.title}}
+            {{contact.email}}
+          </div>
+        </div>
       </div>
 
     </section>
