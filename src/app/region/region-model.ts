@@ -14,6 +14,9 @@ export class Region {
 
     news: News;
 
+    projectSpotlightProjects: string;
+    projectSpotlight: string;
+
     projects: Projects;
 
     contacts: Contact;
@@ -56,4 +59,5 @@ export class Contact {
 export class Location {
   title: string;
   description: string;
+  descriptionSafe: SafeHtml;
 }

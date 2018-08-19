@@ -16,18 +16,26 @@
 
     <section class="page-content">
 
-        <div class="max-width-container">
+        <div class="max-width-container spotlight">
 
-          <h2 class="H1-title" style="color: #01518C; display: block; width: 100%;">{{region.news.headline}}</h2>
-          <hr/>
-
-            <div *ngFor="let articles of region.news.articles">
-
-                <h4>{{articles.title}}</h4>
-                {{articles.content}}
-                <hr/>
-
+          <div class="projectSpotlight">
+            <div class="projectSpotlightInner">
+              <h2 class="H1-title" style="color: #01518C;">Project Spotlight</h2><h3>{{region.projectSpotlight}}</h3>
             </div>
+          </div>
+
+          <div class="news">
+            <h2 class="H1-title" style="color: #01518C; display: block; width: 100%;">{{region.news.headline}}</h2>
+            <hr/>
+
+              <div *ngFor="let articles of region.news.articles">
+
+                  <h4>{{articles.title}}</h4>
+                  {{articles.content}}
+                  <hr/>
+
+              </div>
+          </div>
 
         </div>
 
@@ -65,19 +73,29 @@
     <section class="page-content">
 
       <div class="max-width-container">
+
         <div class="H1-title" style="color: #01518C; display: block; width: 100%;">Contact Us</div>
-        <div [innerHTML]="region.safeMap"></div>
-        <div>
-          <div *ngFor="let location of region.locations">
-            <h4>{{location.title}}</h4>
-            {{location.description}}
+
+        <div class="contact">
+          <div class="map">
+            <div [innerHTML]="region.safeMap"></div>
           </div>
-        </div>
-        <div>
-          <div *ngFor="let contact of region.contacts">
-            <h4>{{contact.name}}</h4>
-            {{contact.title}}
-            {{contact.email}}
+          <div class="locations">
+            <div *ngFor="let location of region.locations">
+              <img class="arrow" src="http://bluemandle2.com/~imeg/assets/images/imeg_arrow.png" alt="" width="14" height="20">
+              <h4>{{location.title}}</h4>
+              {{location.description}}
+              <div [innerHTML]="location.descriptionSafe"></div>
+            </div>
+          </div>
+          <div class="contacts">
+            <img class="arrow" src="http://bluemandle2.com/~imeg/assets/images/imeg_arrow.png" alt="" width="14" height="20">
+            <h6>Contacts</h6>
+            <div *ngFor="let contact of region.contacts">
+              <h4>{{contact.name}}</h4>
+              {{contact.title}}
+              {{contact.email}}
+            </div>
           </div>
         </div>
       </div>

@@ -70,6 +70,39 @@ section main .right {
     justify-content: space-between;
 }
 
+.projectSpotlight {
+  grid-area: spotlight;
+}
+.news {
+  grid-area: news;
+}
+.spotlight {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 20px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "spotlight news";
+
+  font-family: acumin-pro-extra-condensed, sans-serif;
+}
+
+.projectSpotlight {
+    border: 3px solid #c7c3c3;
+}
+.projectSpotlightInner {
+  width: 97%;
+  margin-left: 1.5%;
+}
+.projectSpotlightInner H2, .projectSpotlightInner H3 {
+  display: inline-block;
+}
+.projectSpotlightInner H3 {
+  font-size: 39px;
+  line-height: 39px;
+  color: #6D6F71;
+}
+
 @media (max-width: 960px) {
 
     section main {
@@ -138,4 +171,38 @@ mat-card-title {
     display: block;
     height: 0px;
     clear: both;
+}
+
+.map {
+  grid-area: map
+}
+.locations {
+  grid-area: locations;
+}
+.contacts{
+  grid-area: contacts;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 6fr 2fr 4fr;
+  grid-gap: 20px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "map locations contacts";
+
+  font-family: acumin-pro-extra-condensed, sans-serif;
+}
+
+.locations .ng-star-inserted, .contacts .ng-star-inserted {
+  margin-bottom: 20px;
+}
+.arrow {
+  display: inline-block;
+  margin-right: 5px;
+}
+.locations h4, .contacts h6 {
+  display: inline-block;
+  line-height: 28px;
+    color: #01518C;
+    font-size: 23px;
 }

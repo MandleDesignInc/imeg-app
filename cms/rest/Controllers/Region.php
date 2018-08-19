@@ -25,6 +25,8 @@ class MyControllerRegion extends modRestController {
         $objectArray['subtitle'] = $this->getTemplateVariable($this->object->id, 36);
         $objectArray['news']['headline'] = $this->getTemplateVariable($this->object->id, 84);
         $objectArray['news']['articles'] = json_decode($this->getTemplateVariable($this->object->id, 85));
+        $objectArray['projectSpotlightProjects'] = json_decode($this->getTemplateVariable($this->object->id, 81));
+        $objectArray['projectSpotlight'] =  $this->getTemplateVariable($this->object->id, 82);
         $objectArray['projectHeadline'] =  $this->getTemplateVariable($this->object->id, 83);
         $objectArray['projects'] =  $this->getProjects($this->object->pagetitle);
         $objectArray['map'] =  $this->getTemplateVariable($this->object->id, 77);
