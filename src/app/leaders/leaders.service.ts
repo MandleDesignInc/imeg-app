@@ -2,8 +2,8 @@ import {Injectable} from '@angular/core';
 import {Page} from '../core/content-model';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
-import {HttpClient} from "@angular/common/http";
-import {map} from "rxjs/operators";
+import {HttpClient} from '@angular/common/http';
+import {map} from 'rxjs/operators';
 
 export class LeadersPageResponse {
 
