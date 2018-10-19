@@ -4,7 +4,7 @@ import {HomePage} from './home-model';
 import {ContentService} from '../core/content.service';
 import {Globals} from '../core/globals';
 import {DomSanitizer} from '@angular/platform-browser';
-import {ImegSlide, ModxSlideModel} from "./slide";
+import {ImegSlide, ModxSlideModel} from './slide';
 
 
 @Component({
@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
 
         this.contentService.getHomePage(1).subscribe(result => this.onHomePage(result));
 
-        this.contentService.getSlides(this.pageId).then(response => this.onSlidesResponse(response));
+        this.contentService.getSlides(this.pageId).subscribe(response => this.onSlidesResponse(response));
     }
 
     onHomePage (homePage: HomePage): void {

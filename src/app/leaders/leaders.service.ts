@@ -1,18 +1,14 @@
-import {Injectable} from '@angular/core';
-import {Page} from '../core/content-model';
-import {Observable} from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
-import {HttpClient} from '@angular/common/http';
-import {map} from 'rxjs/operators';
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs/observable';
+import { map } from 'rxjs/operators';
+import { Page } from '../core/content-model';
 
 export class LeadersPageResponse {
-
-  message: string;
-  object: LeadersPage;
-  success: boolean;
-
+    message: string;
+    object: LeadersPage;
+    success: boolean;
 }
-
 export class LeadersPage {
     page: Page;
     groups: LeaderGroup[];
@@ -39,26 +35,12 @@ export class LeadersService {
 
     private leadersUrl = 'http://bluemandle2.com/~imeg/cms/rest/leaders';
 
-
     constructor(private http: HttpClient) { }
-
-  getLeadersPage(id: number): Observable<LeadersPage> {
-    const url = `${this.leadersUrl}/${id}`;
-
-    return this.http.get<LeadersPageResponse>(url).pipe(
-
-      // return LeadersPage from response object
-      map(response => response.object)
-    );
-
-    // return this.http.get(url).map(response => response.json().object as LeadersPage);
-  }
-    /*
 
     getLeadersPage(id: number): Observable<LeadersPage> {
         const url = `${this.leadersUrl}/${id}`;
-        return this.http.get(url).map(response => response.json().object as LeadersPage);
+        return this.http.get<LeadersPageResponse>(url).pipe(
+            map(response => response.object));
     }
 
-    */
 }
