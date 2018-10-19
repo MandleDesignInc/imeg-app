@@ -1,0 +1,38 @@
+:host {
+  min-width: 200px;
+  max-width: 250px;
+  flex: 1;
+  text-align: center;
+  margin: 4px;
+}
+
+.container {
+  min-height: 335px;
+  background-color: #EFEFEF;
+  background-color: rgba(175, 176, 177, 0.2);
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.container:hover {
+  background-color: rgba(175, 176, 177, 0.1);
+  border: 2px solid #C7C3C3;
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+
+h3 {
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px 0px 0px 10px;
+  color: #01518C;
+  padding-left: 0px;
+  line-height: 36px;
+}

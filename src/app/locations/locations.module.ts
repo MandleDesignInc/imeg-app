@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LocationsComponent } from './locations.component';
 import { LocationsRoutingModule } from './locations-routing.module';
-import {TilesModule} from '../tiles/tiles.module';
-import { ImegLocationsComponent } from './locations-pods.component';
-import {MatButtonModule, MatCardModule, MatGridListModule, MatIconModule, MatSnackBarModule} from "@angular/material";
+import { TilesModule } from '../tiles/tiles.module';
+import { LocationsCardComponent } from './locations-card.component';
+import { MatButtonModule, MatCardModule, MatGridListModule, MatIconModule, MatSnackBarModule } from '@angular/material';
 
 @NgModule({
   imports: [
@@ -19,7 +19,7 @@ import {MatButtonModule, MatCardModule, MatGridListModule, MatIconModule, MatSna
   ],
   declarations: [
     LocationsComponent,
-    ImegLocationsComponent,
+    LocationsCardComponent,
   ]
 })
 export class LocationsModule {

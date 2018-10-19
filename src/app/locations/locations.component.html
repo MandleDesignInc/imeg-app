@@ -1,21 +1,23 @@
-<div class="clearfix borderbox" id="page" style=""><!-- group -->
-
 <section class="page-content">
-    <div class="max-width-container">
-
-        <feature-tiles [tiles]="locationsPage.tiles" [baseAssetsPath]="globals.uploadsPath"></feature-tiles>
-
-        <h2>North American Locations</h2>
-        <div class="max-width-container flex-grid-fifths">
-          <app-locations [locations]="locations"></app-locations>
-        </div>
-
-        <h2>International Locations</h2>
-        <div class="max-width-container flex-grid-fifths">
-          <app-locations [locations]="internationalLocations"></app-locations>
-        </div>
-
+  <div>
+    <!-- <feature-tiles [tiles]="locationsPage.tiles"
+      [baseAssetsPath]="globals.uploadsPath">
+    </feature-tiles> -->
+    <h2>North American Locations</h2>
+    <div class="card-container">
+      <app-locations-card *ngFor="let item of locations"
+        image="{{item.image}}"
+        info="{{item.info}}"
+        city="{{item.city}}">
+      </app-locations-card>
     </div>
+    <h2>International Locations</h2>
+    <div class="card-container">
+      <app-locations-card *ngFor="let item of internationalLocations"
+        image="{{item.image}}"
+        info="{{item.info}}"
+        city="{{item.city}}">
+      </app-locations-card>
+    </div>
+  </div>
 </section>
-
-</div>
