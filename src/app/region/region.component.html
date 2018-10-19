@@ -1,107 +1,85 @@
-<div id="container">
+<div>
+  <div class="hero"
+    [style.background]="bgImgUrl$ | async">
+    <div>
+      <h1>{{ (region$ | async)?.subtitle }}</h1>
+    </div>
+  </div>
 
-    <header [style.background]="'url(' + region.headerBackgroundImage + ')'"
-            [style.backgroundSize]="'cover'"
-            [style.backgroundRepeat]="'no-repeat'"
-            [style.backgroundPosition]="'center'">
-
-
-        <div class="full-width-title-background">
-            <div class="max-width-title-container">
-                <h1>{{region.subtitle}}</h1>
-            </div>
+  <section class="row1">
+    <div>
+      <div class="projects">
+        <div class="spotlight-title">
+          <h2>Project Spotlight</h2>
+          <span>{{ (region$ | async)?.projectSpotlight }}</span>
         </div>
-
-    </header>
-
-    <section class="page-content">
-
-        <div class="max-width-container spotlight">
-
-          <div class="projectSpotlight">
-            <div class="projectSpotlightInner">
-              <h2 class="H1-title" style="color: #01518C;">Project Spotlight</h2><h3>{{region.projectSpotlight}}</h3>
-              
-            </div>
-          </div>
-
-          <div class="news">
-            <h2 class="H1-title" style="color: #01518C; display: block; width: 100%;">{{region.news.headline}}</h2>
-            <hr/>
-
-              <div *ngFor="let articles of region.news.articles">
-
-                  <h4>{{articles.title}}</h4>
-                  <div [innerHTML]="articles.content"></div>
-                  <hr/>
-
-              </div>
-          </div>
-
+        <div class="slide-container">
+          <img class="slide">
+          <img class="slide">
         </div>
-
-    </section>
-
-
-    <section class="page-content" id="u26680534">
-
-        <div class="max-width-container-mat-cards tag-cards">
-
-            <h2 class="H1-title" style="color: #01518C; display: block; width: 100%;">{{region.projectHeadline}}</h2>
-
-            <mat-card *ngFor="let project of region.projects.project | slice:0:5"
-                     [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'"
-                     [style.backgroundSize]="'cover'"
-                     [style.backgroundRepeat]="'no-repeat'" class="clearfix">
-
-                <a [routerLink]="['/projects', project.path]"></a>
-
-                <div class="footer-background"></div>
-
-                <mat-card-footer>
-                    <mat-card-title>
-                        {{project.title}}
-                    </mat-card-title>
-                </mat-card-footer>
-
-
-            </mat-card>
-
+      </div>
+      <div class="news">
+        <h2>{{ (region$ | async)?.news.headline }}</h2>
+        <div *ngFor="let article of (region$ | async)?.news.articles">
+          <h4>{{article.title}}</h4>
+          <div [innerHTML]="article.content"></div>
         </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <section class="row2">
+    <div>
+      <h2>{{ (region$ | async)?.projectHeadline }}</h2>
+      <div>
+        <mat-card *ngFor="let project of (region$ | async)?.projects.project"
+          [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'">
+          <a [routerLink]="['/projects', project.path]"></a>
+          <mat-card-footer>
+            <mat-card-title>
+              {{project.title}}
+            </mat-card-title>
+          </mat-card-footer>
+        </mat-card>
+      </div>
+    </div>
+  </section>
 
-    <section class="page-content">
-
-      <div class="max-width-container">
-
-        <div class="H1-title" style="color: #01518C; display: block; width: 100%;">Contact Us</div>
-
-        <div class="contact">
-          <div class="map">
-            <div [innerHTML]="region.safeMap"></div>
-          </div>
-          <div class="locations">
-            <div *ngFor="let location of region.locations">
-              <img class="arrow" src="http://bluemandle2.com/~imeg/assets/images/imeg_arrow.png" alt="" width="14" height="20">
+  <section class="row3">
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <div class="container">
+        <div class="map"
+          [innerHTML]="map$ | async"></div>
+        <div class="locations">
+          <div *ngFor="let location of (region$ | async)?.locations"
+            class="location">
+            <div>
+              <img src="http://bluemandle2.com/~imeg/assets/images/imeg_arrow.png">
               <h4>{{location.title}}</h4>
-              <div class="contactInfo" [innerHTML]="location.description"></div>
             </div>
+            <div class="contact-info"
+              [innerHTML]="location.description"></div>
           </div>
-          <div class="contacts">
-            <img class="arrow" src="http://bluemandle2.com/~imeg/assets/images/imeg_arrow.png" alt="" width="14" height="20">
-            <h6>Contacts</h6>
-            <div *ngFor="let contact of region.contacts">
-              <div class="contactInfo">
-                <h4>{{contact.name}}</h4>
-                {{contact.title}}
-                {{contact.email}}
-              </div>
+        </div>
+        <div class="contacts">
+          <div>
+            <img src="http://bluemandle2.com/~imeg/assets/images/imeg_arrow.png">
+            <h4>Contacts</h4>
+          </div>
+          <div *ngFor="let contact of (region$ | async)?.contacts"
+            class="contact-info">
+            <div>
+              <h5>{{contact.name}}</h5>
+              <span>{{contact.title}}</span>
             </div>
+            <a href="{{contact.email}}">
+              {{contact.email}}
+            </a>
           </div>
         </div>
       </div>
-
-    </section>
+    </div>
+  </section>
 
 </div>

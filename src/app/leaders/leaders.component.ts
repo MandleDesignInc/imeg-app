@@ -17,7 +17,6 @@ export class LeadersComponent implements OnInit {
 
     // TODO: refactor with rest of routing
     static getId(path: string): number {
-
         switch (path) {
             case '/about/corporate-leaders':
                 return 51;
@@ -33,15 +32,12 @@ export class LeadersComponent implements OnInit {
     }
 
     onPageResult(page: LeadersPage): void {
-
         page.page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.page.content);
-
         this.leadersPage = page;
     }
 
 
     openDialog(leader: Leader): void {
-
         let dialogRef = this.dialog.open(LeaderDialogComponent, {
             data: { leader: leader }
         });

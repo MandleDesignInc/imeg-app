@@ -25,8 +25,6 @@ export class ContentService {
     private locationsUrl = 'http://bluemandle2.com/~imeg/cms/rest/locations';
     private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects';
 
-
-
     constructor(private http: Http) { }
 
     getNavMenu(): Promise<Page[]> {

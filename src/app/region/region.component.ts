@@ -1,79 +1,70 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-import 'rxjs/add/operator/switchMap';
-import {Region, Article, News, Projects, Project} from './region-model';
-import {ImegSlide, ModxSlideModel} from "../home/slide";
-import {Globals} from '../core/globals';
-import {ContentService} from '../core/content.service';
-import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
+import { Component, AfterContentInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Region } from './region-model';
+import { Globals } from '../core/globals';
+import { ContentService } from '../core/content.service';
+import { Observable } from 'rxjs';
+import { pluck, switchMap, map, filter, tap, first } from 'rxjs/operators';
+import { DomSanitizer } from '@angular/platform-browser';
+import { slideLeft } from '../core/animations';
 
 @Component({
-  selector: 'app-region',
-  templateUrl: './region.component.html',
-  styleUrls: ['./region.component.css']
+    selector: 'app-region',
+    templateUrl: './region.component.html',
+    styleUrls: ['./region.component.css']
 })
-export class RegionComponent implements OnInit {
+export class RegionComponent implements AfterContentInit {
 
-  region: Region;
-  articles: Article;
-  pageId: number = 312;
-  slides: ImegSlide[] = [];
-  contentReady: boolean;
+    static readonly baseUrl = 'http://bluemandle2.com/~imeg/cms/assets/uploads/';
 
-  constructor(
-      private contentService: ContentService,
-      private globals: Globals,
-      private route: ActivatedRoute,
-      private router: Router,
-      private sanitizer: DomSanitizer
-  ) { }
+    private readonly alias$: Observable<string> = this.route.params.pipe(pluck('alias'));
+    public readonly region$: Observable<Region> = this.alias$.pipe(
+        switchMap(alias => this.contentService.getRegion(alias)),
+        filter(x => !!x));
+    public readonly spotlightProjects$ = this.contentService.getSlides(312).pipe(
+        map(slides => slides.map(slide => `${RegionComponent.baseUrl}/${slide.image}`)));
+    public readonly bgImgUrl$ = this.region$.pipe(
+        map(region => `url(${RegionComponent.baseUrl}${region.headerImage})`));
+    public readonly map$ = this.region$.pipe(
+        map(region => region.map.replace('width="640"', 'width="100%"')),
+        map(map => map.replace('height="480"', 'height="100%"')),
+        map(map => this.sanitizer.bypassSecurityTrustHtml(map)));
+    private _index = undefined;
 
-  ngOnInit(): void {
-    this.route.paramMap
-            .switchMap((params: ParamMap) => this.contentService.getRegion(params.get('alias')))
-            //.subscribe(result => this.region = result);
-            .subscribe(region => this.onRegionLoaded(region));
-            //.subscribe(article => this.onArticleLoaded(articles));
-    this.contentService.getSlides(this.pageId).then(response => this.onSlidesResponse(response));
-  }
+    b = this.region$.subscribe(x => console.log('region', x));
+    c = this.spotlightProjects$.subscribe(x => console.log('SP', x));
 
-    onRegionLoaded(region: Region): void {
+    constructor(
+        public globals: Globals,
+        private contentService: ContentService,
+        private route: ActivatedRoute,
+        private sanitizer: DomSanitizer,
+    ) { }
 
-        // TODO: need refactoring here
-
-        //articles.safeContent = this.sanitizer.bypassSecurityTrustHtml(articles.content);
-        //this.articles = region.news.articles;
-        //region.safeArticle = this.sanitizer.bypassSecurityTrustHtml(articles.content);
-        //articles.safeContent = this.sanitizer.bypassSecurityTrustHtml(articles.content);
-        region.safeMap = this.sanitizer.bypassSecurityTrustHtml(region.map);
-        region.headerBackgroundImage = this.globals.uploadsPath + region.headerImage;
-        //region.page.content = this.sanitizer.bypassSecurityTrustHtml(region.page.content);
-
-        this.region = region;
-
-        if (this.slides) this.contentReady = true;
-
+    public ngAfterContentInit() {
+        const slides: any = document.querySelectorAll('img.slide');
+        const [slide1, slide2] = slides;
+        this.spotlightProjects$
+            .subscribe(slides => this.initAnimations(slides, slide1, slide2));
     }
 
-    onSlidesResponse(response: ModxSlideModel[]): void {
-
-        // TODO: refactor this
-        response.forEach(slide => {
-
-            let imegSlide = new ImegSlide(slide.MIGX_id, slide.caption, this.globals.uploadsPath + slide.image);
-            this.slides.push(imegSlide);
-            console.log('state: ' + imegSlide.state);
-            console.log('image path: ' + imegSlide.image);
-
-        });
-
-        if (this.region) this.contentReady = true;
+    private initAnimations(slides, slide1, slide2) {
+        if (slides.length === 0) return;
+        setInterval(() => {
+            const i = this.getIndex() % slides.length;
+            if (slides.length > 1) {
+                slide1.src = slides[i];
+                slide2.src = i < slides.length - 1 ? slides[i + 1] : slides[0];
+                slideLeft(slide1, slide2);
+            } else {
+                slide1.src = slides[0];
+            }
+        }, 3000);
     }
 
-    /*onArticleLoaded(articles: Article): void {
-
-        // TODO: need refactoring here
-        articles.safeContent = this.sanitizer.bypassSecurityTrustHtml(articles.content);
-
-    }*/
+    private getIndex() {
+        this._index = this._index === undefined ? 0 : this._index + 1;
+        return this._index;
+    }
+    
 }
