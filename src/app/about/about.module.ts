@@ -3,6 +3,7 @@ import {CommonModule} from '@angular/common';
 import {AboutComponent} from './about.component';
 import {AboutRoutingModule} from './about-routing.module';
 import {MatGridListModule} from '@angular/material';
+import { CommunityComponent } from './community.component';
 
 @NgModule({
     imports: [
@@ -11,7 +12,8 @@ import {MatGridListModule} from '@angular/material';
         MatGridListModule
     ],
     declarations: [
-        AboutComponent
+        AboutComponent,
+        CommunityComponent,
     ]
 })
 export class AboutModule {}

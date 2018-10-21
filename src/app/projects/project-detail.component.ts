@@ -1,12 +1,11 @@
-import {Component, OnInit} from '@angular/core';
-import {Project} from './project-model';
-import {Globals} from '../core/globals';
-import {ContentService} from '../core/content.service';
+import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-import { TitleCasePipe } from '@angular/common';
-import 'rxjs/add/operator/switchMap';
-import {DomSanitizer} from '@angular/platform-browser';
-
+import { DomSanitizer } from '@angular/platform-browser';
+import { Observable } from 'rxjs';
+import { map, switchMap, filter } from 'rxjs/operators';
+import { ContentService } from '../core/content.service';
+import { Project } from './project-model';
+import { Globals } from '../core/globals';
 
 
 @Component({
@@ -15,29 +14,33 @@ import {DomSanitizer} from '@angular/platform-browser';
 })
 export class ProjectDetailComponent implements OnInit {
 
-    project: Project;
+    private readonly middleware: any = [
+        filter(content => !!content),
+        map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content))] ; 
 
-    constructor(private contentService: ContentService, public globals: Globals, private route: ActivatedRoute, private router: Router, private sanitizer: DomSanitizer) {
+    public readonly project$: Observable<Project> = this.route.paramMap.pipe(
+        switchMap((params: ParamMap) => this.contentService.getProject(params.get('id'))));
 
-    }
+    public readonly mainContent$ = this.project$.pipe(
+        map(project => project.content), 
+        filter(content => !!content),
+        map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content)));
 
-    ngOnInit(): void {
+    public readonly sidebarContent$ = this.project$.pipe(
+        map(project => project.sidebarContent),
+        filter(content => !!content),
+        map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content)));
+    
+    a = this.project$.subscribe(x => console.log('SERVICES:', x.tags.services));
+    b = this.mainContent$.subscribe(x => console.log('LEFT', x));
 
-        this.route.paramMap
-            .switchMap((params: ParamMap) => this.contentService.getProject(params.get('id')))
-            .subscribe(project => this.onProjectResult(project));
-    }
+    constructor(
+        private contentService: ContentService,
+        public globals: Globals,
+        private route: ActivatedRoute,
+        private router: Router,
+        private sanitizer: DomSanitizer) { }
 
-    onProjectResult(project: Project): void {
-
-        if (project.content) project.safeContent = this.sanitizer.bypassSecurityTrustHtml(project.content);
-
-        if (project.sidebarContent) project.safeSidebarContent = this.sanitizer.bypassSecurityTrustHtml(project.sidebarContent);
-
-        this.project = project;
-    }
-
-
-
+    ngOnInit(): void { }
 
 }

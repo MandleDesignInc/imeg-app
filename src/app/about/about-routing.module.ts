@@ -3,6 +3,7 @@ import {RouterModule} from '@angular/router';
 import {AboutComponent} from './about.component';
 import {PageComponent} from '../page/page.component';
 import {LeadersComponent} from '../leaders/leaders.component';
+import { CommunityComponent } from './community.component';
 
 
 
@@ -11,7 +12,8 @@ import {LeadersComponent} from '../leaders/leaders.component';
         RouterModule.forChild([
             { path: 'about', component: AboutComponent },
             { path: 'about/corporate-leaders', component: LeadersComponent},
-            { path: 'about/team-leaders', component: LeadersComponent},
+            { path: 'about/team-leaders', component: LeadersComponent },
+            { path: 'about/community-involvement', component: CommunityComponent },
             { path: 'about/:alias', component: PageComponent },
         ])
     ],

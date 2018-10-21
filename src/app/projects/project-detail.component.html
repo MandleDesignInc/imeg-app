@@ -1,46 +1,34 @@
-<div *ngIf="project" id="container">
-
-    <header [style.background]="'url(' + globals.uploadsPath + project.headerImage + ')'"
-            [style.backgroundSize]="'cover'"
-            [style.backgroundRepeat]="'no-repeat'"
-            [style.backgroundPosition]="'center'">
-
-
+<div *ngIf="project$ | async as project"
+    id="container">
+    <header [style.background]="'url(' + globals.uploadsPath + project.headerImage + ')'">
         <div class="full-width-title-background">
             <div class="max-width-title-container">
-                <h1>{{project.title}}</h1>
+                <h1>{{ (project$ | async)?.title }}</h1>
             </div>
         </div>
-
     </header>
-
     <section class="page-content">
-
-        <h2>{{project.subtitle}}</h2>
-
+        <h2>{{ project.subtitle }}</h2>
         <main>
-
-            <div class="left" [innerHTML]="project.safeContent"></div>
-
+            <div class="left"
+                [innerHTML]="mainContent$ | async"></div>
             <div class="right">
-                <span *ngIf="project.location">
-                        <h4>Location</h4>
-                        <span>{{project.location}}</span>
+                <span *ngIf="project.location as location">
+                    <h4>Location</h4>
+                    <span>{{ location }}</span>
                 </span>
-                <span *ngIf="project.size">
-                        <h4>Size</h4>
-                        <span>{{project.size}}</span>
+                <span *ngIf="project.size as size">
+                    <h4>Size</h4>
+                    <span>{{ size }}</span>
                 </span>
-                <span class="services" *ngIf="project.tags.services">
-                        <h4>Services Provided</h4>
-                        <span *ngFor="let service of project.tags.services">{{service | titlecase}}</span>
+                <span class="services"
+                    *ngIf="project.tags.services as services">
+                    <h4>Services Provided</h4>
+                    <span *ngFor="let service of services">{{service | titlecase}}</span>
                 </span>
-
-                <span *ngIf="project.safeSidebarContent" [innerHTML]="project.safeSidebarContent"></span>
+                <span *ngIf="sidebarContent$ | async as sbc"
+                    [innerHTML]="cbs"></span>
             </div>
-
         </main>
-
     </section>
-
 </div>

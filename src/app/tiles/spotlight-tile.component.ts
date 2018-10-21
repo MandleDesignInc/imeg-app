@@ -1,6 +1,6 @@
-import {AfterViewInit, Component, Input, OnDestroy, OnInit} from '@angular/core';
-import {SpotlightSlide, SpotlightSlideModel} from './tile';
-import {trigger, state, style, animate, transition} from '@angular/animations';
+import { AfterViewInit, Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { SpotlightSlide, SpotlightSlideModel } from './tile';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
     selector: 'spotlight-tile',
@@ -8,13 +8,13 @@ import {trigger, state, style, animate, transition} from '@angular/animations';
     styleUrls: ['./spotlight-tile.component.css'],
     animations: [
         trigger('slideUp', [
-            state('in', style({transform: 'translateY(0)'})),
+            state('in', style({ transform: 'translateY(0)' })),
             transition('void => *', [
-                style({transform: 'translateY(100%)'}),
+                style({ transform: 'translateY(100%)' }),
                 animate(500)
             ]),
             transition('* => void', [
-                animate(500, style({transform: 'translateY(-100%)'}))
+                animate(500, style({ transform: 'translateY(-100%)' }))
             ])
         ])
     ]
@@ -22,23 +22,19 @@ import {trigger, state, style, animate, transition} from '@angular/animations';
 export class SpotlightTileComponent implements OnInit, AfterViewInit, OnDestroy {
 
     @Input() spotlightData: SpotlightSlideModel[];
-
     @Input() cmsPath: string;
 
-    intervalId: number;
+    intervalId: any;
     timeout: number;
     activeIndex: number = 0;
     spotlightSlides: SpotlightSlide[] = [];
     currentSlides: SpotlightSlide[] = [];
-
     ready: boolean;
 
     ngOnInit(): void {
-
         this.spotlightData.forEach(item => {
             this.spotlightSlides.push(new SpotlightSlide(item.id, item.image));
         });
-
         this.ready = true;
     }
 
@@ -53,11 +49,8 @@ export class SpotlightTileComponent implements OnInit, AfterViewInit, OnDestroy 
 
     next(): void {
         if (this.currentSlides.length > 0) this.currentSlides.pop();
-
         this.currentSlides.push(this.spotlightSlides[this.activeIndex]);
-
         this.activeIndex++;
-
         if (this.activeIndex >= this.spotlightSlides.length) this.activeIndex = 0;
     }
 
@@ -68,12 +61,10 @@ export class SpotlightTileComponent implements OnInit, AfterViewInit, OnDestroy 
     start(): void {
         if (this.currentSlides.length < 1) this.next();
         this.intervalId = setInterval(this._next.bind(this), this.timeout);
-        console.log('spotlight started: ' + this.intervalId);
     }
 
     stop(): void {
         if (this.intervalId) clearInterval(this.intervalId);
-        console.log('spotlight stopped - id: ' + this.intervalId);
     }
 }
 

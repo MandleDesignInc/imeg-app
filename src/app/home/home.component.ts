@@ -1,10 +1,10 @@
 import 'rxjs/add/operator/switchMap';
-import {Component, OnInit} from '@angular/core';
-import {HomePage} from './home-model';
-import {ContentService} from '../core/content.service';
-import {Globals} from '../core/globals';
-import {DomSanitizer} from '@angular/platform-browser';
-import {ImegSlide, ModxSlideModel} from './slide';
+import { Component, OnInit } from '@angular/core';
+import { HomePage } from './home-model';
+import { ContentService } from '../core/content.service';
+import { Globals } from '../core/globals';
+import { DomSanitizer } from '@angular/platform-browser';
+import { ImegSlide, ModxSlideModel } from './slide';
 
 
 @Component({
@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
         this.contentService.getSlides(this.pageId).subscribe(response => this.onSlidesResponse(response));
     }
 
-    onHomePage (homePage: HomePage): void {
+    onHomePage(homePage: HomePage): void {
         homePage.page.safeContent = this.sanitizer.bypassSecurityTrustHtml(homePage.page.content);
         homePage.tiles.forEach(tile => {
             tile.safeContent = this.sanitizer.bypassSecurityTrustHtml(tile.content);
@@ -39,9 +39,6 @@ export class HomeComponent implements OnInit {
         response.forEach(slide => {
             let imegSlide = new ImegSlide(slide.MIGX_id, slide.caption, this.globals.uploadsPath + slide.image);
             this.slides.push(imegSlide);
-            console.log('state: ' + imegSlide.state);
-            console.log('image path: ' + imegSlide.image);
-
             /*
             let slideObj = new Slide();
             slideObj.MIGX_id = slide.MIGX_id;
