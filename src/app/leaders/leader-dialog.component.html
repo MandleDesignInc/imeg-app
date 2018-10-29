@@ -1,7 +1,8 @@
 <mat-dialog-content>
     <section class="page-content">
         <div class="left">
-            <img [src]="data.leader.image" [alt]="data.leader.firstName + ' ' + data.leader.lastName">
+            <img [src]="data.leader.image"
+                [alt]="data.leader.firstName + ' ' + data.leader.lastName">
             <div class="contact-container">
                 <span class="small-title">Contact {{data.leader.firstName}}:</span>
                 <span class="contact">{{data.leader.email}}</span>
@@ -11,23 +12,20 @@
 
         <div class="right">
             <span class="large-title">{{data.leader.firstName}} {{data.leader.lastName}}</span>
-
             <span [innerHTML]="data.leader.description"></span>
 
+            <!-- <span>
+                <span class="small-title">Markets</span>
+                <span *ngFor="let market of data.leader.markets">{{market}}</span>
+            </span> -->
 
-            <span>
-            <span class="small-title">Markets</span>
-            <span *ngFor="let market of data.leader.markets">{{market}}</span>
-            </span>
-
-            <span *ngIf="data.leader.optionalContent" [innerHTML]="data.leader.optionalContent"></span>
+            <span *ngIf="data.leader.optionalContent"
+                [innerHTML]="data.leader.optionalContent"></span>
         </div>
     </section>
 </mat-dialog-content>
 
-<mat-dialog-actions><button type="button" mat-raised-button color="primary" mat-dialog-close>CLOSE</button></mat-dialog-actions>
-
-
-
-
-
+<mat-dialog-actions><button type="button"
+        mat-raised-button
+        color="primary"
+        mat-dialog-close>CLOSE</button></mat-dialog-actions>

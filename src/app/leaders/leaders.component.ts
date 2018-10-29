@@ -6,8 +6,9 @@ import { LeaderDialogComponent } from './leader-dialog.component';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
+    selector: 'app-leaders',
     templateUrl: './leaders.component.html',
-    styleUrls: ['./leaders.component.css']
+    styleUrls: ['./leaders.component.css'],
 })
 export class LeadersComponent implements OnInit {
 

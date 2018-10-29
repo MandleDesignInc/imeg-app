@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatCardModule} from '@angular/material';
-import {TagComponent} from './tag.component';
+import { ServicesComponent, MarketsComponent} from './tag.component';
 import {TagRoutingModule} from './tag-routing.module';
 
 
@@ -12,7 +12,8 @@ import {TagRoutingModule} from './tag-routing.module';
         TagRoutingModule
     ],
     declarations: [
-        TagComponent
+        MarketsComponent,
+        ServicesComponent,
     ]
 })
 export class TagModule { }

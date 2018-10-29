@@ -1,33 +1,33 @@
-<section *ngIf="aboutPage" class="page-content">
+<section class="page-content">
 
     <div class="max-width-container">
 
-        <span [innerHTML]="aboutPage.page.content"></span>
+        <p *ngFor="let content of aboutContent$ | async"
+            [innerHtml]="content">
+        </p>
 
-        <mat-grid-list cols="4" gutterSize="16px">
+        <mat-grid-list cols="4"
+            gutterSize="16px">
 
-            <mat-grid-tile *ngFor="let tile of aboutPage.tiles"
-                          [colspan]="tile.columnSpan"
-                          [rowspan]="tile.rowSpan"
-                          [style.backgroundColor]="tile.backgroundColor"
-                          [style.backgroundImage]="'url(' + tile.backgroundImage + ')'"
-                          [style.backgroundSize]="'cover'"
-                          [style.backgroundRepeat]="'no-repeat'"
-                          [style.backgroundPosition]="'center'">
+            <mat-grid-tile *ngFor="let tile of tiles$ | async"
+                [colspan]="tile.columnSpan"
+                [rowspan]="tile.rowSpan"
+                [style.backgroundColor]="tile.backgroundColor"
+                [style.backgroundImage]="'url(' + tile.backgroundImage + ')'"
+                [style.backgroundSize]="'cover'"
+                [style.backgroundRepeat]="'no-repeat'"
+                [style.backgroundPosition]="'center'">
 
-
-                <a *ngIf="tile.alias" [routerLink]="['/about', tile.alias]"></a>
-
+                <a *ngIf="tile.alias"
+                    [routerLink]="['/about', tile.alias]"></a>
 
                 <mat-grid-tile-footer *ngIf="tile.title">
                     {{tile.title}}
                 </mat-grid-tile-footer>
 
-
             </mat-grid-tile>
 
         </mat-grid-list>
-
 
     </div>
 

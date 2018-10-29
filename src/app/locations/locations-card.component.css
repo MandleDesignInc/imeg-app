@@ -36,3 +36,9 @@ h3 {
   padding-left: 0px;
   line-height: 36px;
 }
+
+
+p {
+  padding: 0;
+  margin: 0;
+}

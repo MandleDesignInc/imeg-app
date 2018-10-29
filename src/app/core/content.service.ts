@@ -1,29 +1,33 @@
 import { Injectable } from '@angular/core';
-import { Page, Video } from './content-model';
+import { Http } from '@angular/http';
+import { of } from 'rxjs';
+import { Observable } from 'rxjs/observable';
+import { map, pluck, catchError } from 'rxjs/operators';
+
+import { Page } from './content-model';
 import { HomePage } from '../home/home-model';
 import { TagPage } from '../tags/tags-model';
 import { Project, ProjectList } from '../projects/project-model';
-import { Observable } from 'rxjs/observable';
-import { map } from 'rxjs/operators';
-
 import { AboutPage } from '../about/about-model';
-import { Http } from '@angular/http';
-import { ImegSlide, ModxSlideModel } from '../home/slide';
+import { ModxSlideModel } from '../home/slide';
 import { LocationsPage } from '../locations/locations-model';
-import { ImegLocations, ModxLocationModel } from '../locations/location';
+import { ModxLocationModel } from '../locations/location';
 import { Region } from '../region/region-model';
-
-
-
 
 @Injectable()
 export class ContentService {
+    private static readonly domain = 'http://bluemandle2.com';
+    private static readonly galleryPath = '~imeg/cms/rest/gallery';
+    private static readonly galleryQuery = 'id=39';
+    private static readonly imagePath = '~imeg/cms/assets/uploads';
+
     private pagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/pagesByAlias';
     private subPagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/subpagesByParentId';
     private navigationUrl = 'http://bluemandle2.com/~imeg/cms/rest/navigation';
     private carouselUrl = 'http://bluemandle2.com/~imeg/cms/rest/carousel';
     private locationsUrl = 'http://bluemandle2.com/~imeg/cms/rest/locations';
     private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects';
+
 
     constructor(private http: Http) { }
 
@@ -111,6 +115,15 @@ export class ContentService {
         let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
         const url = `${regionUrl}?alias=${alias}`;
         return this.http.get(url).pipe(map(response => response.json().object as Region));
+    }
+      
+    public getGallery() {
+      const url = `${ContentService.domain}/${ContentService.galleryPath}?${ContentService.galleryQuery}`;
+      return this.http.get(url).pipe(
+        map(res => res.json()),
+        pluck('object', 'gallery'),
+        map((gallery: any[]) => gallery.map(arg => `${ContentService.domain}/${ContentService.imagePath}/${arg.image}`)),
+        catchError(() => of('')));
     }
 
 }

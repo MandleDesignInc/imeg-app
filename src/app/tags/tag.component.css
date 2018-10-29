@@ -5,7 +5,9 @@ section {
 .max-width-container {
     max-width: 1200px;
     margin: auto;
-    padding: 2.5vw 5vw;
+    padding: 32px 60px;
+    line-height: 1em;
+    box-sizing: border-box;
 }
 
 .max-width-container-mat-cards {
@@ -17,9 +19,15 @@ section {
     flex-flow: row wrap;
 }
 
-section span {
-    color: #6D6F71;
-    font-size: 14px;
+p {
+    color: #6D6F71 !important;
+    font-size: 15px !important;
+    line-height: 19px !important;
+    padding-bottom: 1.2ch;
+}
+
+p:last-of-type {
+    padding-bottom: 0;
 }
 
 mat-card {

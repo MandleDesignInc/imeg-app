@@ -1,8 +1,11 @@
-<section *ngIf="page" class="page-content">
+<section class="page-content">
     <div class="max-width-container">
-
-        <h1 *ngIf="page.longtitle" class="H1-title">{{page.longtitle}}</h1>
-        <span [innerHTML]="page.safeContent"></span>
-
+        <div *ngIf="alias$ | async as alias">
+            <div *ngIf="alias === 'careers'">
+                <p *ngFor="let tag of content$ | async"
+                    [innerHtml]="tag"></p>
+            </div>
+            <div *ngIf="alias !== 'careers'" [innerHtml]="safeContent$ | async"></div>
+        </div>
     </div>
 </section>

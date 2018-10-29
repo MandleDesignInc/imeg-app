@@ -1,14 +1,13 @@
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
-import {TagComponent} from './tag.component';
-
+import { ServicesComponent, MarketsComponent } from './tag.component';
 
 
 @NgModule({
     imports: [
         RouterModule.forChild([
-            { path: 'services', component: TagComponent },
-            { path: 'markets', component: TagComponent }
+            { path: 'services', component: ServicesComponent },
+            { path: 'markets', component: MarketsComponent }
         ])
     ],
     exports: [RouterModule]

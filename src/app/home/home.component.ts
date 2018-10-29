@@ -8,6 +8,7 @@ import { ImegSlide, ModxSlideModel } from './slide';
 
 
 @Component({
+    selector: 'app-home',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css']
 })

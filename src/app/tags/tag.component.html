@@ -2,7 +2,7 @@
 
     <div class="max-width-container">
 
-        <span [innerHTML]="page.safeContent"></span>
+        <p *ngFor="let p of content$ | async" [innerHTML]="p"></p>
 
     </div>
 

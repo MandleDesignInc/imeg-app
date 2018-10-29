@@ -1,9 +1,6 @@
 <section class="page-content">
   <div>
-    <!-- <feature-tiles [tiles]="locationsPage.tiles"
-      [baseAssetsPath]="globals.uploadsPath">
-    </feature-tiles> -->
-    <h2>North American Locations</h2>
+    <h2 class="blue-alt">North American Locations</h2>
     <div class="card-container">
       <app-locations-card *ngFor="let item of locations"
         image="{{item.image}}"
@@ -11,7 +8,7 @@
         city="{{item.city}}">
       </app-locations-card>
     </div>
-    <h2>International Locations</h2>
+    <h2 class="blue-alt">International Locations</h2>
     <div class="card-container">
       <app-locations-card *ngFor="let item of internationalLocations"
         image="{{item.image}}"

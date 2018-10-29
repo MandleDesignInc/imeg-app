@@ -1,69 +1,109 @@
 section {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 1000px;
 }
+
+p,
+span {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  padding: 8px 0;
+}
+
+span:first-of-type {
+  color: #01518C !important;
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  font-size: 50px !important;
+  font-weight: 400 !important;
+  padding: 12px 0;
+}
+
+.contact-container span.contact {
+  font-size: 18px !important;
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  line-height: 23px !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.contact-container span.small-title {
+    color: #01518C !important;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+    padding-top: 5px;
+    padding: 0px !important;
+  }
 
 @media (max-width: 960px) {
-    section {
-        flex-direction: column;
-    }
+  section {
+    flex-direction: column;
+  }
 }
 
-section .left, section .right {
-    display: flex;
-    flex-direction: column;
+section .left,
+section .right {
+  display: flex;
+  flex-direction: column;
 }
+
 section .left {
-    flex: 1;
+  flex: 1;
 }
 
 section .right {
-    flex: 1.5;
+  flex: 1.5;
 }
 
 section .left img {
-    width: 90%;
-    height: auto;
-    border-radius: 7px;
-    border: 1px solid transparent;
+  width: 90%;
+  height: auto;
+  border-radius: 7px;
+  border: 1px solid transparent;
 }
 
 @media (max-width: 960px) {
-    section .left img {
-        max-width: 250px;
-
-    }
+  section .left img {
+    max-width: 250px;
+  }
 }
 
-.small-title, .large-title {
-    padding: 8px 0;
-    color: #01518C;
+.small-title,
+.large-title {
+  padding: 8px 0;
+  color: #01518C;
 }
 
 .small-title {
-    padding-top: 0.5em;
-    font-size: 1.2em;
+  padding-top: 0.5em;
+  font-size: 1.2em;
 }
+
 .large-title {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 @media (max-width: 960px) {
-    .large-title { padding-top: 16px;}
+  .large-title {
+    padding-top: 16px;
+  }
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
 .contact {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 mat-dialog-actions {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }

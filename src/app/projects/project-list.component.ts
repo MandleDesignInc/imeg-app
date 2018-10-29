@@ -9,6 +9,7 @@ import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
 
 
 @Component({
+    selector: 'app-projects',
     templateUrl: './project-list.component.html',
     styleUrls: ['./project-list.component.css']
 })

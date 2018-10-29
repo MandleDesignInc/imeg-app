@@ -3,10 +3,12 @@ import {Routes, RouterModule} from '@angular/router';
 import {PageComponent} from './page/page.component';
 import {RouteLoader} from './page/router-loader.service';
 import {PageNotFoundComponent} from './core/page-not-found.component';
+import { ImageOverlayComponent } from './core/image-overlay.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'page-not-found', component: PageNotFoundComponent }
+    { path: 'image/:imageId', outlet: 'modal', component: ImageOverlayComponent },
+    { path: 'page-not-found', component: PageNotFoundComponent },
 ];
 
 @NgModule({

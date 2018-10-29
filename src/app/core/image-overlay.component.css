@@ -1,0 +1,30 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  color: #FFFFFF;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #01518C;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  border-color: #FFFFFF;
+  text-align: center;
+  line-height: 1em;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  margin: 74px 0 24px 0;
+  outline: 0;
+}

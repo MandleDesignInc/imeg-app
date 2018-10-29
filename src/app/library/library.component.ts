@@ -5,6 +5,7 @@ import { Globals } from '../core/globals';
 import { ContentService } from '../core/content.service';
 import { DomSanitizer } from '@angular/platform-browser';
 import { animate, state, style, transition, trigger } from '@angular/animations';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-library',
@@ -35,6 +36,10 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 })
 export class LibraryComponent implements OnInit {
 
+  public readonly content$ = this.contentService.getPageObservable('library').pipe(
+    map(page => this.onPageResponse(page)),
+    map((page: Page) => page.content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+
   page: Page;
   subpages: Subpage[] = [];
 
@@ -45,30 +50,27 @@ export class LibraryComponent implements OnInit {
               private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
-
-    this.contentService.getPageObservable('library').subscribe(page => this.onPageResponse(page), error => this.router.navigate(['/page-not-found']));
-
+    this.contentService.getPageObservable('library')
+      .subscribe(page => this.onPageResponse(page));
   }
 
-  onPageResponse(page: Page): void {
-    page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);
-
-    this.contentService.getSubPagesByIdObservable(page.id).subscribe(page => {
-      page.subpages.map((subpage: Subpage) => {
-        let subpageObj = new Subpage();
-        subpageObj.backgroundImage = subpage.backgroundImage;
-        subpageObj.title = subpage.title;
-        subpageObj.subtitle = subpage.subtitle;
-        subpageObj.alias = subpage.alias;
-        subpageObj.state = 'out';
-        this.subpages.push(subpageObj);
-      })
-      console.log(this.subpages);
-    }, error => {
-
-    });
-
-    this.page = page;
+  onPageResponse(page: Page): Page {
+    if (this.subpages.length === 0) {
+      page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);  
+      this.contentService.getSubPagesByIdObservable(page.id).subscribe(page => {
+        page.subpages.map((subpage: Subpage) => {
+          let subpageObj = new Subpage();
+          subpageObj.backgroundImage = subpage.backgroundImage;
+          subpageObj.title = subpage.title;
+          subpageObj.subtitle = subpage.subtitle;
+          subpageObj.alias = subpage.alias;
+          subpageObj.state = 'out';
+          this.subpages.push(subpageObj);
+        });
+      });
+      this.page = page;
+    }
+    return this.page;
   }
 
 }

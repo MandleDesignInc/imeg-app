@@ -1,1 +1,17 @@
+<div class="container">
+  <div>
+    <h1>Community Involvement</h1>
+    <p *ngFor="let tag of (content$ | async)">
+      {{ tag }}
+    </p>
+  </div>
 
+  <mat-grid-list cols="4"
+    rowHeight="200px"
+    gutterSize="8px">
+    <mat-grid-tile *ngFor="let url of images$ | async; index as i"
+      (click)="clickHandler(i)">
+      <img [src]="url">
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

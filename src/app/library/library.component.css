@@ -21,9 +21,24 @@ section span {
   flex-flow: row wrap;
 }
 
-section span {
+p {
   color: #6D6F71;
-  font-size: 14px;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  padding-bottom: 1.2ch !important;
+  padding: 0 6px;
+}
+
+p:first-of-type {
+  color: #6D6F71;
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  font-size: 49px !important;
+  line-height: 59px !important;
+  font-weight: 700 !important;
+}
+
+p:last-of-type {
+  padding-bottom: 32px !important;
 }
 
 mat-card {
@@ -35,6 +50,7 @@ mat-card {
   display: flex;
   flex-direction: column;
 }
+
 mat-card-title .title {
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-size: 20px;
@@ -42,15 +58,17 @@ mat-card-title .title {
   padding: 0px 0px 0px 10px;
 }
 
-#u2314075-2, #u2314075-3 {
-    color: #6D6F71;
+#u2314075-2,
+#u2314075-3 {
+  color: #6D6F71;
 }
+
 #u2314075-10 {
-    z-index: 31;
-    width: 100%;
-    background-color: transparent;
-    padding-bottom: 15px;
-    position: relative;
+  z-index: 31;
+  width: 100%;
+  background-color: transparent;
+  padding-bottom: 15px;
+  position: relative;
 }
 
 @media (max-width: 960px) {
@@ -61,30 +79,39 @@ mat-card-title .title {
 
 @media (min-width: 1151px) {
   #u2314075-2 {
-      font-size: 49px;
-      line-height: 59px;
+    font-size: 49px;
+    line-height: 59px;
   }
   #u2314075-10 {
-      min-height: 211px;
+    min-height: 211px;
   }
-  #u2314700-2, #u2314686-2, #u2314688-2, #u2314690, mat-card-title .title {
-      font-size: 30px;
-      line-height: 36px;
+  #u2314700-2,
+  #u2314686-2,
+  #u2314688-2,
+  #u2314690,
+  mat-card-title .title {
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 
-#u2314686-2, #u2314700-2, #u2314688-2, #u2314690-3, mat-card-title .title {
-    color: #FFFFFF;
-    padding-left: 5px;
+#u2314686-2,
+#u2314700-2,
+#u2314688-2,
+#u2314690-3,
+mat-card-title .title {
+  color: #FFFFFF;
+  padding-left: 5px;
 }
+
 #u2314700-6 {
-    padding-top: 4px;
-    z-index: 25;
-    position: relative;
-    margin-right: -10000px;
-    width: 100%;
-    text-align: left;
-    -pie-background: rgba(0,0,0,0.5);
+  padding-top: 4px;
+  z-index: 25;
+  position: relative;
+  margin-right: -10000px;
+  width: 100%;
+  text-align: left;
+  -pie-background: rgba(0, 0, 0, 0.5);
 }
 
 mat-card a {
@@ -100,6 +127,7 @@ mat-card-footer {
   margin-top: auto;
   height: 72px;
 }
+
 mat-card-title span {
   font-size: large;
   padding: 1px 8px;
@@ -115,7 +143,6 @@ mat-card-title span {
 mat-card-title span.subtitle {
   font-size: 16px;
   line-height: 16px;
-
 }
 
 .footer-background {

@@ -8,6 +8,8 @@ import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
 })
 export class LeaderDialogComponent {
 
+    
+
     constructor(public dialogRef: MatDialogRef<LeaderDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) { }
 
     onNoClick(): void {
