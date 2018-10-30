@@ -21,7 +21,11 @@ export class RegionComponent implements AfterContentInit {
     public readonly region$: Observable<Region> = this.alias$.pipe(
         switchMap(alias => this.contentService.getRegion(alias)),
         filter(x => !!x));
-    public readonly spotlightProjects$ = this.contentService.getSlides(312).pipe(
+    public pageId$: Observable<any> = this.region$.pipe(
+        map(p => p.id),
+        filter(x => !!x));
+    public readonly spotlightProjects$ = this.pageId$.pipe(
+        switchMap(id => this.contentService.getSlides(id)),
         map(slides => slides.map(slide => `${RegionComponent.baseUrl}/${slide.image}`)));
     public readonly bgImgUrl$ = this.region$.pipe(
         map(region => `url(${RegionComponent.baseUrl}${region.headerImage})`));
