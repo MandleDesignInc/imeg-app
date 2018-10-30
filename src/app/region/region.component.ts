@@ -18,11 +18,12 @@ export class RegionComponent implements AfterContentInit {
     static readonly baseUrl = 'http://bluemandle2.com/~imeg/cms/assets/uploads/';
 
     private readonly alias$: Observable<string> = this.route.params.pipe(pluck('alias'));
-    public readonly region$: Observable<Region> = this.alias$.pipe(
+    public readonly region$: Observable<any> = this.alias$.pipe(
         switchMap(alias => this.contentService.getRegion(alias)),
         filter(x => !!x));
     public pageId$: Observable<any> = this.region$.pipe(
-        map(p => p.id),
+        map(r => r.page.id),
+        tap(x => console.log('TAP:', x)),
         filter(x => !!x));
     public readonly spotlightProjects$ = this.pageId$.pipe(
         switchMap(id => this.contentService.getSlides(id)),

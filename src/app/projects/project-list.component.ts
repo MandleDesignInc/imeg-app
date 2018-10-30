@@ -38,23 +38,16 @@ export class ProjectListComponent implements OnInit {
                 this.onProjectsLoaded(projectList);
                 this.loadMore();
             });
-
         let mTag = this.route.snapshot.paramMap.get('tag');
         console.log('selected tag: ' + mTag);
     }
 
     onProjectsLoaded(projectList: ProjectList): void {
-
         // TODO: need refactoring here
-
         this.projects = projectList.projects;
         this.headerImage = projectList.headerImage;
         this.tag = projectList.tag;
         this.safeTextElement = this.sanitizer.bypassSecurityTrustHtml(projectList.content);
-
-        console.log('---SAFE:', this.projects);
-        console.log('path: ' + this.globals.cmsPath + this.headerImage);
-
     }
 
     public loadMore() {
