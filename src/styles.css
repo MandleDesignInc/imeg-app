@@ -214,6 +214,22 @@ footer {
   clear: left;
 }
 
+/***** MODX WisyStyles *********/
+.home_tile {
+  font-size: 31px !important;
+  line-height: 37px !important;
+  color: #fff !important;
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  font-weight: 400 !important;
+}
+.left p {
+  margin: 1.5ch 0 !important;
+  line-height: 17px !important;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  color: #7F7F7F !important;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   body {
     text-rendering: auto;

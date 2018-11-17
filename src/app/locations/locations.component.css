@@ -11,4 +11,11 @@ p {
   text-align: center;
 }
 
+.max-width-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2.5vw 5vw;
+  overflow: hidden;
+}
+
 @media (max-width: 960px) {}
