@@ -18,7 +18,7 @@ mat-card-title {
 
 mat-card,
 div {
-  /*  No image during initial render causes ignore of background related props, 
+  /*  No image during initial render causes ignore of background related props,
       so forcing props with !important */
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -200,8 +200,8 @@ section > div:first-of-type {
 }
 
 mat-card {
-  height: 160px;
-  width: 160px;
+  height: 180px;
+  width: 180px;
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -313,7 +313,7 @@ mat-card-footer {
 .contacts .contact-info > div {
   display: flex;
   align-items: baseline;
-} 
+}
 
 h5+span {
   font-weight: 400;

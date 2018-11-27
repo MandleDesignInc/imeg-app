@@ -4,7 +4,7 @@
       <h2>News & Events</h2>
       <div *ngFor="let newsItem of newsLinks" class="news-item">
         <a [routerLink]="['/news/', newsItem.alias]">
-          <span *ngIf="newsItem.image" class="image"><img [src]="newsItem.image"></span>
+          <div *ngIf="newsItem.image" class="image" [ngStyle]="{ 'background-image': 'url(' + newsItem.image + ')','background-size':'130px','width':'130px','height':'130px'}"></div>
           <span class="content">
             <h2 class="title">{{ newsItem.pagetitle }}</h2>
             <span class="date">{{ newsItem.publishedon | date }}</span>

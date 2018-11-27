@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {Tile} from './tile';
 
 
@@ -7,10 +7,15 @@ import {Tile} from './tile';
     templateUrl: './tiles.component.html',
     styleUrls: ['./tiles.component.css']
 })
-export class TilesComponent {
+export class TilesComponent implements OnInit {
 
     @Input() tiles: Tile[];
     @Input() baseAssetsPath: string;
+
+    show: boolean;
+    ngOnInit() {
+      this.show = true;
+    }
 
     constructor() { }
 }

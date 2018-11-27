@@ -5,7 +5,7 @@ section {
 .max-width-container {
     max-width: 1200px;
     margin: auto;
-    padding: 32px 60px;
+    padding: 32px 0;
     line-height: 1em;
     box-sizing: border-box;
 }
@@ -32,8 +32,10 @@ p:last-of-type {
 
 mat-card {
     flex: auto;
-    height: 200px;
-    width: 200px;
+    /*height: 200px;
+    width: 200px;*/
+    height: 300px;
+    width: 300px;
     margin: .5vw;
     color: white;
     display: flex;
@@ -58,7 +60,7 @@ mat-card a {
 mat-card-footer {
     z-index: 20;
     margin-top: auto;
-    height: 72px;
+    min-height: 57px;
 }
 mat-card-title {
     font-size: large;
@@ -70,13 +72,10 @@ mat-card-title {
 .footer-background {
     background: black;
     opacity: 0.5;
-    height: 72px;
+    min-height: 57px;
     z-index: 1;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
 }
-
-
-

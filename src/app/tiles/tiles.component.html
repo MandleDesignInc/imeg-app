@@ -26,14 +26,13 @@
 
 
         <mat-grid-tile-footer *ngIf="tile.title">
-            {{tile.title}}
+            <h3 class="H2-Project">{{tile.title}}</h3>
+            <p class="subtitle" *ngIf="show">
+              {{tile.subtitle}}
+            </p>
         </mat-grid-tile-footer>
 
 
     </mat-grid-tile>
 
 </mat-grid-list>
-
-
-
-

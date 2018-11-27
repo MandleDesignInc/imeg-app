@@ -11,7 +11,6 @@
             <div>
                 <div class="history-item"
                     *ngFor="let item of content$ | async">
-                    <img src="/src/assets/images/list-icon.png">
                     <div [innerHtml]="item"></div>
                 </div>
             </div>

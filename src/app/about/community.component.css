@@ -5,8 +5,7 @@
 }
 
 .container {
-  max-width: 1088px;
-  padding: 12px;
+  max-width: 1200px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

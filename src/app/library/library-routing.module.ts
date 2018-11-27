@@ -6,7 +6,7 @@ import { LibraryComponent } from './library.component';
 @NgModule({
   imports: [
     RouterModule.forChild([
-      { path: 'library', component: LibraryComponent },
+      { path: 'library', component: LibraryComponent }
     ])
   ],
   exports: [RouterModule]

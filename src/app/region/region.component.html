@@ -32,7 +32,7 @@
     <div>
       <h2>{{ (region$ | async)?.projectHeadline }}</h2>
       <div>
-        <mat-card *ngFor="let project of (region$ | async)?.projects.project"
+        <mat-card *ngFor="let project of (region$ | async)?.projects.project | slice:0:5; let i=index"
           [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'">
           <a [routerLink]="['/projects', project.path]"></a>
           <mat-card-footer>
