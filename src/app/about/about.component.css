@@ -72,6 +72,39 @@ mat-grid-tile-footer {
   padding: 2.5vw 5vw;
 }
 
+.flex-grid-quarters {
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.flex-grid-quarters .col {
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.callout {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #7F7F7F;
+    text-align: center;
+}
+.stat {
+  color: #01518C;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700 !important;
+}
+.divider {
+  width: 50px;
+  height: 1px;
+  margin: 15px 0;
+  left: -27px;
+  background-color: #7F7F7F;
+  margin-left: 50%;
+  position: relative;
+}
+
 p {
   padding: 1ch 0;
 }

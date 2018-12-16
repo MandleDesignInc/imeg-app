@@ -21,6 +21,7 @@ import { VideosModule } from './library/videos/videos.module';
 import { NewslettersModule } from './library/newsletters/newsletters.module';
 import { ArticlesModule } from './library/articles/articles.module';
 import { PresentationsModule } from './library/presentations/presentations.module';
+import { CountUpModule } from 'countup.js-angular2';
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { PresentationsModule } from './library/presentations/presentations.modul
     MatButtonModule,
     MatInputModule,
     MatIconModule,
+    CountUpModule,
   ],
   bootstrap: [AppComponent],
   providers: []

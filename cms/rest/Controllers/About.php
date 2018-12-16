@@ -29,6 +29,7 @@ class MyControllerAbout extends modRestController {
 
         $objectArray = array();
         $objectArray['page'] =  $this->getCurrentPage($id);
+        $objectArray['callouts'] = $this->getCallouts($id);
         $objectArray['tiles'] = $this->getTiles($id);
 
         return $this->success('',$objectArray);
@@ -44,6 +45,22 @@ class MyControllerAbout extends modRestController {
         $page['content'] = $this->object->content;
 
         return $page;
+    }
+
+    public function getCallouts($id) {
+
+        $callouts = array();
+
+        $callouts[0]['title'] = $this->getTemplateVariable($id, 87);
+        $callouts[0]['stat'] = $this->getTemplateVariable($id, 88);
+        $callouts[1]['title'] = $this->getTemplateVariable($id, 89);
+        $callouts[1]['stat'] = $this->getTemplateVariable($id, 90);
+        $callouts[2]['title'] = $this->getTemplateVariable($id, 93);
+        $callouts[2]['stat'] = $this->getTemplateVariable($id, 91);
+        $callouts[3]['title'] = $this->getTemplateVariable($id, 94);
+        $callouts[3]['stat'] = $this->getTemplateVariable($id, 92);
+
+        return $callouts;
     }
 
 

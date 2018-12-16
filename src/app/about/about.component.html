@@ -29,6 +29,14 @@
 
         </mat-grid-list>
 
+        <div class="flex-grid-quarters">
+          <div class="col callout" *ngFor="let callout of callouts$ | async">
+            <div class="stat">{{callout.stat}}</div>
+            <div class="divider"></div>
+            <div>{{callout.title}}</div>
+          </div>
+        </div>
+
     </div>
 
 </section>

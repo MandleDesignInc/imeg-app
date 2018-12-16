@@ -6,6 +6,7 @@ import {NavigationItem} from '../core/content-model';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { DomSanitizer } from '@angular/platform-browser';
+import { CountUpModule } from 'countup.js-angular2';
 
 @Component({
     templateUrl: 'about.component.html',
@@ -20,11 +21,15 @@ export class AboutComponent {
         map(tags => tags.map(tag => this.sanitizer.bypassSecurityTrustHtml(tag))));
     public readonly tiles$ = this.aboutPage$.pipe(
         map(result => result.tiles));
-    
+    public readonly callouts$ = this.aboutPage$.pipe(
+            map(result => result.callouts));
+
     a = this.aboutPage$.subscribe(x => console.log('PAGE', x));
     b = this.aboutContent$.subscribe(x => console.log('PTAG', x));
     c = this.tiles$.subscribe(x => console.log('TILES', x));
-    
+    d = this.callouts$.subscribe(x => console.log('CALLOUTS', x));
+
+
     constructor(
         private sanitizer: DomSanitizer,
         private contentService: ContentService,

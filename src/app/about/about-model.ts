@@ -4,6 +4,7 @@ import {Page} from '../core/content-model';
 export class AboutPage {
     page: Page;
     tiles: AboutTile[];
+    callouts: AboutCallout;
 }
 
 export class AboutTile {
@@ -24,4 +25,9 @@ export class AboutTile {
     backgroundImage: string;
     backgroundColor: string;
 
+}
+
+export class AboutCallout {
+  title: string;
+  stat: number;
 }

@@ -8,7 +8,7 @@ section span {
 }
 
 .max-width-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   padding: 2.5vw 0vw;
 }
@@ -36,13 +36,20 @@ section span {
   padding-bottom: 6px;
   border-bottom: 1px solid #000;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  line-height: 30px;
+}
+
+.block {
+  color: #6D6F71;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .newsletter-content .image {
-  width: 100px;
+  width: 80px;
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .newsletter-content .introtext {
@@ -72,5 +79,3 @@ p {
   font-size: 14px;
   margin-top: 0px;
 }
-
-
