@@ -107,3 +107,6 @@ mat-dialog-actions {
   flex-direction: row;
   justify-content: flex-end;
 }
+mat-dialog-content {
+  overflow: hidden !important;
+}

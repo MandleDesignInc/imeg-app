@@ -167,6 +167,26 @@ a:link {
   text-decoration: inherit;
 }
 
+.breadcrumbs {
+  font-size: 47px !important;
+  line-height: 56px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  color: #01518C !important;
+  font-weight: 700;
+}
+.breadcrumbs a {
+  color: #6D6F71;
+  font-weight: 400;
+}
+.breadcrumbs a:hover {
+  color: #01518C;
+  text-decoration: underline;
+}
+.breadcrumbs img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .page-content {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 15px;

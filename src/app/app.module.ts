@@ -17,11 +17,13 @@ import {HttpClientModule} from '@angular/common/http';
 import {HttpModule} from '@angular/http';
 import { NewsModule } from './news/news.module';
 import { LibraryModule } from './library/library.module';
+import { CareersModule } from './careers/careers.module';
 import { VideosModule } from './library/videos/videos.module';
 import { NewslettersModule } from './library/newsletters/newsletters.module';
 import { ArticlesModule } from './library/articles/articles.module';
 import { PresentationsModule } from './library/presentations/presentations.module';
 import { CountUpModule } from 'countup.js-angular2';
+import { CareersComponent } from './careers/careers.component';
 
 
 @NgModule({
@@ -46,6 +48,7 @@ import { CountUpModule } from 'countup.js-angular2';
     ProjectsModule,
     NewsModule,
     LibraryModule,
+    CareersModule,
     PageModule,
     HttpModule,
     HttpClientModule,

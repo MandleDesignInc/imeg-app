@@ -1,5 +1,7 @@
 <section *ngIf="page" class="page-content">
   <div class="max-width-container">
+
+    <span class="breadcrumbs"><a href="/library">Library</a><img src="assets/images/imeg_arrow.png" />Newsletters</span>
     <span [innerHTML]="page.safeContent"></span>
 
     <div class="max-width-container grid">
@@ -15,4 +17,3 @@
     </div>
   </div>
 </section>
-
