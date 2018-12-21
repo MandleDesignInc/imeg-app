@@ -20,7 +20,7 @@ class MyControllerSubpagesByParentId extends modRestController {
                 'class_key' => $this->classKey,
             )));
         }
-  
+
         $subpageIds = $this->modx->getChildIds($id, 1, array('context' => 'web'));
                 $subpages = array();
 
@@ -41,34 +41,42 @@ class MyControllerSubpagesByParentId extends modRestController {
 
         return $this->success('',$objectArray);
     }
-    
+
     public function getSubPage($id) {
 
         $page = $this->modx->getObject('modResource', $id);
         $pageArray = $page->toArray();
-        
+        $backgroundColor = $this->getTemplateVariable($id, 52);
+        if($backgroundColor=='') {
+          $bc = '#fff';
+        } else {
+          $bc = $backgroundColor;
+        }
+
         if($pageArray['parent'] === 274 || $pageArray['parent'] === 277) {
           $pageArray['vimeoURL'] = $this->getTemplateVariable($id, 71);
         }
-        
+
         if($pageArray['parent'] === 276) {
           $pageArray['articleImage'] = $this->getTemplateVariable($id, 72);
         }
-        
+
         if($pageArray['parent'] === 275) {
           $pageArray['articleImage'] = $this->getTemplateVariable($id, 72);
-          $pageArray['externalArticleURL'] = $this->getTemplateVariable($id, 73);  
+          $pageArray['externalArticleURL'] = $this->getTemplateVariable($id, 73);
         }
-        
+
         $pageArray['title'] = $this->getTemplateVariable($id, 54);
         $pageArray['subtitle'] = $this->getTemplateVariable($id, 55);
+        $pageArray['external'] = $this->getTemplateVariable($id, 95);
+        $pageArray['bgcolor'] = $bc;
 
         $pageArray['backgroundImage'] = $this->getTemplateVariable($id, 53);
         if ($pageArray['backgroundImage'] != "") $pageArray['backgroundImage'] = $pageArray['backgroundImage'];
-        
+
         return $pageArray;
     }
-    
+
     public function getTemplateVariable($id, $tvId, $richText = false) {
 
         $tv = $this->modx->getObject('modTemplateVarResource', array('tmplvarid' => $tvId, 'contentid' => $id));

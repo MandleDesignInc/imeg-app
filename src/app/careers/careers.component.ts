@@ -61,9 +61,11 @@ export class CareersComponent implements OnInit {
         page.subpages.map((subpage: Subpage) => {
           let subpageObj = new Subpage();
           subpageObj.backgroundImage = subpage.backgroundImage;
+          subpageObj.bgcolor = subpage.bgcolor;
           subpageObj.title = subpage.title;
           subpageObj.subtitle = subpage.subtitle;
           subpageObj.alias = subpage.alias;
+          subpageObj.external = subpage.external;
           subpageObj.state = 'out';
           this.subpages.push(subpageObj);
         });

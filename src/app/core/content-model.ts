@@ -63,6 +63,8 @@ export class Subpage extends Page {
   title: string;
   subtitle: string;
   state: string;
+  external: string;
+  bgcolor: string;
 
   toggleState() {
     this.state = this.state === 'in' ? 'out' : 'in';

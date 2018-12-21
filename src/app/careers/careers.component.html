@@ -10,11 +10,13 @@
                 (mouseover)="page.toggleState()"
                 (mouseout)="page.toggleState()"
                 [@tagState]="page.state"
+                [style.background-color]="'#ccc'"
                 [style.background]="'url(' + globals.uploadsPath + page.backgroundImage + ')'"
                 [style.backgroundSize]="'cover'"
                 [style.backgroundRepeat]="'no-repeat'">
 
-        <a [routerLink]="['/', page.alias]"></a>
+        <a *ngIf="page.external!=''; else elseBlock" href="{{page.external}}"></a>
+        <a *ngIf="page.external==''; else elseBlock" [routerLink]="['/', page.alias]"></a>
 
         <div class="footer-background"></div>
 
