@@ -13,6 +13,11 @@
         </a>
 
       </div>
+
+      <div *ngIf="showLoadMore$ | async" class="button-container">
+          <button mat-stroked-button
+          (click)="loadMore()">load more</button>
+      </div>
     </span>
   </div>
 </section>

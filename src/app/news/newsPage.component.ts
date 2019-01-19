@@ -8,7 +8,7 @@ import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
     templateUrl: './newsPage.component.html',
-    styleUrls: ['../page/page.component.css']
+    styleUrls: ['../about/page.component.css','./newsPage.component.css']
 })
 export class NewsPageComponent implements OnInit {
     id: number;

@@ -6,6 +6,7 @@ class MyControllerNews extends modRestController {
     public $defaultSortDirection = 'ASC';*/
     public $defaultSortField = 'publishedon';
     public $defaultSortDirection = 'DESC';
+    public $defaultLimit = 0;
 
     /**
      * Abstract method for routing GET requests without a primary key passed. Must be defined in your derivative
@@ -31,7 +32,7 @@ class MyControllerNews extends modRestController {
 
         $c->sortby($this->getProperty($this->getOption('propertySort','sort'),$this->defaultSortField),$this->getProperty($this->getOption('propertySortDir','dir'),$this->defaultSortDirection));
         $limit = $this->getProperty($this->getOption('propertyLimit','limit'),$this->defaultLimit);
-        if (empty($limit)) $limit = $this->defaultLimit;
+        if (empty($limit)) $limit = 0;
         $c->limit($limit,$this->getProperty($this->getOption('propertyOffset','start'),$this->defaultOffset));
         $objects = $this->modx->getCollection($this->classKey,$c);
         if (empty($objects)) $objects = array();

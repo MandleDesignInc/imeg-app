@@ -56,7 +56,7 @@ export class LibraryComponent implements OnInit {
 
   onPageResponse(page: Page): Page {
     if (this.subpages.length === 0) {
-      page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);  
+      page.safeContent = this.sanitizer.bypassSecurityTrustHtml(page.content);
       this.contentService.getSubPagesByIdObservable(page.id).subscribe(page => {
         page.subpages.map((subpage: Subpage) => {
           let subpageObj = new Subpage();
