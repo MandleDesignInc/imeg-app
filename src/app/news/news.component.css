@@ -69,3 +69,22 @@ section span {
 .news-item .image img {
   max-width: 100%;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.button-container button {
+  color: #01518C;
+  font-size: 16px;
+  padding: 8px 32px;
+  margin: 16px;
+  text-transform: capitalize;
+  border: 1px solid #01518C;
+}
+
+.button-container button:hover {
+  cursor: pointer;
+}

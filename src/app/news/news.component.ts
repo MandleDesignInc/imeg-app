@@ -4,6 +4,8 @@ import { Globals } from '../core/globals';
 import { ContentService } from '../core/content.service';
 import { Page } from '../core/content-model';
 import { BehaviorSubject } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-news',
@@ -16,15 +18,34 @@ export class NewsComponent implements OnInit {
   private readonly maxLength = 15;
   private pageIndex = 0;
   public showLoadMore$ = new BehaviorSubject(false);
+  subNews: any[];
 
-  constructor(private contentService: ContentService, public globals: Globals) { }
+  constructor(
+    private contentService: ContentService,
+    public globals: Globals,
+    private route: ActivatedRoute,
+    private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
 
-    // TODO: refactor to handle hardcoded page IDs
-    this.contentService.getNewsPageLinks().subscribe((results: Page[]) => { this.newsLinks = results; });
+    this.contentService.getNewsPageLinks()
+      .subscribe(newsList => {
+        this.onNewsLoaded(newsList);
+        this.loadMore();
+      });
+  }
 
+  onNewsLoaded(newsList: any): void {
+    // TODO: need refactoring here
+    this.newsLinks = newsList;
+  }
 
+  public loadMore() {
+    const endIndex = (this.pageIndex + 1) * this.maxLength;
+    this.subNews = this.newsLinks.slice(0, endIndex);
+    const showMore = this.subNews.length < this.newsLinks.length;
+    this.showLoadMore$.next(showMore);
+    this.pageIndex++;
   }
 
 }

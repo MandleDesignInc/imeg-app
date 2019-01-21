@@ -24,10 +24,10 @@ export class AboutComponent {
     public readonly callouts$ = this.aboutPage$.pipe(
             map(result => result.callouts));
 
-    a = this.aboutPage$.subscribe(x => console.log('PAGE', x));
-    b = this.aboutContent$.subscribe(x => console.log('PTAG', x));
-    c = this.tiles$.subscribe(x => console.log('TILES', x));
-    d = this.callouts$.subscribe(x => console.log('CALLOUTS', x));
+    // a = this.aboutPage$.subscribe(x => console.log('PAGE', x));
+    // b = this.aboutContent$.subscribe(x => console.log('PTAG', x));
+    // c = this.tiles$.subscribe(x => console.log('TILES', x));
+    // d = this.callouts$.subscribe(x => console.log('CALLOUTS', x));
 
 
     constructor(
