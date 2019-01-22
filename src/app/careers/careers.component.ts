@@ -69,8 +69,8 @@ export class CareersComponent implements OnInit {
           subpageObj.state = 'out';
           this.subpages.push(subpageObj);
         });
+        this.page = page;
       });
-      this.page = page;
     }
     return this.page;
   }

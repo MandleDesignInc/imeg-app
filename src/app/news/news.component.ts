@@ -15,7 +15,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class NewsComponent implements OnInit {
 
   public newsLinks: Page[];
-  private readonly maxLength = 15;
+  private readonly maxLength = 7;
   private pageIndex = 0;
   public showLoadMore$ = new BehaviorSubject(false);
   subNews: any[];
