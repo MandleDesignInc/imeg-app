@@ -16,13 +16,13 @@ export class ProjectDetailComponent implements OnInit {
 
     private readonly middleware: any = [
         filter(content => !!content),
-        map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content))] ; 
+        map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content))] ;
 
     public readonly project$: Observable<Project> = this.route.paramMap.pipe(
-        switchMap((params: ParamMap) => this.contentService.getProject(params.get('id'))));
+        switchMap((params: ParamMap) => this.contentService.getProject(params.get('alias'))));
 
     public readonly mainContent$ = this.project$.pipe(
-        map(project => project.content), 
+        map(project => project.content),
         filter(content => !!content),
         map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content)));
 
@@ -30,7 +30,7 @@ export class ProjectDetailComponent implements OnInit {
         map(project => project.sidebarContent),
         filter(content => !!content),
         map((content: string) => this.sanitizer.bypassSecurityTrustHtml(content)));
-    
+
     a = this.project$.subscribe(x => console.log('SERVICES:', x.tags.services));
     b = this.mainContent$.subscribe(x => console.log('LEFT', x));
 

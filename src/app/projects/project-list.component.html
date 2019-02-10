@@ -23,12 +23,10 @@
 
                 <div class="left" [innerHTML]="safeTextElement"></div>
 
-
-
                 <div class="right tag-cards">
                     <mat-card *ngFor="let project of subProjects" [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'" [style.backgroundSize]="'cover'" [style.backgroundRepeat]="'no-repeat'">
 
-                        <a [routerLink]="['/project-details', project.id]"></a>
+                        <a [routerLink]="['/project-details', project.path]"></a>
 
                         <mat-card-footer>
                             <mat-card-title>

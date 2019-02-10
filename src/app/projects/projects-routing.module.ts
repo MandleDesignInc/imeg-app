@@ -8,7 +8,7 @@ import {ProjectDetailComponent} from './project-detail.component';
     imports: [
         RouterModule.forChild([
             { path: 'projects/:tag', component: ProjectListComponent},
-            { path: 'project-details/:id', component: ProjectDetailComponent}
+            { path: 'project-details/:alias', component: ProjectDetailComponent}
         ])
     ],
     exports: [RouterModule]

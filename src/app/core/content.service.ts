@@ -26,7 +26,8 @@ export class ContentService {
     private navigationUrl = 'http://bluemandle2.com/~imeg/cms/rest/navigation';
     private carouselUrl = 'http://bluemandle2.com/~imeg/cms/rest/carousel';
     private locationsUrl = 'http://bluemandle2.com/~imeg/cms/rest/locations';
-    private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects';
+    //private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects';
+    private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projectsByAlias';
 
 
     constructor(private http: Http) { }
@@ -100,8 +101,13 @@ export class ContentService {
         // return this.http.post(projectsUrl, {tag: tag}, headers).map(response => response.json().object.projects as Project[]);
     }
 
-    getProject(id: string): Observable<Project> {
+    /*getProject(id: string): Observable<Project> {
         const url = `${this.projectsUrl}/${id}`;
+        return this.http.get(url).pipe(map(response => response.json().object.projects as Project));
+    }*/
+
+    getProject(alias: string): Observable<Project> {
+        const url = `${this.projectsUrl}?alias=${alias}`;
         return this.http.get(url).pipe(map(response => response.json().object.projects as Project));
     }
 
@@ -116,7 +122,7 @@ export class ContentService {
         const url = `${regionUrl}?alias=${alias}`;
         return this.http.get(url).pipe(map(response => response.json().object as Region));
     }
-      
+
     public getGallery() {
       const url = `${ContentService.domain}/${ContentService.galleryPath}?${ContentService.galleryQuery}`;
       return this.http.get(url).pipe(
