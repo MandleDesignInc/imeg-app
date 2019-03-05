@@ -4,6 +4,7 @@ import { Region } from './region-model';
 import { Globals } from '../core/globals';
 import { ContentService } from '../core/content.service';
 import { Observable } from 'rxjs';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 import { pluck, switchMap, map, filter, tap, first } from 'rxjs/operators';
 import { DomSanitizer } from '@angular/platform-browser';
 import { slideLeft } from '../core/animations';
@@ -11,7 +12,29 @@ import { slideLeft } from '../core/animations';
 @Component({
     selector: 'app-region',
     templateUrl: './region.component.html',
-    styleUrls: ['./region.component.css']
+    styleUrls: ['./region.component.css'],
+    animations: [
+        trigger('slideUp', [
+            state('in', style({ transform: 'translateY(0)' })),
+            transition('void => *', [
+                style({ transform: 'translateY(100%)' }),
+                animate(500)
+            ]),
+            transition('* => void', [
+                animate(500, style({ transform: 'translateY(-100%)' }))
+            ])
+        ]),
+        trigger('tagState', [
+            state('out', style({
+                backgroundPosition: '0% 0%'
+            })),
+            state('in', style({
+                backgroundPosition: '50% 0%'
+            })),
+            transition('out => in', animate('0.5s ease-in-out')),
+            transition('in => out', animate('0.5s ease-in-out'))
+        ])
+    ]
 })
 export class RegionComponent implements AfterContentInit {
 
@@ -25,8 +48,8 @@ export class RegionComponent implements AfterContentInit {
         map(r => r.page.id),
         tap(x => console.log('TAP:', x)),
         filter(x => !!x));
-    public readonly spotlightProjects$ = this.pageId$.pipe(
-        switchMap(id => this.contentService.getSlides(id)),
+    public readonly spotlightProjects$ = this.alias$.pipe(
+        switchMap(alias => this.contentService.getSlidesProject(alias)),
         map(slides => slides.map(slide => `${RegionComponent.baseUrl}/${slide.image}`)));
     public readonly bgImgUrl$ = this.region$.pipe(
         map(region => `url(${RegionComponent.baseUrl}${region.headerImage})`));
@@ -71,5 +94,11 @@ export class RegionComponent implements AfterContentInit {
         this._index = this._index === undefined ? 0 : this._index + 1;
         return this._index;
     }
-    
+
+    toggleTagState(index: number): void {
+        console.log('before state change : ' + this.region$[index].state);
+        this.region$[index].state = this.region$[index].state === 'in' ? 'out' : 'in';
+        console.log('after state change : ' + this.region$[index].state);
+    }
+
 }

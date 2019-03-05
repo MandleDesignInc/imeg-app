@@ -71,7 +71,11 @@ class MyControllerAbout extends modRestController {
 
         $tiles = array();
 
-        foreach ($tileIds as $tileId) array_push($tiles, $this->getTile($tileId));
+        foreach ($tileIds as $tileId) {
+          if($this->getTile($tileId)!='') {
+            array_push($tiles, $this->getTile($tileId));
+          }
+        }
 
         return $tiles;
     }
@@ -79,7 +83,7 @@ class MyControllerAbout extends modRestController {
     public function getTile($id) {
 
         $uploadsPath = 'http://bluemandle2.com/~imeg/cms/assets/uploads/';
-
+        $output = '';
 
 
         $page = $this->modx->getObject('modResource', $id);
@@ -94,6 +98,7 @@ class MyControllerAbout extends modRestController {
         $tile['title'] = $this->getTemplateVariable($id, 54);
         $tile['subtitle'] = $this->getTemplateVariable($id, 55);
         $tile['alias'] = $page->get('alias');
+        $published = $page->get('published');
 
 
 
@@ -103,8 +108,11 @@ class MyControllerAbout extends modRestController {
 
         $tile['backgroundColor'] = $this->getTemplateVariable($id, 52);
 
+        if($published==1) {
+          $output = $tile;
+        }
 
-        return $tile;
+        return $output;
     }
 
 

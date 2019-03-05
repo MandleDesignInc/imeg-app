@@ -33,7 +33,12 @@
       <h2>{{ (region$ | async)?.projectHeadline }}</h2>
       <div>
         <mat-card *ngFor="let project of (region$ | async)?.projects.project | slice:0:5; let i=index"
-          [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'">
+        (mouseover)="project.toggleState()"
+        (mouseout)="project.toggleState()"
+        [@tagState]="project.state"
+          [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'"
+          [style.backgroundSize]="'cover'"
+          [style.backgroundRepeat]="'no-repeat'">
           <a [routerLink]="['/projects', project.path]"></a>
           <mat-card-footer>
             <mat-card-title>

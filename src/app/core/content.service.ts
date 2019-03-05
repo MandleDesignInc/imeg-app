@@ -93,6 +93,13 @@ export class ContentService {
             map(response => response.json().object.slides));
     }
 
+    getSlidesProject(alias: string): Observable<ModxSlideModel[]> {
+      let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
+      const url = `${regionUrl}?alias=${alias}`;
+        return this.http.get(url).pipe(
+            map(response => response.json().object.projectSpotlightProjects));
+    }
+
     getProjectsObservable(tag: string): Observable<ProjectList> {
         let projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects?tag=' + tag;
         // let headers = new Headers({'Content-Type': 'application/json'});
