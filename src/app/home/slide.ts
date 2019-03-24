@@ -1,5 +1,5 @@
 export class ImegSlide {
-  constructor(public id: string, public caption: string, public image: string, public state: string = 'inactive') {
+  constructor(public id: string, public caption: string, public image: string, public link: string, public state: string = 'inactive') {
 
   }
 
@@ -13,6 +13,7 @@ export class ModxSlideModel {
   MIGX_id: string;
   caption: string;
   image: string;
+  link: string;
 
 
 }

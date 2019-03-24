@@ -2,11 +2,33 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  color: #6D6F71;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 17px;
+  /*grid-gap: 10px;*/
+  /*display: grid;
+  grid-template-columns: repeat(5, 1fr);*/
+  /*display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+  align-items: center;
+  place-items: center;*/
+  /*justify-content: space-between;*/
 }
 
+.container {
+  width: 20%
+}
+
+h2 { text-align: center;}
+
 p {
+  color: #6D6F71;
   padding: 8px 12px;
+  font-size: 14px;
+  line-height: 17px;
   margin: 0;
   text-align: center;
 }
@@ -16,6 +38,57 @@ p {
   margin: auto;
   padding: 2.5vw 5vw;
   overflow: hidden;
+}
+
+.mapBorder {
+    position: relative;
+    border-color: #F5F5F5;
+    border-style: solid;
+    border-width: 9px 0px 0px;
+    height: 314px;
+    width: 100%;
+    overflow: hidden;
+}
+.mapBorder img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.careers {
+    background-color: #01518C;
+    min-height: 272px;
+    padding-bottom: 37px;
+    color: #fff;
+    text-align: center;
+}
+.careers h2, .careers p {
+  color: #fff !important;
+}
+.careerButton {
+  width: 450px !important;
+  margin-top: 137px !important;
+  min-height: 36px !important;
+  color: #01518C;
+  -webkit-transition-duration: 1s;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  transition-timing-function: ease;
+  border-radius: 3px;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  background-color: #FFFFFF;
+  font-size: 23px;
+  margin-right: -10000px;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-timing-function: ease;
+  z-index: 855;
+}
+.careerButton:hover {
+  background-color: #AFB0B1;
+  color: #fff;
 }
 
 @media (max-width: 960px) {}

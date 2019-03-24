@@ -5,6 +5,16 @@ section {
   margin: auto;
 }
 
+p {
+  line-height: 17px !important;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #6D6F71 !important;
+  font-size: 15px;
+  line-height: 1.3em !important;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
 mat-grid-list {
   margin-top: 32px;
 }

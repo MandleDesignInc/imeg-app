@@ -7,6 +7,13 @@ section span {
   font-size: 14px;
 }
 
+p {
+  color: #3E3E3E;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+font-size: 14px;
+padding: 0px;
+}
+
 .max-width-container {
   max-width: 1200px;
   margin: auto;

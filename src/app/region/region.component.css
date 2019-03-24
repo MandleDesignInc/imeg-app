@@ -16,6 +16,10 @@ mat-card-title {
   font-family: acumin-pro-extra-condensed, sans-serif;
 }
 
+h2 {
+  padding: 0;
+}
+
 mat-card,
 div {
   /*  No image during initial render causes ignore of background related props,
@@ -89,7 +93,7 @@ H3 {
 h4 {
   color: #01518C;
   line-height: 24px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h5, h5 + span {
@@ -119,7 +123,8 @@ section > div:first-of-type {
   display: block;
   border: 3px solid #c7c3c3;
   width: 61%;
-  height: 100%;
+  /*height: 100%;*/
+  max-height: 600px;
   padding: 23px 11px;
   margin: 20px;
   box-sizing: border-box;
@@ -128,13 +133,14 @@ section > div:first-of-type {
 
 .news {
   box-sizing: border-box;
-  margin: 45px 14px;
+  margin: 20px 14px;
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  margin: 0;
 }
 
 .news h2 {
   display: block;
-  padding-bottom: 16px;
-  margin-bottom: 16px;
+  padding: 0;
 }
 
 .news>div:first-of-type {
@@ -142,7 +148,7 @@ section > div:first-of-type {
 }
 
 .news>div {
-  padding: 12px;
+  padding: 10px 0 0 10px;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -153,6 +159,12 @@ section > div:first-of-type {
   color: #353535;
 }
 
+div.news div div p {
+  font-family: acumin-pro-extra-condensed, sans-serif !important;
+  margin: 0 0 5px;
+  font-size: 18px;
+  line-height: 22px;
+}
 .spotlight-title {
   padding-bottom: 16px;
 }

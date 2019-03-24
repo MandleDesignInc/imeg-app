@@ -68,12 +68,12 @@ a {
 
 p {
   line-height: 17px !important;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
-  color: #383838 !important;
-  font-size: 15px !important;
+  /*font-family: Arial, Helvetica Neue, Helvetica, sans-serif;*/
+  /*color: #383838 !important;*/
+  /*font-size: 15px;*/
   line-height: 1.3em !important;
   padding: 0;
-  margin: 0 0 10px 0;
+  /*margin: 0 0 10px 0*/;
 }
 
 strong {
@@ -100,6 +100,16 @@ p>strong>span {
 
 .about-content > p {
   padding: 1ch 0 !important;
+  color: #3E3E3E;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+font-size: 14px;
+padding: 0px;
+}
+.about-content ul, .about-content li {
+  color: #3E3E3E;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+font-size: 14px;
+padding: 0px;
 }
 
 .H1-title,
@@ -232,6 +242,13 @@ a:link {
 
 footer {
   clear: left;
+  min-height: 80px;
+}
+.footer-max-width {
+  padding-top: 10px;
+}
+footer svg {
+  align-self: flex-end;
 }
 
 /***** MODX WisyStyles *********/
@@ -244,9 +261,9 @@ footer {
 }
 .left p {
   margin: 1.5ch 0 !important;
-  line-height: 17px !important;
+  line-height: 24px !important;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
   color: #7F7F7F !important;
 }
 

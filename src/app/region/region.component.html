@@ -39,7 +39,7 @@
           [style.background]="'url(' + globals.uploadsPath + project.previewImage + ')'"
           [style.backgroundSize]="'cover'"
           [style.backgroundRepeat]="'no-repeat'">
-          <a [routerLink]="['/projects', project.path]"></a>
+          <a [routerLink]="['/project-details', project.path]"></a>
           <mat-card-footer>
             <mat-card-title>
               {{project.title}}

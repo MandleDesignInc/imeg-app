@@ -18,6 +18,10 @@
     padding: 12px 5vw;
 }
 
+.left {
+  padding-right: 20px;
+}
+
 header {
     height: 400px;
     display: flex;
@@ -45,35 +49,14 @@ section main {
 }
 
 section main .left {
-    flex: 1;
+    flex: 3;
 }
 
 section main .right {
-    flex: 2;
+    flex: 9;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-}
-
-@media (max-width: 960px) {
-
-    section main {
-        flex-direction: column;
-    }
-
-
-    section main .left {
-        flex: auto;
-    }
-
-    section main .right {
-        flex: auto;
-        margin-left: 0;
-        padding-left: 0;
-        display: flex;
-        flex-flow: row wrap;
-    }
-
 }
 
 section span {
@@ -132,5 +115,23 @@ mat-card-title {
     cursor: pointer;
 }
 
+@media (max-width: 960px) {
+
+    section main {
+        flex-direction: column;
+    }
 
 
+    section main .left {
+        flex: auto;
+    }
+
+    section main .right {
+        flex: auto;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+}

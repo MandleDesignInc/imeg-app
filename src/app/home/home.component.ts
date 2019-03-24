@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
     onSlidesResponse(response: ModxSlideModel[]): void {
         // TODO: refactor this
         response.forEach(slide => {
-            let imegSlide = new ImegSlide(slide.MIGX_id, slide.caption, this.globals.uploadsPath + slide.image);
+            let imegSlide = new ImegSlide(slide.MIGX_id, slide.caption, this.globals.uploadsPath + slide.image, slide.link);
             this.slides.push(imegSlide);
             /*
             let slideObj = new Slide();

@@ -12,6 +12,8 @@ import { MatIconRegistry, MatSnackBar } from '@angular/material';
 })
 export class AppComponent implements OnInit {
 
+    thisYear: number = (new Date()).getFullYear();
+
     constructor(
         public snackBar: MatSnackBar,
         private contentService: ContentService,
