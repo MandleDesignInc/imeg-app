@@ -30,13 +30,13 @@ p {
   padding: 0 6px;
 }
 
-p:first-of-type {
+/*p:first-of-type {
   color: #6D6F71;
   font-family: acumin-pro-extra-condensed, sans-serif !important;
   font-size: 49px !important;
   line-height: 59px !important;
   font-weight: 700 !important;
-}
+}*/
 
 p:last-of-type {
   padding-bottom: 32px !important;

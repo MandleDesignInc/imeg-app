@@ -21,9 +21,10 @@ section {
 
 p {
     color: #6D6F71 !important;
-    font-size: 15px !important;
-    line-height: 19px !important;
-    padding-bottom: 1.2ch;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    padding: 0;
+    margin-bottom: 18px;
 }
 
 p:last-of-type {

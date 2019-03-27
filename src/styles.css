@@ -49,7 +49,6 @@ legend,
 input,
 button,
 textarea,
-p,
 blockquote,
 th,
 td,
@@ -72,7 +71,7 @@ p {
   /*color: #383838 !important;*/
   /*font-size: 15px;*/
   line-height: 1.3em !important;
-  padding: 0;
+  /*padding: 0;*/
   /*margin: 0 0 10px 0*/;
 }
 
@@ -259,13 +258,13 @@ footer svg {
   font-family: acumin-pro-extra-condensed, sans-serif !important;
   font-weight: 400 !important;
 }
-.left p {
+/*.left p {
   margin: 1.5ch 0 !important;
   line-height: 24px !important;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
   font-size: 15px !important;
   color: #7F7F7F !important;
-}
+}*/
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   body {

@@ -34,8 +34,10 @@ p:first-of-type {
   color: #6D6F71;
   font-family: acumin-pro-extra-condensed, sans-serif !important;
   font-size: 49px !important;
-  line-height: 59px !important;
+  line-height: 49px !important;
   font-weight: 700 !important;
+  padding: 0;
+  margin: 0;
 }
 
 p:last-of-type {

@@ -1,6 +1,7 @@
 <section class="page-content">
     <div class="max-width-container">
         <div *ngIf="alias$ | async as alias">
+            <h1>{{page.pagetitle}}</h1>
             <div *ngIf="alias === 'careers'">
                 <p *ngFor="let tag of content$ | async"
                     [innerHtml]="tag"></p>
