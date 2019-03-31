@@ -17,7 +17,8 @@ export class AboutComponent {
     public readonly aboutPage$ = this.contentService.getAboutPage(21);
     public readonly aboutContent$ = this.aboutPage$.pipe(
         map(result => result.page.content),
-        map(content => content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))),
+        //map(content => content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))),
+        map(content => content.match(new RegExp(/<(.*)*?>/g))),
         map(tags => tags.map(tag => this.sanitizer.bypassSecurityTrustHtml(tag))));
     public readonly tiles$ = this.aboutPage$.pipe(
         map(result => result.tiles));

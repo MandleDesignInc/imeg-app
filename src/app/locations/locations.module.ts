@@ -5,6 +5,7 @@ import { LocationsRoutingModule } from './locations-routing.module';
 import { TilesModule } from '../tiles/tiles.module';
 import { LocationsCardComponent } from './locations-card.component';
 import { MatButtonModule, MatCardModule, MatGridListModule, MatIconModule, MatSnackBarModule } from '@angular/material';
+import { ContactformModule } from '../contactform/contactform.module';
 
 @NgModule({
   imports: [
@@ -16,6 +17,7 @@ import { MatButtonModule, MatCardModule, MatGridListModule, MatIconModule, MatSn
     MatSnackBarModule,
     MatGridListModule,
     LocationsRoutingModule,
+    ContactformModule
   ],
   declarations: [
     LocationsComponent,

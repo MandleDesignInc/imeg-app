@@ -5,7 +5,8 @@ import {HomeComponent} from './home.component';
 @NgModule({
     imports: [
         RouterModule.forChild([
-            { path: 'home', component: HomeComponent }
+            { path: 'home', component: HomeComponent },
+            { path: 'mergers/:alias', component: HomeComponent}
         ])
     ],
     exports: [RouterModule]

@@ -1,0 +1,91 @@
+<section>
+    <div [hidden]="submitted" class="max-width-container">
+      <h2>Send Us an Email</h2>
+      <form (ngSubmit)="onSubmit(contactform)" #contactform="ngForm">
+      <div class="card-container">
+        <div class="form">
+          <div>
+            <label>Name:</label><br/>
+            <input type="text" id="name"  placeholder="Enter Name"
+            required
+            [(ngModel)]="model.name" name="name"
+            #name="ngModel"/>
+            <div [hidden]="name.valid || name.pristine"
+                 class="alert alert-danger">
+              Name is required
+            </div>
+          </div>
+          <div>
+            <label>Email:</label><br/>
+            <input type="text" id="email"  placeholder="Enter Email"
+            required
+            [(ngModel)]="model.email" name="email"
+            #email="ngModel"
+            [email]="true"
+            />
+            <div [hidden]="email.valid || email.pristine"
+                 class="alert alert-danger">
+              Valid email is required
+            </div>
+          </div>
+          <div>
+            <label>Phone:</label><br/>
+            <input type="text" id="phone" placeholder="Enter Phone Number"
+            [(ngModel)]="model.phone" name="phone"
+            #phone="ngModel"/>
+          </div>
+        </div>
+        <div class="form">
+          <div>
+            <label>Company:</label><br/>
+            <input type="text" id="company" placeholder="Enter Company"
+            [(ngModel)]="model.company" name="company"
+            #company="ngModel"/>
+          </div>
+          <div>
+            <label>Message:</label><br/>
+            <textarea type="text" id="message" placeholder="Enter Your Message"
+            required
+            [(ngModel)]="model.message" name="message"
+            #message="ngModel"></textarea>
+            <div [hidden]="message.valid || message.pristine"
+                 class="alert alert-danger">
+              A message is required
+            </div>
+          </div>
+          <button class="submit-btn" type="submit" [disabled]="!contactform.form.valid">Submit</button>
+        </div>
+      </div>
+      </form>
+    </div>
+
+    <div [hidden]="!submitted" class="max-width-container">
+      <h2>You submitted the following:</h2>
+      <div class="card-container">
+        <div class="form">
+          <div>
+            <label>Name:</label><br/>
+            {{model.name}}
+          </div>
+          <div>
+            <label>Email:</label><br/>
+            {{model.email}}
+          </div>
+          <div>
+            <label>Phone:</label><br/>
+            {{model.phone}}
+          </div>
+        </div>
+        <div class="form">
+          <div>
+            <label>Company:</label><br/>
+            {{model.company}}
+          </div>
+          <div>
+            <label>Message:</label><br/>
+            {{model.message}}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

@@ -33,10 +33,11 @@ import { map } from 'rxjs/operators';
     ]
 })
 class TagComponent implements OnInit {
-    
+
     public readonly content$ = this.contentService.getPageObservableWithTags(this.getId()).pipe(
         map(page => this.setPage(page)),
-        map((page: TagPage) => page.content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+        //map((page: TagPage) => page.content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+        map((page: TagPage) => page.content.match(new RegExp(/<(.*)*?>/g))));
 
     id: number;
     page: TagPage;

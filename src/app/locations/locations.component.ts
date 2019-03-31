@@ -8,7 +8,7 @@ import { ImegLocations, ModxLocationModel } from './location';
 
 
 @Component({
-    selector: 'app-leaders',
+    selector: 'app-locations',
     templateUrl: './locations.component.html',
     styleUrls: ['./locations.component.css']
 })

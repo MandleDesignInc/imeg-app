@@ -19,7 +19,14 @@ export class HomeComponent implements OnInit {
     slides: ImegSlide[] = [];
     contentReady: boolean;
 
-    constructor(private contentService: ContentService, public globals: Globals, private sanitizer: DomSanitizer) { }
+    /*constructor(private contentService: ContentService, public globals: Globals, private sanitizer: DomSanitizer) { }*/
+    constructor(
+        private contentService: ContentService,
+        private globals: Globals,
+        //private route: ActivatedRoute,
+        //private router: Router,
+        private sanitizer: DomSanitizer
+    ) { }
 
     ngOnInit(): void {
         this.contentService.getHomePage(1).subscribe(result => this.onHomePage(result));
@@ -31,6 +38,7 @@ export class HomeComponent implements OnInit {
         homePage.tiles.forEach(tile => {
             tile.safeContent = this.sanitizer.bypassSecurityTrustHtml(tile.content);
         });
+        //homePage.merger.safeContent = this.sanitizer.bypassSecurityTrustHtml(homePage.merger.content);
         this.homePage = homePage;
         if (this.slides) this.contentReady = true;
     }

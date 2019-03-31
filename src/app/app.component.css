@@ -334,6 +334,95 @@ footer svg {
   width: auto;
 }
 
+#u3925816-2, #u3925812-2, #u3925809-2, #u3925807-2, #u3925820-2, #u3925818-2 {
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding-left: 5px;
+}
+.material-icons {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#u31684175 {
+    width: 665px;
+    height: 336px;
+    background-color: #565656;
+    background-color: rgba(68,68,68,0.9);
+    top: -388px;
+    left: 265px;
+}
+#u31684176 {
+    z-index: 139;
+    width: 647px;
+    height: 294px;
+    padding-bottom: 24px;
+}
+#u31684176 {
+    position: relative;
+    border-width: 9px;
+    border-color: #01518C;
+    margin-right: -10000px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border-style: solid;
+}
+.grpelem, .accordion_wrapper {
+    display: inline;
+    float: left;
+}
+#u31684177-18 {
+    z-index: 140;
+    min-height: 270px;
+    margin-right: -10000px;
+    margin-top: 24px;
+    width: 88.26%;
+    left: 6.19%;
+}
+#u31684184-4 {
+    z-index: 161;
+    min-height: 42px;
+    margin-right: -10000px;
+    margin-top: 235px;
+    width: 37.72%;
+    left: 6.19%;
+}
+#u31684184-4 {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 34px;
+    font-weight: 700;
+    position: relative;
+    border-radius: 8px;
+    border-color: #AFB0B1;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    background-color: #01518C;
+    font-size: 24px;
+    border-width: 1px;
+    border-style: solid;
+}
+#u31684184-4:hover {
+    background-color: #C7C3C3;
+    color: #01518C;
+}
+.LightboxContent h2 {
+    color: #3E3E3E;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 30px;
+    padding: 0 0 15px;
+    margin: 0;
+}
+.LightboxContent p {
+  font-size: 24px;
+  line-height: 29px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-weight: 400;
+}
+
 @media (max-width: 450px) {
   footer {
     font-size: 0.7em;

@@ -67,12 +67,14 @@
 
 
 .caption {
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;*/
+  display: block;
+  margin-right: 10px;
   font-size: 35px;
   font-family: acumin-pro-extra-condensed, sans-serif;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 .indicators {
@@ -110,7 +112,7 @@ button.indicator:focus {
 }
 
 .slide-arrows {
-  padding-right: 9px;
+  padding-right: 4px;
   width: 15px;
   height: 23px;
 

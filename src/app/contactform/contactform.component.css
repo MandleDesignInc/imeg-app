@@ -1,0 +1,81 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #6D6F71;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 17px;
+}
+h2 { text-align: center;}
+.form {
+  min-width: 347px;
+  max-width: 347px;
+  width: 347px;
+  flex: 1;
+  margin: 20px;
+  position: relative;
+}
+.form label {
+  color: #01518C;
+  height: 26px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 300;
+  position: relative;
+  border-color: transparent;
+  margin-right: -10000px;
+  width: 200px;
+  background-color: transparent;
+  font-size: 24px;
+  border-width: 0px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  z-index: 767;
+}
+.form input, .form textarea {
+  padding: 6px;
+  color: #AFB0B1;
+  height: 23px;
+  font-size: 18px;
+  font-weight: 300;
+  min-height: 0px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  width: 335px;
+  background-color: rgba(204,204,204,0.23);
+  margin-bottom: 10px;
+}
+.form textarea {
+  height: 93px;
+}
+.submit-btn {
+  color: #FFFFFF;
+  height: 23px;
+  -webkit-transition-duration: 1s;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-weight: 400;
+  position: relative;
+  transition-timing-function: ease;
+  border-radius: 3px;
+  border-color: transparent;
+  transition-delay: 0s;
+  transition-duration: 1s;
+  border-width: 0px;
+  background-color: #01518C;
+  -webkit-transition-timing-function: ease;
+  margin-right: -10000px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 18px;
+  background-image: url("/images/blank.gif?crc=4208392903");
+  -webkit-transition-delay: 0s;
+  width: 130px;
+  padding: 7px 0px;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}

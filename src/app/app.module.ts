@@ -1,5 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CoreModule} from './core/core.module';
 import {AppRoutingModule} from './app-routing.module';
@@ -24,6 +25,7 @@ import { ArticlesModule } from './library/articles/articles.module';
 import { PresentationsModule } from './library/presentations/presentations.module';
 import { CountUpModule } from 'countup.js-angular2';
 import { CareersComponent } from './careers/careers.component';
+import { ContactformModule } from './contactform/contactform.module';
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { CareersComponent } from './careers/careers.component';
     BrowserModule,
     BrowserAnimationsModule,
     CoreModule,
+    FormsModule,
     AppRoutingModule,
     HomeModule,
     AboutModule,
@@ -57,6 +60,7 @@ import { CareersComponent } from './careers/careers.component';
     MatInputModule,
     MatIconModule,
     CountUpModule,
+    ContactformModule
   ],
   bootstrap: [AppComponent],
   providers: []

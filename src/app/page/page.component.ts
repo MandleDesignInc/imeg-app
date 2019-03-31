@@ -19,7 +19,8 @@ export class PageComponent implements OnInit {
     public readonly content$ = this.route.paramMap.pipe(
         switchMap((params: ParamMap) => this.contentService.getPageObservable(params.get('alias'))),
         map(page => this.onPageResponse(page).content),
-        map(content => content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+        //map(content => content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+        map(content => content.match(new RegExp(/<(.*)*?>/g))));
 
     public readonly safeContent$ = new BehaviorSubject<SafeHtml>('' as SafeHtml);
 

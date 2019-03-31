@@ -38,7 +38,8 @@ export class LibraryComponent implements OnInit {
 
   public readonly content$ = this.contentService.getPageObservable('library').pipe(
     map(page => this.onPageResponse(page)),
-    map((page: Page) => page.content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+    //map((page: Page) => page.content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+    map((page: Page) => page.content.match(new RegExp(/<(.*)*?>/g))));
 
   page: Page;
   subpages: Subpage[] = [];

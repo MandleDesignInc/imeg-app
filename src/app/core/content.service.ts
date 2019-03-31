@@ -46,10 +46,15 @@ export class ContentService {
         return this.http.get(url).pipe(map(response => response.json().object as any));
     }
 
-    getHomePage(id: number): Observable<HomePage> {
+    /*getHomePage(id: number): Observable<HomePage> {
         let homeUrl = 'http://bluemandle2.com/~imeg/cms/rest/home';
         const url = `${homeUrl}/${id}`;
         return this.http.get(url).pipe(map(response => response.json().object as HomePage));
+    }*/
+    getHomePage(id: number): Observable<HomePage> {
+        let homeUrl = 'http://bluemandle2.com/~imeg/cms/rest/home/1?merger=' + id;
+        //const url = `${homeUrl}/${id}`;
+        return this.http.get(homeUrl).pipe(map(response => response.json().object as HomePage));
     }
 
     getLocationsPage(id: number): Observable<LocationsPage> {
