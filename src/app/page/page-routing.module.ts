@@ -7,6 +7,7 @@ import {PageComponent} from './page.component';
     imports: [
         RouterModule.forChild([
             { path: ':alias', component: PageComponent },
+            //{ path: 'contact', component: PageComponent, ignore: true },
             { path: '**', component: PageComponent}
             // { path: '**', canActivate: [RouteLoader], component: PageNotFoundComponent}
         ])
