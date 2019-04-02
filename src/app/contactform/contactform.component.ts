@@ -13,7 +13,7 @@ export class ContactformComponent {
 
   constructor(private http: Http) { }
 
-  model = new Contact('Enter Name', 'email@email.com', '555-555-5555', 'imegcorp', 'hello there.');
+  model = new Contact('', '', '', '', '');
 
   submitted = false;
 

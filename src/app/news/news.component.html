@@ -7,7 +7,7 @@
           <div *ngIf="newsItem.image" class="image" [ngStyle]="{ 'background-image': 'url(' + newsItem.image + ')','background-size':'130px','width':'130px','height':'130px'}"></div>
           <span class="content">
             <h2 class="title">{{ newsItem.pagetitle }}</h2>
-            <span class="date">{{ newsItem.publishedon | date }}</span>
+            <span class="date">{{ newsItem.publishedon }}</span>
             <span class="introtext">{{ newsItem.introtext }}</span>
           </span>
         </a>
