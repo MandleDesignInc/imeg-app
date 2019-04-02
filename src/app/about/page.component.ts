@@ -123,7 +123,7 @@ export class EducationComponent extends PageComponent {
     public readonly title$ = of('Education and Development');
     public readonly content$ = this.alias$.pipe(
         switchMap(alias => this.contentService.getPageObservable(alias)),
-        map(page => page.content),
+        map(page => this.sanitizer.bypassSecurityTrustHtml(page.content)),
         // map(page => page.content.match(new RegExp('(?=\<strong)(.*?)(?=<br)', 'g'))),
         tap(x => console.log('DEBUG', x)));
 

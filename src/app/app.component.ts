@@ -13,6 +13,7 @@ import { MatIconRegistry, MatSnackBar } from '@angular/material';
 export class AppComponent implements OnInit {
 
     thisYear: number = (new Date()).getFullYear();
+    searchContent: any;
 
     constructor(
         public snackBar: MatSnackBar,
@@ -27,6 +28,8 @@ export class AppComponent implements OnInit {
         this.iconReg.addSvgIcon('twitter', this.sanitizer.bypassSecurityTrustResourceUrl('assets/images/twitter-logo.svg'));
         this.iconReg.addSvgIcon('linked-in', this.sanitizer.bypassSecurityTrustResourceUrl('assets/images/linkedin-logo.svg'));
         this.contentService.getNavMenu().then(results => this.onNavigationItems(results));
+
+        this.searchContent = this.sanitizer.bypassSecurityTrustHtml(`<gcse:search></gcse:search>`);
     }
 
     // TODO: refactor to get this logic out of component

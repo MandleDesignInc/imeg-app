@@ -271,3 +271,8 @@ footer svg {
     text-rendering: auto;
   }
 }
+
+.gsc-control-cse {
+  padding: 0 !important;
+  border: none !important;
+}

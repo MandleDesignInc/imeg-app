@@ -118,5 +118,4 @@ export class ImegCarouselComponent implements AfterViewInit, OnDestroy {
     }
 
   }
-
 }

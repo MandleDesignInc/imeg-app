@@ -31,14 +31,16 @@
                     </div>
 
                     <div class="flex-row search-container">
-                        <input type="search"
-                            matInput
-                            value=""
-                            #searchInput>
-                        <button id="searchBtn"
-                            (click)="search(searchInput.value)">
-                            <mat-icon name="search">search</mat-icon>
-                        </button>
+                      <div [innerHtml]="searchContent"></div>
+
+                      <!--<input type="search"-->
+                            <!--matInput-->
+                            <!--value=""-->
+                            <!--#searchInput>-->
+                        <!--<button id="searchBtn"-->
+                            <!--(click)="search(searchInput.value)">-->
+                            <!--<mat-icon name="search">search</mat-icon>-->
+                        <!--</button>-->
                     </div>
                 </nav>
             </div>

@@ -85,18 +85,26 @@
   justify-content: left;
   height: 100%;
   z-index: 20;
+  align-items: center;
 }
 
 .indicator {
-  background: transparent;
+  background: url('/assets/images/imeg_arrow_white.png') center center no-repeat;
+  width: 19px;
+  height: 23px;
   border: none;
   padding: 0;
   color: white;
   outline: none;
 }
 
+.indicator:hover {
+  background-image: url('/assets/images/imeg_arrow.png');
+}
+
 .indicator.active {
   color: #01518C;
+  background-image: url('/assets/images/imeg_arrow.png');
 }
 .indicator:hover {
   color: #01518C;

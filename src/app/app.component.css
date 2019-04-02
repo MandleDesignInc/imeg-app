@@ -67,7 +67,7 @@ header {
 }
 
 .search-container {
-  height: 27px;
+  height: 40px;
   align-items: flex-end;
 }
 
@@ -147,7 +147,7 @@ mat-icon[name="search"] {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  z-index: 101;
+  z-index: 100;
 }
 
 #appBarLower nav a {
@@ -231,7 +231,7 @@ mat-icon[name="search"] {
 }
 
 #logo {
-  z-index: 101;
+  z-index: 100;
   width: 240px;
   height: 58px;
   margin: auto;

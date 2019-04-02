@@ -32,7 +32,7 @@
 
                 <button *ngFor="let slide of slides; let i = index" [class]="'indicator ' + slide.state" (click)="manualSlideTo(i)">
                     <span class="cdk-visually-hidden">Select slider image number {{i}}</span>
-                    <img class="slide-arrows" src="{{slide.state == 'inactive' && 'assets/images/imeg_arrow_white.png' || 'assets/images/imeg_arrow.png'}}" />
+                    <!--<img class="slide-arrows"  src="{{slide.state == 'inactive' && 'assets/images/imeg_arrow_white.png' || 'assets/images/imeg_arrow.png'}}" />-->
                 </button>
 
             </span>
