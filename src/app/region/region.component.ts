@@ -38,7 +38,7 @@ import { slideLeft } from '../core/animations';
 })
 export class RegionComponent implements AfterContentInit {
 
-    static readonly baseUrl = 'http://bluemandle2.com/~imeg/cms/assets/uploads/';
+    static readonly baseUrl = 'https://imegcorp.com/cms/assets/uploads/';
 
     private readonly alias$: Observable<string> = this.route.params.pipe(pluck('alias'));
     public readonly region$: Observable<any> = this.alias$.pipe(

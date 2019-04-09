@@ -16,18 +16,18 @@ import { Region } from '../region/region-model';
 
 @Injectable()
 export class ContentService {
-    private static readonly domain = 'http://bluemandle2.com';
-    private static readonly galleryPath = '~imeg/cms/rest/gallery';
+    private static readonly domain = 'https://imegcorp.com';
+    private static readonly galleryPath = 'cms/rest/gallery';
     private static readonly galleryQuery = 'id=39';
-    private static readonly imagePath = '~imeg/cms/assets/uploads';
+    private static readonly imagePath = 'cms/assets/uploads';
 
-    private pagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/pagesByAlias';
-    private subPagesUrl = 'http://bluemandle2.com/~imeg/cms/rest/subpagesByParentId';
-    private navigationUrl = 'http://bluemandle2.com/~imeg/cms/rest/navigation';
-    private carouselUrl = 'http://bluemandle2.com/~imeg/cms/rest/carousel';
-    private locationsUrl = 'http://bluemandle2.com/~imeg/cms/rest/locations';
-    //private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects';
-    private projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projectsByAlias';
+    private pagesUrl = 'https://imegcorp.com/cms/rest/pagesByAlias';
+    private subPagesUrl = 'https://imegcorp.com/cms/rest/subpagesByParentId';
+    private navigationUrl = 'https://imegcorp.com/cms/rest/navigation';
+    private carouselUrl = 'https://imegcorp.com/cms/rest/carousel';
+    private locationsUrl = 'https://imegcorp.com/cms/rest/locations';
+    //private projectsUrl = 'https://imegcorp.com/cms/rest/projects';
+    private projectsUrl = 'https://imegcorp.com/cms/rest/projectsByAlias';
 
 
     constructor(private http: Http) { }
@@ -47,18 +47,18 @@ export class ContentService {
     }
 
     /*getHomePage(id: number): Observable<HomePage> {
-        let homeUrl = 'http://bluemandle2.com/~imeg/cms/rest/home';
+        let homeUrl = 'https://imegcorp.com/cms/rest/home';
         const url = `${homeUrl}/${id}`;
         return this.http.get(url).pipe(map(response => response.json().object as HomePage));
     }*/
     getHomePage(id: number): Observable<HomePage> {
-        let homeUrl = 'http://bluemandle2.com/~imeg/cms/rest/home/1?merger=' + id;
+        let homeUrl = 'https://imegcorp.com/cms/rest/home/1?merger=' + id;
         //const url = `${homeUrl}/${id}`;
         return this.http.get(homeUrl).pipe(map(response => response.json().object as HomePage));
     }
 
     getLocationsPage(id: number): Observable<LocationsPage> {
-        let homeUrl = 'http://bluemandle2.com/~imeg/cms/rest/home';
+        let homeUrl = 'https://imegcorp.com/cms/rest/home';
         const url = `${homeUrl}/${id}`;
         return this.http.get(url).pipe(map(response => response.json().object as LocationsPage));
     }
@@ -74,19 +74,19 @@ export class ContentService {
     }
 
     getAboutPage(id: number): Observable<AboutPage> {
-        let aboutUrl = 'http://bluemandle2.com/~imeg/cms/rest/about';
+        let aboutUrl = 'https://imegcorp.com/cms/rest/about';
         const url = `${aboutUrl}/${id}`;
         return this.http.get(url).pipe(map(response => response.json().object as AboutPage));
     }
 
     getNewsPageLinks(): Observable<any> {
-        let newsUrl = 'http://bluemandle2.com/~imeg/cms/rest/news';
+        let newsUrl = 'https://imegcorp.com/cms/rest/news';
         const url = `${newsUrl}`;
         return this.http.get(url).pipe(map(response => response.json().results as Page[]));
     }
 
     getPageObservableWithTags(id: number): Observable<TagPage> {
-        let tagsUrl = 'http://bluemandle2.com/~imeg/cms/rest/tags';
+        let tagsUrl = 'https://imegcorp.com/cms/rest/tags';
         const url = `${tagsUrl}/${id}`;
 
         return this.http.get(url).pipe(map(response => response.json().object as TagPage));
@@ -99,14 +99,14 @@ export class ContentService {
     }
 
     getSlidesProject(alias: string): Observable<ModxSlideModel[]> {
-      let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
+      let regionUrl = 'https://imegcorp.com/cms/rest/region';
       const url = `${regionUrl}?alias=${alias}`;
         return this.http.get(url).pipe(
             map(response => response.json().object.projectSpotlightProjects));
     }
 
     getProjectsObservable(tag: string): Observable<ProjectList> {
-        let projectsUrl = 'http://bluemandle2.com/~imeg/cms/rest/projects?tag=' + tag;
+        let projectsUrl = 'https://imegcorp.com/cms/rest/projects?tag=' + tag;
         // let headers = new Headers({'Content-Type': 'application/json'});
         // let params = new HttpParams().set('tag', tag);
         return this.http.get(projectsUrl).pipe(map(response => response.json().object as ProjectList));
@@ -124,13 +124,13 @@ export class ContentService {
     }
 
     /*getRegion(alias: string): Observable<Region> {
-        let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
+        let regionUrl = 'https://imegcorp.com/cms/rest/region';
         const url = `${regionUrl}/${alias}`;
         return this.http.get(url).map(response => response.json().object as Region);
     }*/
 
     getRegion(alias: string): Observable<Region> {
-        let regionUrl = 'http://bluemandle2.com/~imeg/cms/rest/region';
+        let regionUrl = 'https://imegcorp.com/cms/rest/region';
         const url = `${regionUrl}?alias=${alias}`;
         return this.http.get(url).pipe(map(response => response.json().object as Region));
     }

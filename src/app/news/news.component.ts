@@ -48,4 +48,11 @@ export class NewsComponent implements OnInit {
     this.pageIndex++;
   }
 
+  public fixDate($scope) {
+    //{{ fixDate(newsItem.publishedon) | date }}
+    $scope.fixDate = function(date){
+        return new Date(date);
+    };
+  }
+
 }

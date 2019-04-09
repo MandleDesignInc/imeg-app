@@ -33,7 +33,7 @@ export class Leader {
 @Injectable()
 export class LeadersService {
 
-    private leadersUrl = 'http://bluemandle2.com/~imeg/cms/rest/leaders';
+    private leadersUrl = 'https://imegcorp.com/cms/rest/leaders';
 
     constructor(private http: HttpClient) { }
 
