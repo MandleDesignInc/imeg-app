@@ -2,16 +2,12 @@
     <div class="max-width-container">
         <h1>{{ title$ | async }}</h1>
 
-        <div class="history-intro">IMEG was formed in 2015 through a merger of KJWW Engineering and TTG Engineers, and
-            was joined by the FES Group in 2016 and JanCom Technologies, Taylor RyMar, Missman Inc., and McClure
-            Engineering Associates in 2017. IMEG strives to build long-lasting client relationships through our guiding
-            principles, expertise, and iterative project approach.</div>
+        <div class="history-intro" [innerHtml]="introtext$ | async"></div>
 
         <div class="history-content">
             <div>
-                <div class="history-item"
-                    *ngFor="let item of content$ | async">
-                    <div [innerHtml]="item"></div>
+                <div class="history-item">
+                    <div [innerHtml]="content$ | async"></div>
                 </div>
             </div>
             <div class="history-vid-container">

@@ -21,7 +21,7 @@ export class PageComponent implements OnInit {
     public readonly content$: Observable<any> = this.route.paramMap.pipe(
         switchMap((params: ParamMap) => this.contentService.getPageObservable(params.get('alias'))),
         map(page => this.onPageResponse(page).content),
-        map(content => content.match(new RegExp('(?<=\<.*\>)(.*)(?=<)', 'g'))));
+        map(content => content.match(new RegExp(/<(.*)*?>/g))));
     public readonly safeContent$ = new BehaviorSubject<SafeHtml>('' as SafeHtml);
 
     id: number;
@@ -107,8 +107,11 @@ export class HistoryComponent extends PageComponent {
     public readonly title$ = of('Our History');
     public readonly content$ = this.alias$.pipe(
         switchMap(alias => this.contentService.getPageObservable(alias)),
-        map(page => page.content.match(new RegExp('(?=\<strong)(.*?)(?=<br)', 'g'))),
+        map(page => page.content.match(new RegExp(/<(.*)*?>/g))),
         tap(x => console.log('DEBUG', x)));
+    public readonly introtext$ = this.alias$.pipe(
+            switchMap(alias => this.contentService.getPageObservable(alias)),
+            map(page => page.introtext));
 
 }
 
@@ -128,5 +131,3 @@ export class EducationComponent extends PageComponent {
         tap(x => console.log('DEBUG', x)));
 
 }
-
-

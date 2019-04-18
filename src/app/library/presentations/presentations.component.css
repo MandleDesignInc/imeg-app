@@ -15,11 +15,15 @@ section span {
 
 .flex-grid-thirds {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .flex-grid-thirds .col {
-  width: 32%;
+  flex: 1;
+  min-width: 270px;
+  max-width: 270px;
+  padding: 10px;
 }
 
 @media (max-width: 960px) {
@@ -57,5 +61,3 @@ p {
   font-size: 14px;
   margin-top: 0px;
 }
-
-

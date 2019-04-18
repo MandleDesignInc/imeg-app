@@ -1,6 +1,7 @@
 <section class="page-content">
     <div class="max-width-container">
         <h1>{{ title$ | async }}</h1>
-        <div class="about-content" [innerHtml]="content$ | async"></div>
+        <div class="about-content" *ngFor="let p of content$ | async" [innerHTML]="p">
+        </div>
     </div>
 </section>

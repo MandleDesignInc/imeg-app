@@ -9,7 +9,19 @@
     <div class="max-width-container flex-grid-thirds">
       <div class="video col" *ngFor="let presentation of presentations">
         <div class="embed-container">
-          <iframe [src]="sanitize(presentation.vimeoURL)" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <ng-container
+            *ngIf="presentation.presentationImage!=''; then image; else video">
+          </ng-container>
+
+          <ng-template #image>
+            <img src="https://imegcorp.com/cms/assets/uploads/{{presentation.presentationImage}}" style="position: absolute; top: 0; left: 0;" width="100%"/>
+          </ng-template>
+          <ng-template #video>
+            <div>
+              <iframe [src]="sanitize(presentation.vimeoURL)" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </ng-template>
+
         </div>
         <h2>{{ presentation.pagetitle }}</h2>
         <p [innerHTML]="presentation.description"></p>

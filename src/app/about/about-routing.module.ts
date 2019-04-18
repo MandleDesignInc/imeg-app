@@ -14,7 +14,7 @@ import { CommunityComponent } from './community.component';
             { path: 'about/corporate-leaders', component: LeadersComponent },
             { path: 'about/team-leaders', component: LeadersComponent },
             { path: 'about/community-involvement', component: CommunityComponent },
-            { path: 'about/core-values', component: CoreValuesComponent },
+            //{ path: 'about/core-values', component: CoreValuesComponent },
             { path: 'about/our-sustainability-commitment', component: SustainabilityComponent },
             { path: 'about/our-history', component: HistoryComponent },
             { path: 'about/education-and-development', component: EducationComponent },
