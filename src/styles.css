@@ -1,3 +1,5 @@
+html,body{overflow-x:hidden;}
+
 body {
   /*margin: 0;
     font-family: acumin-pro-extra-condensed, sans-serif;*/
@@ -11,6 +13,7 @@ body {
   -ms-font-feature-settings: 'liga';
   -webkit-font-feature-settings: 'liga';
   font-feature-settings: 'liga';
+  margin: 0;
 }
 
 p,

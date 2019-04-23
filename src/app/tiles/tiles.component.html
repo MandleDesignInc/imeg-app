@@ -22,7 +22,15 @@
 
 
         <!-- TODO: routerlink? -->
-        <a *ngIf="tile.link" [href]="tile.link"></a>
+        <ng-container
+          *ngIf="tile.linkTab=='Yes'; then remote; else local">
+        </ng-container>
+        <ng-template #local>
+          <a *ngIf="tile.link" [href]="tile.link"></a>
+        </ng-template>
+        <ng-template #remote>
+          <a *ngIf="tile.link" [href]="tile.link" target="_blank"></a>
+        </ng-template>
 
 
         <mat-grid-tile-footer *ngIf="tile.title">

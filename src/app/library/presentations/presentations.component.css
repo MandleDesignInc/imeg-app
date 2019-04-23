@@ -26,6 +26,19 @@ section span {
   padding: 10px;
 }
 
+.presentation {
+    position: relative;
+    overflow: hidden;
+}
+.presentation a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
 @media (max-width: 960px) {
 
   .flex-grid-thirds, .max-width-container {

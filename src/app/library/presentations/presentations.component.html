@@ -23,8 +23,19 @@
           </ng-template>
 
         </div>
-        <h2>{{ presentation.pagetitle }}</h2>
-        <p [innerHTML]="presentation.description"></p>
+        <div class="presentation">
+          <ng-container
+            *ngIf="presentation.linkTab=='Yes'; then remote; else local">
+          </ng-container>
+          <ng-template #local>
+            <a *ngIf="presentation.link" [href]="presentation.link"></a>
+          </ng-template>
+          <ng-template #remote>
+            <a *ngIf="presentation.link" [href]="presentation.link" target="_blank"></a>
+          </ng-template>
+          <h2>{{ presentation.pagetitle }}</h2>
+          <p [innerHTML]="presentation.description"></p>
+        </div>
       </div>
 
     </div>
