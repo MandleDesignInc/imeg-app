@@ -5,5 +5,9 @@
 
         <span [innerHTML]="page.safeContent"></span>
 
+        <div *ngIf="page.id == 507">
+          <app-anonymousreportform></app-anonymousreportform>
+        </div>
+
     </div>
 </section>

@@ -1,0 +1,62 @@
+<section>
+    <div [hidden]="submitted" class="max-width-container">
+      <form (ngSubmit)="onSubmit(anonymousform)" #anonymousform="ngForm">
+      <div class="card-container">
+        <div class="form">
+          <div>
+            <label>Date/ Time of the Incident:</label><br/>
+            <input type="text" id="date"  placeholder="Enter Date / Time"
+            required
+            [(ngModel)]="model.date" name="date"
+            #name="ngModel"/>
+            <div [hidden]="date.valid || date.pristine"
+                 class="alert alert-danger">
+              Date is required
+            </div>
+          </div>
+          <div>
+            <label>Email:</label><br/>
+            <input type="text" id="email"  placeholder="Enter Email"
+            required
+            [(ngModel)]="model.email" name="email"
+            #email="ngModel"
+            [email]="true"
+            />
+            <div [hidden]="email.valid || email.pristine"
+                 class="alert alert-danger">
+              Valid email is required
+            </div>
+          </div>
+          <div>
+            <label>Describe suspected act of wrong doing in as much detail and including as many facts as possible:</label><br/>
+            <textarea type="text" id="message" placeholder="Enter Your Message"
+            required
+            [(ngModel)]="model.message" name="message"
+            #message="ngModel"></textarea>
+            <div [hidden]="message.valid || message.pristine"
+                 class="alert alert-danger">
+              A message is required
+            </div>
+          </div>
+          <button class="submit-btn" type="submit" [disabled]="!anonymousform.form.valid">Submit</button>
+        </div>
+      </div>
+      </form>
+    </div>
+
+    <div [hidden]="!submitted" class="max-width-container">
+      <h2>You submitted the following:</h2>
+      <div class="card-container">
+        <div class="form">
+          <div>
+            <label>Date:</label><br/>
+            {{model.date}}
+          </div>
+          <div>
+            <label>Message:</label><br/>
+            {{model.message}}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

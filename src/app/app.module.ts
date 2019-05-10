@@ -26,6 +26,7 @@ import { PresentationsModule } from './library/presentations/presentations.modul
 import { CountUpModule } from 'countup.js-angular2';
 import { CareersComponent } from './careers/careers.component';
 import { ContactformModule } from './contactform/contactform.module';
+import { AnonymousReportFormModule } from './anonymous-report-form/anonymous-report-form.module';
 
 
 @NgModule({
@@ -60,7 +61,8 @@ import { ContactformModule } from './contactform/contactform.module';
     MatInputModule,
     MatIconModule,
     CountUpModule,
-    ContactformModule
+    ContactformModule,
+    AnonymousReportFormModule
   ],
   bootstrap: [AppComponent],
   providers: []

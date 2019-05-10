@@ -27,7 +27,7 @@ export class ContactformComponent {
     urlSearchParams.append('phone', contactform.value.phone);
     urlSearchParams.append('company', contactform.value.company);
     urlSearchParams.append('message', contactform.value.message);
-    this.http.post('http://162.144.62.44/~imeg/cms/index.php?id=592', urlSearchParams).subscribe(
+    this.http.post('https://www.imegcorp.com/cms/index.php?id=592', urlSearchParams).subscribe(
           data => {
             console.log('email sent');
           },

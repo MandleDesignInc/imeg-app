@@ -4,12 +4,10 @@ import {NavigationItem} from './content-model';
 @Injectable()
 export class Globals {
 
-    cmsPath: string = 'http://bluemandle2.com/~imeg/cms/';
+    cmsPath: string = 'https://imegcorp.com/cms/';
     uploadsPath: string = this.cmsPath + 'assets/uploads/';
 
     navigationItems: NavigationItem[] = [];
 
     rootMenu: NavigationItem[] = [];
 }
-
-
