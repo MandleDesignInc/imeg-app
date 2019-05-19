@@ -59,3 +59,17 @@ div.history-item img {
 .history-vid-container iframe {
   padding: 16px 0 16px 16px;
 }
+
+@media (max-width: 450px) {
+  div.history-content {
+    display: block;
+  }
+  .history-item {
+    width: 100%;
+    position: relative;
+  }
+  .history-vid-container {
+    width: 100%;
+    position: relative;
+  }
+}

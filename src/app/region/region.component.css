@@ -28,13 +28,6 @@ div {
   background-repeat: no-repeat !important;
 }
 
-.container {
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .hero {
   height: 364px;
   display: flex;
@@ -109,19 +102,6 @@ section > div:first-of-type {
 p {
   margin: 0;
   padding: 0;
-}
-
-.row1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.row1>div {
-  max-width: 1200px;
-  display: flex;
 }
 
 .projects {
@@ -277,16 +257,6 @@ mat-card-title {
   flex-direction: column;
 }
 
-.contact .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.container>div {
-  flex-shrink: 0;
-}
-
 .map {
   flex-grow: 1;
 }
@@ -364,4 +334,55 @@ h5+span {
     flex-direction: column;
   }
 
+}
+
+@media (min-width: 450px) {
+  .container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .container>div {
+    flex-shrink: 0;
+  }
+  .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .row1>div {
+    max-width: 1200px;
+    display: flex;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero {
+    height: 200px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .projects {
+    margin: 10px 0;
+  }
+  mat-card {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .projects, .news, .map, .locations, .contacts {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
 }

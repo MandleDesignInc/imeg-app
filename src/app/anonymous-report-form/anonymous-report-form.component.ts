@@ -23,7 +23,7 @@ export class AnonymousReportFormComponent {
     let urlSearchParams = new URLSearchParams();
     urlSearchParams.append('submit', 'submit');
     urlSearchParams.append('date', anonymousform.value.date);
-    urlSearchParams.append('email', anonymousform.value.email);
+    urlSearchParams.append('confirm', anonymousform.value.confirm);
     urlSearchParams.append('message', anonymousform.value.message);
     this.http.post('https://www.imegcorp.com/cms/index.php?id=664', urlSearchParams).subscribe(
           data => {

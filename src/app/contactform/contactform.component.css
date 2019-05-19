@@ -49,7 +49,7 @@ h2 { text-align: center;}
 }
 .submit-btn {
   color: #FFFFFF;
-  height: 23px;
+  min-height: 23px;
   -webkit-transition-duration: 1s;
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 400;

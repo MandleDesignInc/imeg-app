@@ -118,3 +118,17 @@ mat-grid-tile-footer {
 p {
   padding: 1ch 0;
 }
+
+@media (max-width: 450px) {
+  div.history-content {
+    display: block;
+  }
+  .history-item {
+    width: 100%;
+    position: relative;
+  }
+  .history-vid-container {
+    width: 100%;
+    position: relative;
+  }
+}

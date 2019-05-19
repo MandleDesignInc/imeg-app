@@ -8,6 +8,7 @@ section {
     padding: 32px 0;
     line-height: 1em;
     box-sizing: border-box;
+    padding: 2.5vw 5vw;
 }
 
 .max-width-container-mat-cards {

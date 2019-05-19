@@ -46,9 +46,15 @@ h2 { text-align: center;}
 .form textarea {
   height: 93px;
 }
+#confirm {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 30px;
+}
 .submit-btn {
   color: #FFFFFF;
-  height: 23px;
+  min-height: 23px;
   -webkit-transition-duration: 1s;
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 400;

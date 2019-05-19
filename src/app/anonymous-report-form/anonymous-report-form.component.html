@@ -8,23 +8,10 @@
             <input type="text" id="date"  placeholder="Enter Date / Time"
             required
             [(ngModel)]="model.date" name="date"
-            #name="ngModel"/>
+            #date="ngModel"/>
             <div [hidden]="date.valid || date.pristine"
                  class="alert alert-danger">
               Date is required
-            </div>
-          </div>
-          <div>
-            <label>Email:</label><br/>
-            <input type="text" id="email"  placeholder="Enter Email"
-            required
-            [(ngModel)]="model.email" name="email"
-            #email="ngModel"
-            [email]="true"
-            />
-            <div [hidden]="email.valid || email.pristine"
-                 class="alert alert-danger">
-              Valid email is required
             </div>
           </div>
           <div>
@@ -37,6 +24,20 @@
                  class="alert alert-danger">
               A message is required
             </div>
+          </div>
+          <div>
+            <input type="checkbox" id="confirm" value="yes"
+            required
+            [(ngModel)]="model.confirm" name="confirm"
+            #confirm="ngModel"
+            />
+            <div [hidden]="confirm.valid || confirm.pristine"
+                 class="alert alert-danger">
+              You must confirm accuracy
+            </div>
+            By submitting this form you are confirming that the information provided is accurate, made in good faith and provided with the intent of preventing, addressing and/or monitoring actual or suspected compliance violation(s).
+            <br/>
+            <br/>
           </div>
           <button class="submit-btn" type="submit" [disabled]="!anonymousform.form.valid">Submit</button>
         </div>

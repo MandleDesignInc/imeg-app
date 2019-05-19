@@ -154,3 +154,21 @@ button.indicator:focus {
   font-size: 72px;
   font-weight: 700;
 }
+
+@media (max-width: 420px) {
+  .mdl-slider {
+    height: 250px;
+  }
+  .caption-container {
+    bottom: 10px;
+    width: 80%;
+    min-height: 50px;
+    height: auto;
+  }
+  .caption {
+    font-size: 20px;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    min-width: 200px;
+    width: 200px;
+  }
+}

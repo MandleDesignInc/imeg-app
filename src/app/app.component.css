@@ -427,4 +427,7 @@ footer svg {
   footer {
     font-size: 0.7em;
   }
+  mat-sidenav-container {
+    padding-top: 80px;
+  }
 }

@@ -279,3 +279,13 @@ footer svg {
   padding: 0 !important;
   border: none !important;
 }
+
+.mat-drawer-content {
+  overflow: hidden !important;
+}
+@media (max-width: 420px) {
+  .home_tile {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+}

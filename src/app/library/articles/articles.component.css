@@ -67,10 +67,6 @@ section span {
   align-items: flex-start;
   align-content: flex-start;
 }*/
-.flex-grid-quarters {
-  column-count: 4;
-  column-gap: 1em;
-}
 .flex-grid-quarters .col {
   display: inline-block;
     margin: 0 0 1em;
@@ -114,4 +110,11 @@ h2 {
 p {
   font-size: 14px;
   margin-top: 0px;
+}
+
+@media (min-width: 450px) {
+  .flex-grid-quarters {
+    column-count: 4;
+    column-gap: 1em;
+  }
 }

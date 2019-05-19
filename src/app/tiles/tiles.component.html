@@ -1,7 +1,7 @@
-<mat-grid-list cols="4" gutterSize="16px">
+<mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)" gutterSize="16px">
 
-    <mat-grid-tile *ngFor="let tile of tiles"
-                  [colspan]="tile.columnSpan"
+    <mat-grid-tile *ngFor="let tile of tiles; index as i"
+                  [colspan]="tileCol(i)"
                   [rowspan]="tile.rowSpan"
                   [style.backgroundColor]="tile.backgroundColor"
                   [style.backgroundImage]="'url(' + tile.backgroundImage + ')'"

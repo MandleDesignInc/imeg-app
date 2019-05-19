@@ -2,6 +2,7 @@
 
     <div class="max-width-container">
 
+        <h1>{{page.pagetitle}}</h1>
         <p *ngFor="let p of content$ | async" [innerHTML]="p"></p>
 
     </div>
