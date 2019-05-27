@@ -12,7 +12,9 @@ import { CountUpModule } from 'countup.js-angular2';
     templateUrl: 'about.component.html',
     styleUrls: ['about.component.css']
 })
-export class AboutComponent {
+export class AboutComponent implements OnInit {
+
+    breakpoint: number;
 
     public readonly aboutPage$ = this.contentService.getAboutPage(21);
     public readonly aboutContent$ = this.aboutPage$.pipe(
@@ -35,5 +37,23 @@ export class AboutComponent {
         private sanitizer: DomSanitizer,
         private contentService: ContentService,
         public globals: Globals) { }
+
+      ngOnInit() {
+        this.breakpoint = (window.innerWidth <= 420) ? 1 : 4;
+      }
+      onResize(event) {
+        this.breakpoint = (event.target.innerWidth <= 420) ? 1 : 4;
+      }
+
+      tileCol(colspan) {
+        var colwidth = 1;
+        if(window.innerWidth <= 420) {
+          colwidth = 1;
+        } else {
+          //colwidth = this.tiles$[i].columnSpan;
+          colwidth = colspan;
+        }
+        return colwidth;
+      }
 
 }

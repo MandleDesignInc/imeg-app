@@ -6,11 +6,11 @@
             [innerHtml]="content">
         </p>
 
-        <mat-grid-list cols="4"
+        <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)"
             gutterSize="16px">
 
-            <mat-grid-tile *ngFor="let tile of tiles$ | async"
-                [colspan]="tile.columnSpan"
+            <mat-grid-tile *ngFor="let tile of tiles$ | async; index as i"
+                [colspan]="tileCol(tile.columnSpan)"
                 [rowspan]="tile.rowSpan"
                 [style.backgroundColor]="tile.backgroundColor"
                 [style.backgroundImage]="'url(' + tile.backgroundImage + ')'"

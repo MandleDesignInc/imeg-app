@@ -131,4 +131,11 @@ p {
     width: 100%;
     position: relative;
   }
+  .flex-grid-quarters {
+    column-count: 1;
+  }
+  .flex-grid-quarters .col {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+  }
 }
